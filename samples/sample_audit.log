@@ -1,0 +1,2 @@
+type=SYSCALL msg=audit(1719665401.123:101): arch=c000003e syscall=2 success=yes exit=3 comm="cat" exe="/usr/bin/cat" key="shadow_access"
+type=PATH msg=audit(1719665401.123:101): item=0 name="/etc/shadow"

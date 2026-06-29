@@ -1,0 +1,12 @@
+title: Certutil Download Activity
+id: DET-006
+severity: MEDIUM
+detection:
+  event_id: '4688'
+  process_name: certutil.exe
+  commandline_contains:
+  - -urlcache
+  - -f
+mitre:
+  tactic: Command and Control
+  technique: T1105

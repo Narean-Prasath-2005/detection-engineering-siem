@@ -1,0 +1,11 @@
+title: BloodHound Enumeration Activity
+id: DET-007
+severity: HIGH
+detection:
+  event_id: '4688'
+  process_name: powershell.exe
+  commandline_contains:
+  - Invoke-BloodHound
+mitre:
+  tactic: Discovery
+  technique: T1069

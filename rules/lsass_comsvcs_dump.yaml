@@ -1,0 +1,15 @@
+title: LSASS Dump via comsvcs.dll MiniDump
+id: DET-002
+severity: CRITICAL
+
+detection:
+  event_id: "4688"
+  process_name: "rundll32.exe"
+
+  commandline_contains:
+    - "comsvcs.dll"
+    - "MiniDump"
+
+mitre:
+  tactic: Credential Access
+  technique: T1003.001

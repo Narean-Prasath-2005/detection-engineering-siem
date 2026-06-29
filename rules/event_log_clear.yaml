@@ -1,0 +1,12 @@
+title: Windows Event Log Clearing
+id: DET-004
+severity: HIGH
+detection:
+  event_id: '4688'
+  process_name: wevtutil.exe
+  commandline_contains:
+  - cl
+  - Security
+mitre:
+  tactic: Defense Evasion
+  technique: T1070.001

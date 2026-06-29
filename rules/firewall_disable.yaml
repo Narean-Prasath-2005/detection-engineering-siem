@@ -1,0 +1,12 @@
+title: Firewall Disabled
+id: DET-005
+severity: HIGH
+detection:
+  event_id: '4688'
+  process_name: netsh.exe
+  commandline_contains:
+  - firewall
+  - 'off'
+mitre:
+  tactic: Defense Evasion
+  technique: T1562.004

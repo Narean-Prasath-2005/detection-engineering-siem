@@ -1,0 +1,10 @@
+title: Shadow File Access
+id: DET-001
+severity: HIGH
+
+detection:
+  target: "/etc/shadow"
+
+mitre:
+  tactic: Credential Access
+  technique: T1003.008

@@ -1,0 +1,12 @@
+title: Encoded PowerShell Execution
+id: DET-003
+severity: HIGH
+detection:
+  event_id: '4688'
+  process_name: powershell.exe
+  commandline_contains:
+  - -enc
+  - -encodedcommand
+mitre:
+  tactic: Execution
+  technique: T1059.001

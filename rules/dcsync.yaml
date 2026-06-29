@@ -1,0 +1,10 @@
+title: DCSync Activity
+id: DET-008
+severity: CRITICAL
+detection:
+  event_id: '4662'
+  process_name: ''
+  commandline_contains: []
+mitre:
+  tactic: Credential Access
+  technique: T1003.006

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+
+# Databases
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Large generated files
+samples/normalized/
