@@ -1,0 +1,141 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7045"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-13 12:55:45.250084+00:00"
+                },
+                "EventRecordID": "1467331",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "580",
+                    "@ThreadID": "4544"
+                },
+                "Channel": "System",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "BTOBTO"
+                    },
+                    {
+                        "@Name": "ImagePath",
+                        "#text": "%COMSPEC% /Q /c echo cd  ^> \\\\127.0.0.1\\C$\\__output 2^>^&1 > %TEMP%\\execute.bat & %COMSPEC% /Q /c %TEMP%\\execute.bat & del %TEMP%\\execute.bat"
+                    },
+                    {
+                        "@Name": "ServiceType",
+                        "#text": "user mode service"
+                    },
+                    {
+                        "@Name": "StartType",
+                        "#text": "demand start"
+                    },
+                    {
+                        "@Name": "AccountName",
+                        "#text": "LocalSystem"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4697"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12289",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-13 12:55:45.250904+00:00"
+                },
+                "EventRecordID": "236864754",
+                "Correlation": {
+                    "@ActivityID": "{d96638da-e4f9-0001-f038-66d9f9e4d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "4516"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000002cff42b44"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "BTOBTO"
+                    },
+                    {
+                        "@Name": "ServiceFileName",
+                        "#text": "%COMSPEC% /Q /c echo cd  ^> \\\\127.0.0.1\\C$\\__output 2^>^&1 > %TEMP%\\execute.bat & %COMSPEC% /Q /c %TEMP%\\execute.bat & del %TEMP%\\execute.bat"
+                    },
+                    {
+                        "@Name": "ServiceType",
+                        "#text": "0x00000010"
+                    },
+                    {
+                        "@Name": "ServiceStartType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "ServiceAccount",
+                        "#text": "LocalSystem"
+                    }
+                ]
+            }
+        }
+    }
+]

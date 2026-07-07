@@ -1,0 +1,32 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "600"
+                },
+                "Level": "4",
+                "Task": "6",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-07 14:16:03.732853+00:00"
+                },
+                "EventRecordID": "16616275",
+                "Channel": "Windows PowerShell",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>ActiveDirectory</string>\n<string>Started</string>\n<string>\tProviderName=ActiveDirectory\n\tNewProviderState=Started\n\n\tSequenceNumber=21\n\n\tHostName=ConsoleHost\n\tHostVersion=5.1.14393.4350\n\tHostId=87fd19ae-84b0-48dc-848b-d051141bd7f5\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=5.1.14393.4350\n\tRunspaceId=50f09969-f55d-4621-a64f-d9391c7bd9fe\n\tPipelineId=7\n\tCommandName=\n\tCommandType=\n\tScriptName=\n\tCommandPath=\n\tCommandLine=</string>",
+                "Binary": null
+            }
+        }
+    }
+]

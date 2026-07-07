@@ -1,0 +1,234 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1102"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x4020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-22 13:39:49.619123+00:00"
+                },
+                "EventRecordID": "81684",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "732",
+                    "@ThreadID": "4076"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserSid": "S-1-5-21-4230534742-2542757381-3142984815-1111",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "SubjectLogonId": "0x0000000001f4c65f"
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-22 13:39:50.927938+00:00"
+                },
+                "EventRecordID": "81685",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "1624"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000001f4c65f"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000001328"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\netsh.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000b5c"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "netsh  advfirewall show allprofiles"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-22 13:39:55.502777+00:00"
+                },
+                "EventRecordID": "81686",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "3672"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000001f4c65f"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x00000000000010c4"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\netsh.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000b5c"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "netsh  a show allprofiles"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    }
+                ]
+            }
+        }
+    }
+]

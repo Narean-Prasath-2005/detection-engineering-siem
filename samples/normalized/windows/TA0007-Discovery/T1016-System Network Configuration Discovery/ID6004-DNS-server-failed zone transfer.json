@@ -1,0 +1,155 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNS-Server-Service",
+                    "@Guid": "{71a551f5-c893-4849-886b-b5ec8502641e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "6004"
+                },
+                "Version": "0",
+                "Level": "3",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000080000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-11 12:58:32.242577+00:00"
+                },
+                "EventRecordID": "341",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1764",
+                    "@ThreadID": "2284"
+                },
+                "Channel": "DNS Server",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "@Name": "DNS_EVENT_BAD_ZONE_TRANSFER_REQUEST",
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "10.23.23.9"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "non-existing.lan."
+                    }
+                ],
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNS-Server-Service",
+                    "@Guid": "{71a551f5-c893-4849-886b-b5ec8502641e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "6004"
+                },
+                "Version": "0",
+                "Level": "3",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000080000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-11 12:58:40.280464+00:00"
+                },
+                "EventRecordID": "342",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1764",
+                    "@ThreadID": "2284"
+                },
+                "Channel": "DNS Server",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "@Name": "DNS_EVENT_BAD_ZONE_TRANSFER_REQUEST",
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "10.23.23.9"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "google.com."
+                    }
+                ],
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNS-Server-Service",
+                    "@Guid": "{71a551f5-c893-4849-886b-b5ec8502641e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "6004"
+                },
+                "Version": "0",
+                "Level": "3",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000080000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-11 12:58:57.451061+00:00"
+                },
+                "EventRecordID": "343",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1764",
+                    "@ThreadID": "2284"
+                },
+                "Channel": "DNS Server",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "@Name": "DNS_EVENT_BAD_ZONE_TRANSFER_REQUEST",
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "10.23.23.9"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "hacking-zone.lan."
+                    }
+                ],
+                "Binary": null
+            }
+        }
+    }
+]

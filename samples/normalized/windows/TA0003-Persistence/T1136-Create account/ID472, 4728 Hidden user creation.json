@@ -1,0 +1,1956 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1102"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x4020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:24.224937+00:00"
+                },
+                "EventRecordID": "1934511",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "740"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserSid": "S-1-5-21-4230534742-2542757381-3142984815-1111",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "SubjectLogonId": "0x0000000014f509e2"
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:24.794842+00:00"
+                },
+                "EventRecordID": "1934512",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "5104"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x00000000000008cc"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\TOOLS\\CreateHiddenAccount_upx_v0.2.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000012ac"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "CreateHiddenAccount_upx_v0.2.exe  -u 3teamssixf -p Passw0rd"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:24.845238+00:00"
+                },
+                "EventRecordID": "1934513",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "4488"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000000d08"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\netdom.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000008cc"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "netdom query pdc"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4656"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12803",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.001560+00:00"
+                },
+                "EventRecordID": "1934514",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "488"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "ObjectServer",
+                        "#text": "Security Account Manager"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "SAM_DOMAIN"
+                    },
+                    {
+                        "@Name": "ObjectName",
+                        "#text": "FS03VULN"
+                    },
+                    {
+                        "@Name": "HandleId",
+                        "#text": "0x000000e9a9291c30"
+                    },
+                    {
+                        "@Name": "TransactionId",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%5392\n\t\t\t\t%%5396\n\t\t\t\t%%5401"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00000211"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "RestrictedSidCount",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000001e0"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Windows\\System32\\lsass.exe"
+                    },
+                    {
+                        "@Name": "ResourceAttributes",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.001560+00:00"
+                },
+                "EventRecordID": "1934515",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "1496"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-1008"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "None"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "FS03VULN"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-513"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4720"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.002562+00:00"
+                },
+                "EventRecordID": "1934516",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "1496"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "3teamssixf$"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "FS03VULN"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-1008"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "3teamssixf$"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "%%1794"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "%%1794"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "513"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "0x0"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "0x15"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "%%2080\n\t\t%%2082\n\t\t%%2084"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "%%1797"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4722"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.002562+00:00"
+                },
+                "EventRecordID": "1934517",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "1496"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "3teamssixf$"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "FS03VULN"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-1008"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4738"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.002562+00:00"
+                },
+                "EventRecordID": "1934518",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "1496"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Dummy",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "3teamssixf$"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "FS03VULN"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-1008"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "3teamssixf$"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "3teamssixf$"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "1/24/2022 5:03:25 PM"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "%%1794"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "513"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "0x15"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "0x210"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "%%2048\n\t\t%%2050\n\t\t%%2089"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "%%1797"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4724"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.002562+00:00"
+                },
+                "EventRecordID": "1934519",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "1496"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "3teamssixf$"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "FS03VULN"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-1008"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4732"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.004877+00:00"
+                },
+                "EventRecordID": "1934520",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "1496"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-1008"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Administrators"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "Builtin"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-32-544"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4656"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12803",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.005873+00:00"
+                },
+                "EventRecordID": "1934521",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "488"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "ObjectServer",
+                        "#text": "Security Account Manager"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "SAM_ALIAS"
+                    },
+                    {
+                        "@Name": "ObjectName",
+                        "#text": "DOMAINS\\Builtin\\Aliases\\00000220"
+                    },
+                    {
+                        "@Name": "HandleId",
+                        "#text": "0x000000e9a9290e80"
+                    },
+                    {
+                        "@Name": "TransactionId",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%5424\n\t\t\t\t%%5425\n\t\t\t\t%%5426\n\t\t\t\t%%5427"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x0000000f"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "RestrictedSidCount",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000001e0"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Windows\\System32\\lsass.exe"
+                    },
+                    {
+                        "@Name": "ResourceAttributes",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4656"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12803",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.008871+00:00"
+                },
+                "EventRecordID": "1934522",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "488"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "ObjectServer",
+                        "#text": "Security Account Manager"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "SAM_USER"
+                    },
+                    {
+                        "@Name": "ObjectName",
+                        "#text": "DOMAINS\\Account\\Users\\000003F0"
+                    },
+                    {
+                        "@Name": "HandleId",
+                        "#text": "0x000000e9a9292e70"
+                    },
+                    {
+                        "@Name": "TransactionId",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%1537"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00010000"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "RestrictedSidCount",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000001e0"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Windows\\System32\\lsass.exe"
+                    },
+                    {
+                        "@Name": "ResourceAttributes",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4656"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12803",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.008871+00:00"
+                },
+                "EventRecordID": "1934523",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "488"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "ObjectServer",
+                        "#text": "Security Account Manager"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "SAM_ALIAS"
+                    },
+                    {
+                        "@Name": "ObjectName",
+                        "#text": "DOMAINS\\Builtin\\Aliases\\00000220"
+                    },
+                    {
+                        "@Name": "HandleId",
+                        "#text": "0x000000e9a9290560"
+                    },
+                    {
+                        "@Name": "TransactionId",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%5425"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00000002"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "RestrictedSidCount",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000001e0"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Windows\\System32\\lsass.exe"
+                    },
+                    {
+                        "@Name": "ResourceAttributes",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4733"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.008871+00:00"
+                },
+                "EventRecordID": "1934524",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "1496"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-1008"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Administrators"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "Builtin"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-32-544"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4729"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.009872+00:00"
+                },
+                "EventRecordID": "1934525",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "1496"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-1008"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "None"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "FS03VULN"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-513"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4726"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.009872+00:00"
+                },
+                "EventRecordID": "1934526",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "1496"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "3teamssixf$"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "FS03VULN"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-1008"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4660"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12804",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.009872+00:00"
+                },
+                "EventRecordID": "1934527",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "4488"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "ObjectServer",
+                        "#text": "Security Account Manager"
+                    },
+                    {
+                        "@Name": "HandleId",
+                        "#text": "0x000000e9a9292e70"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000001e0"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Windows\\System32\\lsass.exe"
+                    },
+                    {
+                        "@Name": "TransactionId",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.012873+00:00"
+                },
+                "EventRecordID": "1934528",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "4488"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x000000000000101c"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\regedit.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000008cc"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "regedit /s .sTRmxJkRFoTFaPRXBeavZhjaAYNvpYko.reg"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4656"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12803",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.035923+00:00"
+                },
+                "EventRecordID": "1934529",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "488"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "ObjectServer",
+                        "#text": "Security Account Manager"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "SAM_USER"
+                    },
+                    {
+                        "@Name": "ObjectName",
+                        "#text": "DOMAINS\\Account\\Users\\000003F0"
+                    },
+                    {
+                        "@Name": "HandleId",
+                        "#text": "0x000000e9a9290e80"
+                    },
+                    {
+                        "@Name": "TransactionId",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%1538\n\t\t\t\t%%1539\n\t\t\t\t%%5444\n\t\t\t\t%%5445"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00060030"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "RestrictedSidCount",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000001e0"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Windows\\System32\\lsass.exe"
+                    },
+                    {
+                        "@Name": "ResourceAttributes",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4738"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.035923+00:00"
+                },
+                "EventRecordID": "1934530",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "1496"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Dummy",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "3teamssixf$"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "FS03VULN"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-2721507831-1374043488-2540227515-1008"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "3teamssixf$"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "3teamssixf$"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "5/7/2020 1:39:46 PM"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "%%1794"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "513"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "0x10"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "0x10"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "%%1797"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-24 17:03:25.039921+00:00"
+                },
+                "EventRecordID": "1934531",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "4488"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000014f509e2"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x00000000000003e0"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\netdom.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000008cc"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "netdom query pdc"
+                    }
+                ]
+            }
+        }
+    }
+]

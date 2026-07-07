@@ -1,0 +1,204 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-08 10:05:29.432068+00:00"
+                },
+                "EventRecordID": "2916400",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "6208"
+                },
+                "Channel": "Security",
+                "Computer": "win10-02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000005f72fee"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x00000000000018c4"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\reg.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1936"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000002924"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "reg  add \"HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\XblGameSave\\Security\" /v Security /t REG_BINARY /d fe340ead"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-12288"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-08 10:05:36.298132+00:00"
+                },
+                "EventRecordID": "2916401",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "8544"
+                },
+                "Channel": "Security",
+                "Computer": "win10-02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "WIN10-02$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000002af0"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\dllhost.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1936"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000318"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "C:\\Windows\\system32\\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000005f72fee"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\svchost.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-12288"
+                    }
+                ]
+            }
+        }
+    }
+]

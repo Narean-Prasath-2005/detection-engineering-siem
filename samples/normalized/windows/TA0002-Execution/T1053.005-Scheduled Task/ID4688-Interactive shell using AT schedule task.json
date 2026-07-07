@@ -1,0 +1,103 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-01 17:30:39.083965+00:00"
+                },
+                "EventRecordID": "2165579",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "7136"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000065b0f5db"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x00000000000015cc"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\at.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000007d8"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "at  13:20 /interactive cmd"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-12288"
+                    }
+                ]
+            }
+        }
+    }
+]

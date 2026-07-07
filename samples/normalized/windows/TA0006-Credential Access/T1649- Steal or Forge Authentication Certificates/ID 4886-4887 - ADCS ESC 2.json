@@ -1,0 +1,350 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4886"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-12-16 16:09:07.646711+00:00"
+                },
+                "EventRecordID": "4136459",
+                "Correlation": {
+                    "@ActivityID": "{6f7650bd-53f0-0000-6d52-766ff053dc01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "632",
+                    "@ThreadID": "5696"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RequestId",
+                        "#text": "32"
+                    },
+                    {
+                        "@Name": "Requester",
+                        "#text": "ROOTBLUE\\domadm"
+                    },
+                    {
+                        "@Name": "Attributes",
+                        "#text": "CertificateTemplate:ESC2_User"
+                    },
+                    {
+                        "@Name": "Subject",
+                        "#text": "CN=Domadm"
+                    },
+                    {
+                        "@Name": "SubjectAlternativeName"
+                    },
+                    {
+                        "@Name": "CertificateTemplate",
+                        "#text": "ESC2_User"
+                    },
+                    {
+                        "@Name": "RequestOSVersion"
+                    },
+                    {
+                        "@Name": "RequestCSPProvider"
+                    },
+                    {
+                        "@Name": "RequestClientInfo"
+                    },
+                    {
+                        "@Name": "AuthenticationService",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "AuthenticationLevel",
+                        "#text": "Privacy"
+                    },
+                    {
+                        "@Name": "DCOMorRPC",
+                        "#text": "RPC"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4887"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-12-16 16:09:07.676535+00:00"
+                },
+                "EventRecordID": "4136463",
+                "Correlation": {
+                    "@ActivityID": "{6f7650bd-53f0-0000-6d52-766ff053dc01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "632",
+                    "@ThreadID": "5696"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RequestId",
+                        "#text": "32"
+                    },
+                    {
+                        "@Name": "Requester",
+                        "#text": "ROOTBLUE\\domadm"
+                    },
+                    {
+                        "@Name": "Attributes",
+                        "#text": "CertificateTemplate:ESC2_User"
+                    },
+                    {
+                        "@Name": "Disposition",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "SubjectKeyIdentifier",
+                        "#text": "40 37 3c b2 29 26 e2 f2 db 6f 24 bc d4 60 5a 4e 5e ca 02 a0"
+                    },
+                    {
+                        "@Name": "Subject",
+                        "#text": "E=domadm@rootblue.lan, CN=domadm, OU=ADMIN_ACCOUNTS, OU=MANAGEMENT, DC=rootblue, DC=lan"
+                    },
+                    {
+                        "@Name": "SubjectAlternativeName",
+                        "#text": "Other Name:\n     Principal Name=domadm@rootblue.lan\nRFC822 Name=domadm@rootblue.lan"
+                    },
+                    {
+                        "@Name": "CertificateTemplate",
+                        "#text": "ESC2_User"
+                    },
+                    {
+                        "@Name": "SerialNumber",
+                        "#text": "4800000020d06101ad5b3c2779000000000020"
+                    },
+                    {
+                        "@Name": "AuthenticationService",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "AuthenticationLevel",
+                        "#text": "Privacy"
+                    },
+                    {
+                        "@Name": "DCOMorRPC",
+                        "#text": "RPC"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4886"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-12-16 16:16:04.790813+00:00"
+                },
+                "EventRecordID": "4136518",
+                "Correlation": {
+                    "@ActivityID": "{6f7650bd-53f0-0000-6d52-766ff053dc01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "632",
+                    "@ThreadID": "328"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RequestId",
+                        "#text": "33"
+                    },
+                    {
+                        "@Name": "Requester",
+                        "#text": "ROOTBLUE\\domadm"
+                    },
+                    {
+                        "@Name": "Attributes",
+                        "#text": "CertificateTemplate:User"
+                    },
+                    {
+                        "@Name": "Subject",
+                        "#text": "CN=Administrator"
+                    },
+                    {
+                        "@Name": "SubjectAlternativeName"
+                    },
+                    {
+                        "@Name": "CertificateTemplate",
+                        "#text": "User"
+                    },
+                    {
+                        "@Name": "RequestOSVersion"
+                    },
+                    {
+                        "@Name": "RequestCSPProvider"
+                    },
+                    {
+                        "@Name": "RequestClientInfo"
+                    },
+                    {
+                        "@Name": "AuthenticationService",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "AuthenticationLevel",
+                        "#text": "Privacy"
+                    },
+                    {
+                        "@Name": "DCOMorRPC",
+                        "#text": "RPC"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4887"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-12-16 16:16:04.960495+00:00"
+                },
+                "EventRecordID": "4136522",
+                "Correlation": {
+                    "@ActivityID": "{6f7650bd-53f0-0000-6d52-766ff053dc01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "632",
+                    "@ThreadID": "328"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RequestId",
+                        "#text": "33"
+                    },
+                    {
+                        "@Name": "Requester",
+                        "#text": "ROOTBLUE\\domadm"
+                    },
+                    {
+                        "@Name": "Attributes",
+                        "#text": "CertificateTemplate:User"
+                    },
+                    {
+                        "@Name": "Disposition",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "SubjectKeyIdentifier",
+                        "#text": "6c c0 ad a9 62 5d 1d ac 23 0f 3b 3a 9a 88 ee 1a f3 4a 85 34"
+                    },
+                    {
+                        "@Name": "Subject",
+                        "#text": "CN=Administrator, CN=Users, DC=rootblue, DC=lan"
+                    },
+                    {
+                        "@Name": "SubjectAlternativeName",
+                        "#text": "Other Name:\n     Principal Name=administrator@rootblue.lan"
+                    },
+                    {
+                        "@Name": "CertificateTemplate",
+                        "#text": "User"
+                    },
+                    {
+                        "@Name": "SerialNumber",
+                        "#text": "4800000021ad1413a0af53fe18000000000021"
+                    },
+                    {
+                        "@Name": "AuthenticationService",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "AuthenticationLevel",
+                        "#text": "Privacy"
+                    },
+                    {
+                        "@Name": "DCOMorRPC",
+                        "#text": "RPC"
+                    }
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,230 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1102"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x4020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:21:02.504671+00:00"
+                },
+                "EventRecordID": "109373",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1864"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserSid": "S-1-5-21-4230534742-2542757381-3142984815-1111",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "SubjectLogonId": "0x0000000000123550"
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:21:04.611437+00:00"
+                },
+                "EventRecordID": "109374",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "812"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x00000000000006d0"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\auditpol.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000000d8"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "\"C:\\Windows\\system32\\auditpol.exe\"  /get /category:*"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4674"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13056",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:21:04.611437+00:00"
+                },
+                "EventRecordID": "109375",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "500"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "ObjectServer",
+                        "#text": "LSA"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ObjectName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HandleId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "16777216"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "SeSecurityPrivilege"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000001ec"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Windows\\System32\\lsass.exe"
+                    }
+                ]
+            }
+        }
+    }
+]

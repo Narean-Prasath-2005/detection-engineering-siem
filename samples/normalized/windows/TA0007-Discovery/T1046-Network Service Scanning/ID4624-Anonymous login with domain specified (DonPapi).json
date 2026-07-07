@@ -1,0 +1,1862 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:15:56.716780+00:00"
+                },
+                "EventRecordID": "1160030",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "4740"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-7"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "ANONYMOUS LOGON"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "offsec"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008723c7c"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V1"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60166"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:15:56.724968+00:00"
+                },
+                "EventRecordID": "1160033",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "2980"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008723c99"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60168"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.111868+00:00"
+                },
+                "EventRecordID": "1160355",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "4740"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008724935"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60170"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.174370+00:00"
+                },
+                "EventRecordID": "1160362",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "4740"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x000000000872496f"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60172"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.237968+00:00"
+                },
+                "EventRecordID": "1160369",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "4740"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000087249a8"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60174"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.300468+00:00"
+                },
+                "EventRecordID": "1160376",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "4740"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000087249e1"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60176"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.367313+00:00"
+                },
+                "EventRecordID": "1160383",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "4740"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008724a17"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60178"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.461063+00:00"
+                },
+                "EventRecordID": "1160390",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "4740"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008724ba1"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60180"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.523565+00:00"
+                },
+                "EventRecordID": "1160397",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "4740"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008724bd7"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60182"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.586071+00:00"
+                },
+                "EventRecordID": "1160404",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "4740"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008724c0d"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60184"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.648571+00:00"
+                },
+                "EventRecordID": "1160411",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "4740"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008724c46"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60186"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.728115+00:00"
+                },
+                "EventRecordID": "1160418",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "2980"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008724d99"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60188"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.790632+00:00"
+                },
+                "EventRecordID": "1160425",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "2980"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008724dd2"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60190"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.868757+00:00"
+                },
+                "EventRecordID": "1160432",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "2980"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008724e0b"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60192"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-12 07:16:04.931253+00:00"
+                },
+                "EventRecordID": "1160439",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "480",
+                    "@ThreadID": "2980"
+                },
+                "Channel": "Security",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000008724ead"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "60194"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    }
+                ]
+            }
+        }
+    }
+]

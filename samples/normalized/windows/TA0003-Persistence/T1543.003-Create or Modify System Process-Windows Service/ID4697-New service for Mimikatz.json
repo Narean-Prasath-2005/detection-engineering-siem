@@ -1,0 +1,125 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1102"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x4020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-26 16:17:29.210562+00:00"
+                },
+                "EventRecordID": "9213076",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "336",
+                    "@ThreadID": "484"
+                },
+                "Channel": "Security",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserSid": "S-1-5-21-4230534742-2542757381-3142984815-1111",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "SubjectLogonId": "0x00000000000cc3c3"
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4697"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12289",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-26 16:17:35.490423+00:00"
+                },
+                "EventRecordID": "9213077",
+                "Correlation": {
+                    "@ActivityID": "{d8de53f0-1a3e-0002-f153-ded83e1ad701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "692",
+                    "@ThreadID": "11184"
+                },
+                "Channel": "Security",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000cc3c3"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "mimidrv"
+                    },
+                    {
+                        "@Name": "ServiceFileName",
+                        "#text": "C:\\TOOLS\\Security_tool\\Mimikatz-fev-2020\\mimidrv.sys"
+                    },
+                    {
+                        "@Name": "ServiceType",
+                        "#text": "0x00000001"
+                    },
+                    {
+                        "@Name": "ServiceStartType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "ServiceAccount",
+                        "#text": "LocalSystem"
+                    }
+                ]
+            }
+        }
+    }
+]

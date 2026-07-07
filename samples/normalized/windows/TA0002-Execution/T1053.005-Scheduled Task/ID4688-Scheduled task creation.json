@@ -1,0 +1,103 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-11 21:09:03.249241+00:00"
+                },
+                "EventRecordID": "2774613",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "4216"
+                },
+                "Channel": "Security",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000001d41a5fa"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000001e18"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\schtasks.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1938"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000cd4"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "schtasks  /create /s fs02 /tn tasks_test_hacker2 /tr myapp.exe /sc daily /mo 10"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-8192"
+                    }
+                ]
+            }
+        }
+    }
+]

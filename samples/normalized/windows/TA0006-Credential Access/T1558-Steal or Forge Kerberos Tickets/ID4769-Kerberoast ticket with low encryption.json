@@ -1,0 +1,849 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4769"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14337",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-02 11:33:06.521160+00:00"
+                },
+                "EventRecordID": "24476804",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "516",
+                    "@ThreadID": "2620"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName"
+                    },
+                    {
+                        "@Name": "TargetDomainName"
+                    },
+                    {
+                        "@Name": "ServiceName"
+                    },
+                    {
+                        "@Name": "ServiceSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x40810000"
+                    },
+                    {
+                        "@Name": "TicketEncryptionType",
+                        "#text": "0xffffffff"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.23.9"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "55179"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000025"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4769"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14337",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-02 11:33:06.523438+00:00"
+                },
+                "EventRecordID": "24476805",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "516",
+                    "@ThreadID": "2620"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig@OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "Svc-SQL-DB01"
+                    },
+                    {
+                        "@Name": "ServiceSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1171"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x40810000"
+                    },
+                    {
+                        "@Name": "TicketEncryptionType",
+                        "#text": "0x00000017"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.23.9"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "55180"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000000"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{ed648110-acf3-7f43-0ccb-256ef183156d}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4769"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14337",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-02 11:37:11.847298+00:00"
+                },
+                "EventRecordID": "24477165",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "516",
+                    "@ThreadID": "556"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "ROOTDC1$@OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "ServiceSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1000"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x40810000"
+                    },
+                    {
+                        "@Name": "TicketEncryptionType",
+                        "#text": "0x00000012"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::1"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000000"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{cbc3e78b-1536-ea74-415a-4dc1d4989a16}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4769"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14337",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-02 11:37:12.567770+00:00"
+                },
+                "EventRecordID": "24478113",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "516",
+                    "@ThreadID": "3936"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "ROOTDC1$@OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "ServiceSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1000"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x40810000"
+                    },
+                    {
+                        "@Name": "TicketEncryptionType",
+                        "#text": "0x00000012"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::1"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000000"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{58c34c13-bf89-aa22-ba63-ba320a04e0f6}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4769"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14337",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-02 11:37:54.898373+00:00"
+                },
+                "EventRecordID": "24478165",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "516",
+                    "@ThreadID": "2620"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "WEC01$@OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "ServiceSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1000"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x40800000"
+                    },
+                    {
+                        "@Name": "TicketEncryptionType",
+                        "#text": "0x00000012"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.42.22"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "54273"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000000"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{790d9d18-b314-17d0-d833-ce58448a3177}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4769"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14337",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-02 11:37:54.999159+00:00"
+                },
+                "EventRecordID": "24478170",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "516",
+                    "@ThreadID": "2620"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "WEC01$@OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "WEC01$"
+                    },
+                    {
+                        "@Name": "ServiceSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1113"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x40810000"
+                    },
+                    {
+                        "@Name": "TicketEncryptionType",
+                        "#text": "0x00000012"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.42.22"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "54275"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000000"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{790d9d18-b314-17d0-d833-ce58448a3177}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4769"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14337",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-02 11:37:55.142290+00:00"
+                },
+                "EventRecordID": "24478171",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "516",
+                    "@ThreadID": "2620"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "WEC01$@OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "ROOTDC2$"
+                    },
+                    {
+                        "@Name": "ServiceSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1120"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x40800000"
+                    },
+                    {
+                        "@Name": "TicketEncryptionType",
+                        "#text": "0x00000012"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.42.22"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "54277"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000000"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{b31b1fa6-f0c7-a129-fa95-61b9def52544}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4769"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14337",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-02 11:37:55.483568+00:00"
+                },
+                "EventRecordID": "24478172",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "516",
+                    "@ThreadID": "2620"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "WEC01$@OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "ServiceSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1000"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x40800000"
+                    },
+                    {
+                        "@Name": "TicketEncryptionType",
+                        "#text": "0x00000012"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.42.22"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "54279"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000000"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{b31b1fa6-f0c7-a129-fa95-61b9def52544}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4769"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14337",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-02 11:37:55.484652+00:00"
+                },
+                "EventRecordID": "24478173",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "516",
+                    "@ThreadID": "2620"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "WEC01$@OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt"
+                    },
+                    {
+                        "@Name": "ServiceSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-502"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x60810010"
+                    },
+                    {
+                        "@Name": "TicketEncryptionType",
+                        "#text": "0x00000012"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.42.22"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "54280"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000000"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{b31b1fa6-f0c7-a129-fa95-61b9def52544}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4769"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14337",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-02 11:37:55.625814+00:00"
+                },
+                "EventRecordID": "24478189",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "516",
+                    "@ThreadID": "2620"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "WEC01$@OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "ServiceSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1000"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x40810000"
+                    },
+                    {
+                        "@Name": "TicketEncryptionType",
+                        "#text": "0x00000012"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.42.22"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "54285"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000000"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{b31b1fa6-f0c7-a129-fa95-61b9def52544}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

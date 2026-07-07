@@ -1,0 +1,533 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-21 17:38:36+00:00"
+                },
+                "EventRecordID": "471",
+                "Channel": "Windows PowerShell",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>RequiredAssemblies=Join-Path $psScriptRoot \"Microsoft.BackgroundIntelligentTransfer.Management.Interop.dll\"\n</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=21\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=2bc3f2aa-3ec3-49cc-a618-e2d1232518fb\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=e3cd9014-9076-4ada-ac80-9055ed3282c1\n\tPipelineId=7\n\tScriptName=C:\\windows\\system32\\windowspowershell\\v1.0\\Modules\\BitsTransfer\\BitsTransfer.psd1\n\tCommandLine=RequiredAssemblies=Join-Path $psScriptRoot \"Microsoft.BackgroundIntelligentTransfer.Management.Interop.dll\"\n</string>\n<string>CommandInvocation(Join-Path): \"Join-Path\"\nParameterBinding(Join-Path): name=\"Path\"; value=\"C:\\windows\\system32\\windowspowershell\\v1.0\\Modules\\BitsTransfer\"\nParameterBinding(Join-Path): name=\"ChildPath\"; value=\"Microsoft.BackgroundIntelligentTransfer.Management.Interop.dll\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4104"
+                },
+                "Version": "1",
+                "Level": "5",
+                "Task": "102",
+                "Opcode": "15",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-21 17:38:36.711462+00:00"
+                },
+                "EventRecordID": "1736",
+                "Correlation": {
+                    "@ActivityID": "{a674bae4-bf55-0000-8236-87a655bfd701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "3336",
+                    "@ThreadID": "3892"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MessageNumber",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "MessageTotal",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "ScriptBlockText",
+                        "#text": "Start-BitsTransfer -Priority foreground -Source https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1197/T1197.md -Destination C:\\Users\\bits.ps1"
+                    },
+                    {
+                        "@Name": "ScriptBlockId",
+                        "#text": "76350588-4aa4-4047-9ecb-9b285c4fa71b"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4104"
+                },
+                "Version": "1",
+                "Level": "5",
+                "Task": "102",
+                "Opcode": "15",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-21 17:38:36.742638+00:00"
+                },
+                "EventRecordID": "1737",
+                "Correlation": {
+                    "@ActivityID": "{a674bae4-bf55-0000-3037-87a655bfd701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "3336",
+                    "@ThreadID": "3892"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MessageNumber",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "MessageTotal",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "ScriptBlockText",
+                        "#text": "@{\nGUID=\"{8FA5064B-8479-4c5c-86EA-0D311FE48875}\"\nAuthor=\"Microsoft Corporation\"\nCompanyName=\"Microsoft Corporation\"\nCopyright=\"\u00a9 Microsoft Corporation. All rights reserved.\"\nModuleVersion=\"1.0.0.0\"\nPowerShellVersion=\"2.0\"\nCLRVersion=\"2.0\"\nNestedModules=\"Microsoft.BackgroundIntelligentTransfer.Management\"\nFormatsToProcess=\"BitsTransfer.Format.ps1xml\"\nRequiredAssemblies=Join-Path $psScriptRoot \"Microsoft.BackgroundIntelligentTransfer.Management.Interop.dll\"\nCmdletsToExport=\"Add-BitsFile\",\"Complete-BitsTransfer\",\"Get-BitsTransfer\",\"Remove-BitsTransfer\",\"Resume-BitsTransfer\",\"Set-BitsTransfer\",\"Start-BitsTransfer\",\"Suspend-BitsTransfer\"\n}"
+                    },
+                    {
+                        "@Name": "ScriptBlockId",
+                        "#text": "8e076078-190c-467f-93ed-9ebfdf8a31af"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4103"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "106",
+                "Opcode": "20",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-21 17:38:36.742638+00:00"
+                },
+                "EventRecordID": "1738",
+                "Correlation": {
+                    "@ActivityID": "{a674bae4-bf55-0000-3137-87a655bfd701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "3336",
+                    "@ThreadID": "3892"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ContextInfo",
+                        "#text": "Severity = Informational\n        Host Name = ConsoleHost\n        Host Version = 4.0\n        Host ID = 2bc3f2aa-3ec3-49cc-a618-e2d1232518fb\n        Host Application = C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n        Engine Version = 4.0\n        Runspace ID = e3cd9014-9076-4ada-ac80-9055ed3282c1\n        Pipeline ID = 7\n        Command Name = Join-Path\n        Command Type = Cmdlet\n        Script Name = C:\\windows\\system32\\windowspowershell\\v1.0\\Modules\\BitsTransfer\\BitsTransfer.psd1\n        Command Path = \n        Sequence Number = 22\n        User = OFFSEC\\admmig\n        Shell ID = Microsoft.PowerShell"
+                    },
+                    {
+                        "@Name": "UserData"
+                    },
+                    {
+                        "@Name": "Payload",
+                        "#text": "CommandInvocation(Join-Path): \"Join-Path\"\nParameterBinding(Join-Path): name=\"Path\"; value=\"C:\\windows\\system32\\windowspowershell\\v1.0\\Modules\\BitsTransfer\"\nParameterBinding(Join-Path): name=\"ChildPath\"; value=\"Microsoft.BackgroundIntelligentTransfer.Management.Interop.dll\""
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-21 17:38:37+00:00"
+                },
+                "EventRecordID": "472",
+                "Channel": "Windows PowerShell",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Start-BitsTransfer -Priority foreground -Source https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1197/T1197.md -Destination C:\\Users\\bits.ps1</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=23\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=2bc3f2aa-3ec3-49cc-a618-e2d1232518fb\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=e3cd9014-9076-4ada-ac80-9055ed3282c1\n\tPipelineId=6\n\tScriptName=\n\tCommandLine=Start-BitsTransfer -Priority foreground -Source https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1197/T1197.md -Destination C:\\Users\\bits.ps1</string>\n<string>CommandInvocation(Start-BitsTransfer): \"Start-BitsTransfer\"\nParameterBinding(Start-BitsTransfer): name=\"Priority\"; value=\"foreground\"\nParameterBinding(Start-BitsTransfer): name=\"Source\"; value=\"https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1197/T1197.md\"\nParameterBinding(Start-BitsTransfer): name=\"Destination\"; value=\"C:\\Users\\bits.ps1\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-21 17:38:37+00:00"
+                },
+                "EventRecordID": "473",
+                "Channel": "Windows PowerShell",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=25\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=2bc3f2aa-3ec3-49cc-a618-e2d1232518fb\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=e3cd9014-9076-4ada-ac80-9055ed3282c1\n\tPipelineId=6\n\tScriptName=\n\tCommandLine=</string>\n<string></string>\n<string>CommandInvocation(Out-Default): \"Out-Default\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4103"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "106",
+                "Opcode": "20",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-21 17:38:37.084745+00:00"
+                },
+                "EventRecordID": "1739",
+                "Correlation": {
+                    "@ActivityID": "{a674bae4-bf55-0001-f2da-88a655bfd701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "3336",
+                    "@ThreadID": "3892"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ContextInfo",
+                        "#text": "Severity = Informational\n        Host Name = ConsoleHost\n        Host Version = 4.0\n        Host ID = 2bc3f2aa-3ec3-49cc-a618-e2d1232518fb\n        Host Application = C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n        Engine Version = 4.0\n        Runspace ID = e3cd9014-9076-4ada-ac80-9055ed3282c1\n        Pipeline ID = 6\n        Command Name = Start-BitsTransfer\n        Command Type = Cmdlet\n        Script Name = \n        Command Path = \n        Sequence Number = 24\n        User = OFFSEC\\admmig\n        Shell ID = Microsoft.PowerShell"
+                    },
+                    {
+                        "@Name": "UserData"
+                    },
+                    {
+                        "@Name": "Payload",
+                        "#text": "CommandInvocation(Start-BitsTransfer): \"Start-BitsTransfer\"\nParameterBinding(Start-BitsTransfer): name=\"Priority\"; value=\"foreground\"\nParameterBinding(Start-BitsTransfer): name=\"Source\"; value=\"https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1197/T1197.md\"\nParameterBinding(Start-BitsTransfer): name=\"Destination\"; value=\"C:\\Users\\bits.ps1\""
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4103"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "106",
+                "Opcode": "20",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-21 17:38:37.084745+00:00"
+                },
+                "EventRecordID": "1740",
+                "Correlation": {
+                    "@ActivityID": "{a674bae4-bf55-0000-2f37-87a655bfd701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "3336",
+                    "@ThreadID": "3892"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ContextInfo",
+                        "#text": "Severity = Informational\n        Host Name = ConsoleHost\n        Host Version = 4.0\n        Host ID = 2bc3f2aa-3ec3-49cc-a618-e2d1232518fb\n        Host Application = C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n        Engine Version = 4.0\n        Runspace ID = e3cd9014-9076-4ada-ac80-9055ed3282c1\n        Pipeline ID = 6\n        Command Name = \n        Command Type = Script\n        Script Name = \n        Command Path = \n        Sequence Number = 26\n        User = OFFSEC\\admmig\n        Shell ID = Microsoft.PowerShell"
+                    },
+                    {
+                        "@Name": "UserData"
+                    },
+                    {
+                        "@Name": "Payload",
+                        "#text": "CommandInvocation(Out-Default): \"Out-Default\""
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4104"
+                },
+                "Version": "1",
+                "Level": "5",
+                "Task": "102",
+                "Opcode": "15",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-21 17:38:37.084745+00:00"
+                },
+                "EventRecordID": "1741",
+                "Correlation": {
+                    "@ActivityID": "{a674bae4-bf55-0002-bab0-87a655bfd701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "3336",
+                    "@ThreadID": "4648"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MessageNumber",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "MessageTotal",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "ScriptBlockText",
+                        "#text": "[System.Diagnostics.DebuggerHidden()]\n        param()\n\n        $foundSuggestion = $false\n        \n        if($lastError -and\n            ($lastError.Exception -is \"System.Management.Automation.CommandNotFoundException\"))\n        {\n            $escapedCommand = [System.Management.Automation.WildcardPattern]::Escape($lastError.TargetObject)\n            $foundSuggestion = @(Get-Command ($ExecutionContext.SessionState.Path.Combine(\".\", $escapedCommand)) -ErrorAction Ignore).Count -gt 0\n        }\n\n        $foundSuggestion"
+                    },
+                    {
+                        "@Name": "ScriptBlockId",
+                        "#text": "6b72b20d-7411-4ab5-ab34-b9390cb58858"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4104"
+                },
+                "Version": "1",
+                "Level": "5",
+                "Task": "102",
+                "Opcode": "15",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-21 17:38:37.084745+00:00"
+                },
+                "EventRecordID": "1742",
+                "Correlation": {
+                    "@ActivityID": "{a674bae4-bf55-0002-bab0-87a655bfd701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "3336",
+                    "@ThreadID": "4648"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MessageNumber",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "MessageTotal",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "ScriptBlockText",
+                        "#text": "\"The command $($lastError.TargetObject) was not found, but does exist in the current location. Windows PowerShell does not load commands from the current location by default. If you trust this command, instead type `\".\\$($lastError.TargetObject)`\". See `\"get-help about_Command_Precedence`\" for more details.\""
+                    },
+                    {
+                        "@Name": "ScriptBlockId",
+                        "#text": "73dc84dd-f5ad-491d-bdcd-fb366790a46c"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4104"
+                },
+                "Version": "1",
+                "Level": "5",
+                "Task": "102",
+                "Opcode": "15",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-21 17:38:37.100351+00:00"
+                },
+                "EventRecordID": "1743",
+                "Correlation": {
+                    "@ActivityID": "{a674bae4-bf55-0000-2f37-87a655bfd701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "3336",
+                    "@ThreadID": "3892"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MessageNumber",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "MessageTotal",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "ScriptBlockText",
+                        "#text": "prompt"
+                    },
+                    {
+                        "@Name": "ScriptBlockId",
+                        "#text": "7319562f-1401-46e1-92a8-57c1f8c05b33"
+                    }
+                ]
+            }
+        }
+    }
+]

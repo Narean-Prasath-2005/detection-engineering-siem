@@ -1,0 +1,632 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:13+00:00"
+                },
+                "EventRecordID": "9435",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=391\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=7f6359d5-da68-4ff5-8b7e-f3393366b020\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=c8166557-78a4-43a8-843d-dffbe24fa1ab\n\tPipelineId=56\n\tScriptName=\n\tCommandLine=</string>\n<string></string>\n<string>CommandInvocation(Out-Default): \"Out-Default\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:13+00:00"
+                },
+                "EventRecordID": "9436",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Add-Type -AssemblyNAme System.IdentityModel</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=393\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=7f6359d5-da68-4ff5-8b7e-f3393366b020\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=c8166557-78a4-43a8-843d-dffbe24fa1ab\n\tPipelineId=58\n\tScriptName=\n\tCommandLine=Add-Type -AssemblyNAme System.IdentityModel</string>\n<string>CommandInvocation(Add-Type): \"Add-Type\"\nParameterBinding(Add-Type): name=\"AssemblyName\"; value=\"System.IdentityModel\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:13+00:00"
+                },
+                "EventRecordID": "9437",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=395\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=7f6359d5-da68-4ff5-8b7e-f3393366b020\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=c8166557-78a4-43a8-843d-dffbe24fa1ab\n\tPipelineId=58\n\tScriptName=\n\tCommandLine=</string>\n<string></string>\n<string>CommandInvocation(Out-Default): \"Out-Default\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9438",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList $SPNName</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=398\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=7f6359d5-da68-4ff5-8b7e-f3393366b020\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=c8166557-78a4-43a8-843d-dffbe24fa1ab\n\tPipelineId=60\n\tScriptName=\n\tCommandLine=New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList $SPNName</string>\n<string>CommandInvocation(New-Object): \"New-Object\"\nParameterBinding(New-Object): name=\"ArgumentList\"; value=\"MSSQLSvc/Svc-SQL-DB01.offsec.lan\"\nParameterBinding(New-Object): name=\"TypeName\"; value=\"System.IdentityModel.Tokens.KerberosRequestorSecurityToken\"\nTerminatingError(New-Object): \"Exception calling \".ctor\" with \"1\" argument(s): \"The NetworkCredentials provided were unable to create a Kerberos credential, see inner exception for details.\"\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "600"
+                },
+                "Level": "4",
+                "Task": "6",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9439",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Alias</string>\n<string>Started</string>\n<string>\tProviderName=Alias\n\tNewProviderState=Started\n\n\tSequenceNumber=400\n\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=\n\tRunspaceId=\n\tPipelineId=\n\tCommandName=\n\tCommandType=\n\tScriptName=\n\tCommandPath=\n\tCommandLine=</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "600"
+                },
+                "Level": "4",
+                "Task": "6",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9440",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Environment</string>\n<string>Started</string>\n<string>\tProviderName=Environment\n\tNewProviderState=Started\n\n\tSequenceNumber=402\n\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=\n\tRunspaceId=\n\tPipelineId=\n\tCommandName=\n\tCommandType=\n\tScriptName=\n\tCommandPath=\n\tCommandLine=</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "600"
+                },
+                "Level": "4",
+                "Task": "6",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9441",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>FileSystem</string>\n<string>Started</string>\n<string>\tProviderName=FileSystem\n\tNewProviderState=Started\n\n\tSequenceNumber=404\n\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=\n\tRunspaceId=\n\tPipelineId=\n\tCommandName=\n\tCommandType=\n\tScriptName=\n\tCommandPath=\n\tCommandLine=</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "600"
+                },
+                "Level": "4",
+                "Task": "6",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9442",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Function</string>\n<string>Started</string>\n<string>\tProviderName=Function\n\tNewProviderState=Started\n\n\tSequenceNumber=406\n\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=\n\tRunspaceId=\n\tPipelineId=\n\tCommandName=\n\tCommandType=\n\tScriptName=\n\tCommandPath=\n\tCommandLine=</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "600"
+                },
+                "Level": "4",
+                "Task": "6",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9443",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Registry</string>\n<string>Started</string>\n<string>\tProviderName=Registry\n\tNewProviderState=Started\n\n\tSequenceNumber=408\n\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=\n\tRunspaceId=\n\tPipelineId=\n\tCommandName=\n\tCommandType=\n\tScriptName=\n\tCommandPath=\n\tCommandLine=</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "600"
+                },
+                "Level": "4",
+                "Task": "6",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9444",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Variable</string>\n<string>Started</string>\n<string>\tProviderName=Variable\n\tNewProviderState=Started\n\n\tSequenceNumber=410\n\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=\n\tRunspaceId=\n\tPipelineId=\n\tCommandName=\n\tCommandType=\n\tScriptName=\n\tCommandPath=\n\tCommandLine=</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "400"
+                },
+                "Level": "4",
+                "Task": "4",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9445",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Available</string>\n<string>None</string>\n<string>\tNewEngineState=Available\n\tPreviousEngineState=None\n\n\tSequenceNumber=412\n\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=087544e4-6858-46d4-be10-88650118e46b\n\tPipelineId=\n\tCommandName=\n\tCommandType=\n\tScriptName=\n\tCommandPath=\n\tCommandLine=</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9446",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>                                        if ( & { Set-StrictMode -Version 1; $_.PSMessageDetails } ) {\n</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=414\n\n\tUserId=OFFSEC\\admmig\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=087544e4-6858-46d4-be10-88650118e46b\n\tPipelineId=1\n\tScriptName=\n\tCommandLine=                                        if ( & { Set-StrictMode -Version 1; $_.PSMessageDetails } ) {\n</string>\n<string>CommandInvocation(Set-StrictMode): \"Set-StrictMode\"\nParameterBinding(Set-StrictMode): name=\"Version\"; value=\"1.0\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9447",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>& { Set-StrictMode -Version 1; $this.Exception.InnerException.PSMessageDetails }</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=416\n\n\tUserId=OFFSEC\\admmig\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=087544e4-6858-46d4-be10-88650118e46b\n\tPipelineId=1\n\tScriptName=\n\tCommandLine=& { Set-StrictMode -Version 1; $this.Exception.InnerException.PSMessageDetails }</string>\n<string>CommandInvocation(Set-StrictMode): \"Set-StrictMode\"\nParameterBinding(Set-StrictMode): name=\"Version\"; value=\"1.0\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9448",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>                                        $errorCategoryMsg = & { Set-StrictMode -Version 1; $_.ErrorCategory_Message }\n</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=418\n\n\tUserId=OFFSEC\\admmig\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=087544e4-6858-46d4-be10-88650118e46b\n\tPipelineId=1\n\tScriptName=\n\tCommandLine=                                        $errorCategoryMsg = & { Set-StrictMode -Version 1; $_.ErrorCategory_Message }\n</string>\n<string>CommandInvocation(Set-StrictMode): \"Set-StrictMode\"\nParameterBinding(Set-StrictMode): name=\"Version\"; value=\"1.0\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9449",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>                                        $originInfo = & { Set-StrictMode -Version 1; $_.OriginInfo }\n</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=420\n\n\tUserId=OFFSEC\\admmig\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=087544e4-6858-46d4-be10-88650118e46b\n\tPipelineId=1\n\tScriptName=\n\tCommandLine=                                        $originInfo = & { Set-StrictMode -Version 1; $_.OriginInfo }\n</string>\n<string>CommandInvocation(Set-StrictMode): \"Set-StrictMode\"\nParameterBinding(Set-StrictMode): name=\"Version\"; value=\"1.0\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9450",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=422\n\n\tUserId=OFFSEC\\admmig\n\tHostName=Default Host\n\tHostVersion=4.0\n\tHostId=be63031a-47ad-452d-836b-10da34712494\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=087544e4-6858-46d4-be10-88650118e46b\n\tPipelineId=1\n\tScriptName=\n\tCommandLine=</string>\n<string></string>\n<string>CommandInvocation(Out-Default): \"Out-Default\"\nParameterBinding(Out-Default): name=\"InputObject\"; value=\"Exception calling \".ctor\" with \"1\" argument(s): \"The NetworkCredentials provided were unable to create a Kerberos credential, see inner exception for details.\"\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9451",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>                                        if ( & { Set-StrictMode -Version 1; $_.PSMessageDetails } ) {\n</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=424\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=7f6359d5-da68-4ff5-8b7e-f3393366b020\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=c8166557-78a4-43a8-843d-dffbe24fa1ab\n\tPipelineId=60\n\tScriptName=\n\tCommandLine=                                        if ( & { Set-StrictMode -Version 1; $_.PSMessageDetails } ) {\n</string>\n<string>CommandInvocation(Set-StrictMode): \"Set-StrictMode\"\nParameterBinding(Set-StrictMode): name=\"Version\"; value=\"1.0\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9452",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>& { Set-StrictMode -Version 1; $this.Exception.InnerException.PSMessageDetails }</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=426\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=7f6359d5-da68-4ff5-8b7e-f3393366b020\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=c8166557-78a4-43a8-843d-dffbe24fa1ab\n\tPipelineId=60\n\tScriptName=\n\tCommandLine=& { Set-StrictMode -Version 1; $this.Exception.InnerException.PSMessageDetails }</string>\n<string>CommandInvocation(Set-StrictMode): \"Set-StrictMode\"\nParameterBinding(Set-StrictMode): name=\"Version\"; value=\"1.0\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9453",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>                                        $errorCategoryMsg = & { Set-StrictMode -Version 1; $_.ErrorCategory_Message }\n</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=428\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=7f6359d5-da68-4ff5-8b7e-f3393366b020\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=c8166557-78a4-43a8-843d-dffbe24fa1ab\n\tPipelineId=60\n\tScriptName=\n\tCommandLine=                                        $errorCategoryMsg = & { Set-StrictMode -Version 1; $_.ErrorCategory_Message }\n</string>\n<string>CommandInvocation(Set-StrictMode): \"Set-StrictMode\"\nParameterBinding(Set-StrictMode): name=\"Version\"; value=\"1.0\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9454",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>                                        $originInfo = & { Set-StrictMode -Version 1; $_.OriginInfo }\n</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=430\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=7f6359d5-da68-4ff5-8b7e-f3393366b020\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=c8166557-78a4-43a8-843d-dffbe24fa1ab\n\tPipelineId=60\n\tScriptName=\n\tCommandLine=                                        $originInfo = & { Set-StrictMode -Version 1; $_.OriginInfo }\n</string>\n<string>CommandInvocation(Set-StrictMode): \"Set-StrictMode\"\nParameterBinding(Set-StrictMode): name=\"Version\"; value=\"1.0\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-01-30 09:13:17+00:00"
+                },
+                "EventRecordID": "9455",
+                "Channel": "Windows PowerShell",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=432\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=7f6359d5-da68-4ff5-8b7e-f3393366b020\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=c8166557-78a4-43a8-843d-dffbe24fa1ab\n\tPipelineId=60\n\tScriptName=\n\tCommandLine=</string>\n<string></string>\n<string>CommandInvocation(Out-Default): \"Out-Default\"\nParameterBinding(Out-Default): name=\"InputObject\"; value=\"Exception calling \".ctor\" with \"1\" argument(s): \"The NetworkCredentials provided were unable to create a Kerberos credential, see inner exception for details.\"\"\n</string>",
+                "Binary": null
+            }
+        }
+    }
+]

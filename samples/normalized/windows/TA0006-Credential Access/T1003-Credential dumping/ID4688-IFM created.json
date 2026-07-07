@@ -1,0 +1,507 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-05 19:35:16.721781+00:00"
+                },
+                "EventRecordID": "155496214",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "4700"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000a8a1627a"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000000724"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\ntdsutil.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000011c0"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "ntdsutil.exe  'ac i ntds' 'ifm' 'create full c:\\hacker' q q"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-12288"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-05 19:36:20.976707+00:00"
+                },
+                "EventRecordID": "155496369",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "3540"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x00000000000019cc"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\taskhostw.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1936"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000490"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "taskhostw.exe SYSTEM"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\svchost.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-16384"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-05 19:36:32.683779+00:00"
+                },
+                "EventRecordID": "155497352",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "568"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000a8a1627a"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000001bec"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\ntdsutil.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000011c0"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "ntdsutil  \"activate instance ntds\" ifm \"create full c:\\hacker\" quit quit"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-12288"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-05 19:36:34.653034+00:00"
+                },
+                "EventRecordID": "155498559",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "4700"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000001978"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\SearchProtocolHost.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1936"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000a38"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "\"C:\\Windows\\system32\\SearchProtocolHost.exe\" Global\\UsGthrFltPipeMssGthrPipe57_ Global\\UsGthrCtrlFltPipeMssGthrPipe57 1 -2147483646 \"Software\\Microsoft\\Windows Search\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)\" \"C:\\ProgramData\\Microsoft\\Search\\Data\\Temp\\usgthrsvc\" \"DownLevelDaemon\""
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\SearchIndexer.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-16384"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-05 19:36:34.688711+00:00"
+                },
+                "EventRecordID": "155498563",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "5624"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000001798"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\SearchFilterHost.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1936"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000a38"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "\"C:\\Windows\\system32\\SearchFilterHost.exe\" 0 648 652 660 8192 656"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\SearchIndexer.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-8192"
+                    }
+                ]
+            }
+        }
+    }
+]

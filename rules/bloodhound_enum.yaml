@@ -1,11 +1,20 @@
-title: BloodHound Enumeration Activity
-id: DET-007
-severity: HIGH
+title: BloodHound Active Directory Enumeration
+id: DET-0006
+status: stable
+description: Detects SharpHound/BloodHound collection activity.
+author: Narean Prasath
+date: 2026-07-07
+logsource:
+  product: windows
+  category: process_creation
 detection:
-  event_id: '4688'
-  process_name: powershell.exe
-  commandline_contains:
-  - Invoke-BloodHound
+  selection:
+    command_line|regex: (BloodHound|SharpHound)
+  condition: selection
+falsepositives:
+- Authorized security assessments
+level: medium
 mitre:
   tactic: Discovery
-  technique: T1069
+  technique: Domain Trust Discovery
+  attack_id: T1482

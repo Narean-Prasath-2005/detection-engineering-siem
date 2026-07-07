@@ -1,0 +1,228 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4720"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:12:58.295908+00:00"
+                },
+                "EventRecordID": "2775247",
+                "Correlation": {
+                    "@ActivityID": "{e4d8d5c1-4f7e-0006-c2d5-d8e47e4fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "708",
+                    "@ThreadID": "8464"
+                },
+                "Channel": "Security",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "hacking-local-acct"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "JUMP01"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-1470532092-3758209836-3742276719-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000058d874"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "hacking-local-acct"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "%%1794"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "%%1794"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "513"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "0x0"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "0x15"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "%%2080\n\t\t%%2082\n\t\t%%2084"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "%%1797"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4732"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:12:58.312279+00:00"
+                },
+                "EventRecordID": "2775256",
+                "Correlation": {
+                    "@ActivityID": "{e4d8d5c1-4f7e-0006-c2d5-d8e47e4fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "708",
+                    "@ThreadID": "8464"
+                },
+                "Channel": "Security",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-1470532092-3758209836-3742276719-1001"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Users"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "Builtin"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-32-545"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000058d874"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

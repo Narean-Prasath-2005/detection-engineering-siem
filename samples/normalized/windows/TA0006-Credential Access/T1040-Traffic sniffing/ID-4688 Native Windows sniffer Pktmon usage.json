@@ -1,0 +1,608 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-25 21:56:19.530727+00:00"
+                },
+                "EventRecordID": "415291",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "6940"
+                },
+                "Channel": "Security",
+                "Computer": "FX-BS7",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-1038188009-4061210039-1974013838-1004"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "FX-BS7"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000977caa"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x00000000000016d0"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\PktMon.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000002b1c"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "pktmon  filter add -p 80"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-12288"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-25 21:56:32.794598+00:00"
+                },
+                "EventRecordID": "415292",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "4632"
+                },
+                "Channel": "Security",
+                "Computer": "FX-BS7",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-1038188009-4061210039-1974013838-1004"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "FX-BS7"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000977caa"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000002b0c"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\PktMon.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000002b1c"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "pktmon  comp list"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-12288"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-25 21:56:50.874397+00:00"
+                },
+                "EventRecordID": "415293",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "352"
+                },
+                "Channel": "Security",
+                "Computer": "FX-BS7",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-1038188009-4061210039-1974013838-1004"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "FX-BS7"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000977caa"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000002bdc"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\PktMon.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000002b1c"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "pktmon  stpop"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-12288"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-25 21:56:53.090635+00:00"
+                },
+                "EventRecordID": "415294",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "4632"
+                },
+                "Channel": "Security",
+                "Computer": "FX-BS7",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-1038188009-4061210039-1974013838-1004"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "FX-BS7"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000977caa"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000001bc0"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\PktMon.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000002b1c"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "pktmon  stop"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-12288"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-25 21:57:05.324690+00:00"
+                },
+                "EventRecordID": "415295",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "9580"
+                },
+                "Channel": "Security",
+                "Computer": "FX-BS7",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FX-BS7$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WORKGROUP"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000000ec8"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\dllhost.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1936"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000003c4"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "C:\\Windows\\system32\\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-1038188009-4061210039-1974013838-1001"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "FOXTWO"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "FX-BS7"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000019cfa"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\svchost.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-8192"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-25 21:57:11.415483+00:00"
+                },
+                "EventRecordID": "415296",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "352"
+                },
+                "Channel": "Security",
+                "Computer": "FX-BS7",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FX-BS7$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WORKGROUP"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000000b60"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\dllhost.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1936"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000003c4"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "C:\\Windows\\system32\\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-1038188009-4061210039-1974013838-1001"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "FOXTWO"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "FX-BS7"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000019cfa"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\svchost.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-8192"
+                    }
+                ]
+            }
+        }
+    }
+]

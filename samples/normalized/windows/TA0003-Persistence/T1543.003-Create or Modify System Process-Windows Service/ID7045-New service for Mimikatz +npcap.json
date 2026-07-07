@@ -1,0 +1,371 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7045"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-12-17 10:38:33.951180+00:00"
+                },
+                "EventRecordID": "337870",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "672",
+                    "@ThreadID": "10348"
+                },
+                "Channel": "System",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "WCESERVICE"
+                    },
+                    {
+                        "@Name": "ImagePath",
+                        "#text": "D:\\Service\\test.exe"
+                    },
+                    {
+                        "@Name": "ServiceType",
+                        "#text": "user mode service"
+                    },
+                    {
+                        "@Name": "StartType",
+                        "#text": "demand start"
+                    },
+                    {
+                        "@Name": "AccountName",
+                        "#text": "LocalSystem"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7045"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-03 10:24:12.402790+00:00"
+                },
+                "EventRecordID": "388110",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "676",
+                    "@ThreadID": "8344"
+                },
+                "Channel": "System",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1180"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "Microsoft Office Click-to-Run Service"
+                    },
+                    {
+                        "@Name": "ImagePath",
+                        "#text": "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" /service"
+                    },
+                    {
+                        "@Name": "ServiceType",
+                        "#text": "user mode service"
+                    },
+                    {
+                        "@Name": "StartType",
+                        "#text": "auto start"
+                    },
+                    {
+                        "@Name": "AccountName",
+                        "#text": "LocalSystem"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7045"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-03 10:33:48.102655+00:00"
+                },
+                "EventRecordID": "388136",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "676",
+                    "@ThreadID": "1428"
+                },
+                "Channel": "System",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "Microsoft Search in Bing"
+                    },
+                    {
+                        "@Name": "ImagePath",
+                        "#text": "\"C:\\Program Files (x86)\\Microsoft\\Microsoft Search in Bing\\MicrosoftSearchInBing.exe\""
+                    },
+                    {
+                        "@Name": "ServiceType",
+                        "#text": "user mode service"
+                    },
+                    {
+                        "@Name": "StartType",
+                        "#text": "auto start"
+                    },
+                    {
+                        "@Name": "AccountName",
+                        "#text": "LocalSystem"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7045"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-16 15:50:54.591885+00:00"
+                },
+                "EventRecordID": "426757",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "684",
+                    "@ThreadID": "8852"
+                },
+                "Channel": "System",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1627"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "Npcap Packet Driver (NPCAP)"
+                    },
+                    {
+                        "@Name": "ImagePath",
+                        "#text": "\\SystemRoot\\system32\\DRIVERS\\npcap.sys"
+                    },
+                    {
+                        "@Name": "ServiceType",
+                        "#text": "kernel mode driver"
+                    },
+                    {
+                        "@Name": "StartType",
+                        "#text": "demand start"
+                    },
+                    {
+                        "@Name": "AccountName"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7045"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-26 16:12:22.200117+00:00"
+                },
+                "EventRecordID": "453867",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "684",
+                    "@ThreadID": "10560"
+                },
+                "Channel": "System",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "mimikatz driver (mimidrv)"
+                    },
+                    {
+                        "@Name": "ImagePath",
+                        "#text": "C:\\TOOLS\\Security_tool\\Mimikatz-fev-2020\\mimidrv.sys"
+                    },
+                    {
+                        "@Name": "ServiceType",
+                        "#text": "kernel mode driver"
+                    },
+                    {
+                        "@Name": "StartType",
+                        "#text": "auto start"
+                    },
+                    {
+                        "@Name": "AccountName"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7045"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-26 16:17:35.489920+00:00"
+                },
+                "EventRecordID": "453879",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "684",
+                    "@ThreadID": "1164"
+                },
+                "Channel": "System",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "mimikatz driver (mimidrv)"
+                    },
+                    {
+                        "@Name": "ImagePath",
+                        "#text": "C:\\TOOLS\\Security_tool\\Mimikatz-fev-2020\\mimidrv.sys"
+                    },
+                    {
+                        "@Name": "ServiceType",
+                        "#text": "kernel mode driver"
+                    },
+                    {
+                        "@Name": "StartType",
+                        "#text": "auto start"
+                    },
+                    {
+                        "@Name": "AccountName"
+                    }
+                ]
+            }
+        }
+    }
+]

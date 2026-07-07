@@ -1,0 +1,20 @@
+title: Cron Job Persistence
+id: DET-0009
+status: stable
+description: Detects creation or modification of cron jobs.
+author: Narean Prasath
+date: 2026-07-07
+logsource:
+  product: linux
+  service: auditd
+detection:
+  selection:
+    target|regex: (/etc/crontab|/etc/cron\.d/|/var/spool/cron/)
+  condition: selection
+falsepositives:
+- Scheduled administrative tasks
+level: medium
+mitre:
+  tactic: Persistence
+  technique: Scheduled Task
+  attack_id: T1053.003

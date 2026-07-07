@@ -1,0 +1,48 @@
+title: Enhanced Encoded PowerShell Execution
+
+id: DET-0014
+
+status: stable
+
+description: |
+  Detects PowerShell launched with Base64-encoded commands using enhanced
+  detection logic with regex pattern matching. Covers multiple encoding flags
+  and case variations.
+
+author: Narean Prasath
+
+date: 2026-07-07
+
+logsource:
+  product: windows
+  category: process_creation
+
+detection:
+  selection:
+    process_name|contains: powershell
+    command_line|regex: '-(enc|encodedcommand|ec|e)'
+  condition: selection
+  case_sensitive: false
+
+falsepositives:
+  - Administrative automation scripts
+  - Legitimate software deployment tools
+  - Configuration management systems
+
+level: high
+
+mitre:
+  tactic: Execution
+  technique: PowerShell
+  attack_id: T1059.001
+
+references:
+  - https://attack.mitre.org/techniques/T1059/001/
+  - https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_powershell_exe
+
+tags:
+  - windows
+  - powershell
+  - execution
+  - obfuscation
+  - attack.t1059.001

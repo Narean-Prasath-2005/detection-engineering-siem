@@ -1,0 +1,226 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1102"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x4020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-14 20:39:33.214544+00:00"
+                },
+                "EventRecordID": "1829531",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "948",
+                    "@ThreadID": "3768"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserSid": "S-1-5-21-4230534742-2542757381-3142984815-1111",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "SubjectLogonId": "0x00000000013b593d"
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-14 20:39:35.382502+00:00"
+                },
+                "EventRecordID": "1829532",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "4288"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000013b593d"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000000bd8"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Windows\\System32\\sc.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1937"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000bc0"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "sc.exe  create hijackservice binpath= \"cmd.exe /k tscon 2 /dest:rdp-tcp#5\""
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-12288"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4697"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12289",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-14 20:39:35.406527+00:00"
+                },
+                "EventRecordID": "1829533",
+                "Correlation": {
+                    "@ActivityID": "{a67be420-4636-0001-36e4-7ba63646d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "4904"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000013b593d"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "hijackservice"
+                    },
+                    {
+                        "@Name": "ServiceFileName",
+                        "#text": "cmd.exe /k tscon 2 /dest:rdp-tcp#5"
+                    },
+                    {
+                        "@Name": "ServiceType",
+                        "#text": "0x00000010"
+                    },
+                    {
+                        "@Name": "ServiceStartType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "ServiceAccount",
+                        "#text": "LocalSystem"
+                    }
+                ]
+            }
+        }
+    }
+]

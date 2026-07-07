@@ -1,0 +1,20 @@
+title: SSH Authorized Keys Modification
+id: DET-0010
+status: stable
+description: Detects modification of the authorized_keys file used for SSH persistence.
+author: Narean Prasath
+date: 2026-07-07
+logsource:
+  product: linux
+  service: auditd
+detection:
+  selection:
+    target|contains: authorized_keys
+  condition: selection
+falsepositives:
+- Users adding legitimate SSH keys
+level: medium
+mitre:
+  tactic: Persistence
+  technique: SSH Authorized Keys
+  attack_id: T1098.004

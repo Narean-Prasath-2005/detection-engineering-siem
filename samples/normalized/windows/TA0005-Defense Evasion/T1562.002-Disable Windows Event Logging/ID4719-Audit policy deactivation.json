@@ -1,0 +1,2192 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109446",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8272"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12288"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9210-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109447",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8272"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12289"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9211-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109448",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8272"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12290"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9212-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109449",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8272"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12292"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9214-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109450",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8273"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12544"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9215-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109451",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8273"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12546"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9217-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109452",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8273"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12548"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce921b-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109453",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8273"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12551"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce921c-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109454",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8274"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12800"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce921d-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109455",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8274"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12801"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce921e-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109456",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8274"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12802"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce921f-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109457",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8274"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12803"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9220-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109458",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8274"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12804"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9227-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109459",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8274"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12807"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9223-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109460",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8274"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12808"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9224-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109461",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8274"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%12811"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9244-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109462",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8275"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13056"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9228-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109463",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8276"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13312"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce922b-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109464",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8276"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13316"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9248-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109465",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8277"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13568"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce922f-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109466",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8277"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13569"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9230-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109467",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8277"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13570"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9231-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109468",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8277"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13571"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9232-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109469",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8277"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13573"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9234-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109470",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8278"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13824"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9235-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109471",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8278"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13825"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9236-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109472",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8278"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13826"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9237-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109473",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8278"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%13829"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce923a-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109474",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8280"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%14336"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce923f-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4719"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13568",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:30:36.515905+00:00"
+                },
+                "EventRecordID": "109475",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "492",
+                    "@ThreadID": "2872"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000123550"
+                    },
+                    {
+                        "@Name": "CategoryId",
+                        "#text": "%%8280"
+                    },
+                    {
+                        "@Name": "SubcategoryId",
+                        "#text": "%%14338"
+                    },
+                    {
+                        "@Name": "SubcategoryGuid",
+                        "#text": "{0cce9241-69ae-11d9-bed3-505054503030}"
+                    },
+                    {
+                        "@Name": "AuditPolicyChanges",
+                        "#text": "%%8448, %%8450"
+                    }
+                ]
+            }
+        }
+    }
+]

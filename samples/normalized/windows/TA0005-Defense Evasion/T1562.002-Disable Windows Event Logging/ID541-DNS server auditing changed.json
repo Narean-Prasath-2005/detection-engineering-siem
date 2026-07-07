@@ -1,0 +1,320 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNSServer",
+                    "@Guid": "{eb79061a-a566-4698-9119-3ed2807060e7}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "541"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "10",
+                "Opcode": "0",
+                "Keywords": "0x4000000008000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-01-08 22:23:37.990850+00:00"
+                },
+                "EventRecordID": "3220",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "6244",
+                    "@ThreadID": "2748"
+                },
+                "Channel": "Microsoft-Windows-DNSServer/Audit",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-392370121-190461309-2151315433-1108"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Setting",
+                        "#text": "EventLogLevel"
+                    },
+                    {
+                        "@Name": "Scope",
+                        "#text": "."
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "7"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNSServer",
+                    "@Guid": "{eb79061a-a566-4698-9119-3ed2807060e7}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "541"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "10",
+                "Opcode": "0",
+                "Keywords": "0x4000000008000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-01-08 22:23:52.145838+00:00"
+                },
+                "EventRecordID": "3221",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "6244",
+                    "@ThreadID": "2748"
+                },
+                "Channel": "Microsoft-Windows-DNSServer/Audit",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-392370121-190461309-2151315433-1108"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Setting",
+                        "#text": "EnableDnsSec"
+                    },
+                    {
+                        "@Name": "Scope",
+                        "#text": "."
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNSServer",
+                    "@Guid": "{eb79061a-a566-4698-9119-3ed2807060e7}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "541"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "10",
+                "Opcode": "0",
+                "Keywords": "0x4000000008000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-01-08 22:23:52.146351+00:00"
+                },
+                "EventRecordID": "3222",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "6244",
+                    "@ThreadID": "2748"
+                },
+                "Channel": "Microsoft-Windows-DNSServer/Audit",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-392370121-190461309-2151315433-1108"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Setting",
+                        "#text": "EventLogLevel"
+                    },
+                    {
+                        "@Name": "Scope",
+                        "#text": "."
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "2"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNSServer",
+                    "@Guid": "{eb79061a-a566-4698-9119-3ed2807060e7}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "541"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "10",
+                "Opcode": "0",
+                "Keywords": "0x4000000008000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-01-08 22:23:53.834827+00:00"
+                },
+                "EventRecordID": "3223",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "6244",
+                    "@ThreadID": "2748"
+                },
+                "Channel": "Microsoft-Windows-DNSServer/Audit",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-392370121-190461309-2151315433-1108"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Setting",
+                        "#text": "EventLogLevel"
+                    },
+                    {
+                        "@Name": "Scope",
+                        "#text": "."
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNSServer",
+                    "@Guid": "{eb79061a-a566-4698-9119-3ed2807060e7}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "541"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "10",
+                "Opcode": "0",
+                "Keywords": "0x4000000008000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-01-08 22:23:55.567158+00:00"
+                },
+                "EventRecordID": "3224",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "6244",
+                    "@ThreadID": "2748"
+                },
+                "Channel": "Microsoft-Windows-DNSServer/Audit",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-392370121-190461309-2151315433-1108"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Setting",
+                        "#text": "EventLogLevel"
+                    },
+                    {
+                        "@Name": "Scope",
+                        "#text": "."
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNSServer",
+                    "@Guid": "{eb79061a-a566-4698-9119-3ed2807060e7}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "541"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "10",
+                "Opcode": "0",
+                "Keywords": "0x4000000008000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-01-08 22:23:57.528009+00:00"
+                },
+                "EventRecordID": "3225",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "6244",
+                    "@ThreadID": "2748"
+                },
+                "Channel": "Microsoft-Windows-DNSServer/Audit",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-392370121-190461309-2151315433-1108"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Setting",
+                        "#text": "EventLogLevel"
+                    },
+                    {
+                        "@Name": "Scope",
+                        "#text": "."
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "7"
+                    }
+                ]
+            }
+        }
+    }
+]

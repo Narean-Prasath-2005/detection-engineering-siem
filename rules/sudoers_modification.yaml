@@ -1,0 +1,20 @@
+title: Linux Sudoers Modification
+id: DET-0011
+status: stable
+description: Detects modification of sudo privilege configuration.
+author: Narean Prasath
+date: 2026-07-07
+logsource:
+  product: linux
+  service: auditd
+detection:
+  selection:
+    target|regex: (/etc/sudoers|/etc/sudoers\.d/)
+  condition: selection
+falsepositives:
+- Legitimate privilege management
+level: high
+mitre:
+  tactic: Privilege Escalation
+  technique: Abuse Elevation Control Mechanism
+  attack_id: T1548

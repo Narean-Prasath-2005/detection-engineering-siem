@@ -1,0 +1,378 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-12-16 13:08:49.235743+00:00"
+                },
+                "EventRecordID": "246566",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1300",
+                    "@ThreadID": "184"
+                },
+                "Channel": "System",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-392370121-190461309-2151315433-1239"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmiguel",
+                    "SubjectDomainName": "ROOTBLUE",
+                    "Channel": "System",
+                    "BackupPath": null,
+                    "ClientProcessId": "0",
+                    "ClientProcessStartKey": "0"
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7036"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-12-16 13:09:45.884970+00:00"
+                },
+                "EventRecordID": "246567",
+                "Correlation": {
+                    "@ActivityID": "{280b86e9-9f76-4650-a376-78fab5b29ac8}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "612",
+                    "@ThreadID": "1488"
+                },
+                "Channel": "System",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "Windows Modules Installer"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "running"
+                    }
+                ],
+                "Binary": "VAByAHUAcwB0AGUAZABJAG4AcwB0AGEAbABsAGUAcgAvADQAAAA="
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Kerberos-Key-Distribution-Center",
+                    "@Guid": "{3FD9DA1A-5A54-46C5-9A26-9BD7C0685056}",
+                    "@EventSourceName": "KDC"
+                },
+                "EventID": {
+                    "@Qualifiers": "32768",
+                    "#text": "39"
+                },
+                "Version": "0",
+                "Level": "2",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-12-16 13:09:57.871456+00:00"
+                },
+                "EventRecordID": "246568",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "0",
+                    "@ThreadID": "0"
+                },
+                "Channel": "System",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "AccountName",
+                        "#text": "adminstefan"
+                    },
+                    {
+                        "@Name": "Subject",
+                        "#text": "@@@CN=Domadm"
+                    },
+                    {
+                        "@Name": "Issuer",
+                        "#text": "cdc-root-blue-ca"
+                    },
+                    {
+                        "@Name": "SerialNumber",
+                        "#text": "480000000C9D1B77F1E3BB650700000000000C"
+                    },
+                    {
+                        "@Name": "Thumbprint",
+                        "#text": "5ACA20F5C564A253D5605A43219C73837FB0CCB8"
+                    },
+                    {
+                        "@Name": "IssuancePolicies"
+                    }
+                ],
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7040"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-12-16 13:10:25.566416+00:00"
+                },
+                "EventRecordID": "246569",
+                "Correlation": {
+                    "@ActivityID": "{768419e1-3625-402b-a758-c2752b2c78a4}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "612",
+                    "@ThreadID": "2724"
+                },
+                "Channel": "System",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "Background Intelligent Transfer Service"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "auto start"
+                    },
+                    {
+                        "@Name": "param3",
+                        "#text": "demand start"
+                    },
+                    {
+                        "@Name": "param4",
+                        "#text": "BITS"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7036"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-12-16 13:10:25.613289+00:00"
+                },
+                "EventRecordID": "246570",
+                "Correlation": {
+                    "@ActivityID": "{61e6e153-92af-4efd-b3ed-195d251b44cd}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "612",
+                    "@ThreadID": "1488"
+                },
+                "Channel": "System",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "Background Intelligent Transfer Service"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "stopped"
+                    }
+                ],
+                "Binary": "QgBJAFQAUwAvADEAAAA="
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7036"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-12-16 13:11:46.115471+00:00"
+                },
+                "EventRecordID": "246571",
+                "Correlation": {
+                    "@ActivityID": "{4b49966a-85b3-4985-8bb2-7f3a3a20eb60}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "612",
+                    "@ThreadID": "1488"
+                },
+                "Channel": "System",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "Network Setup Service"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "stopped"
+                    }
+                ],
+                "Binary": "TgBlAHQAUwBlAHQAdQBwAFMAdgBjAC8AMQAAAA=="
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "7036"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-12-16 13:11:59.476385+00:00"
+                },
+                "EventRecordID": "246572",
+                "Correlation": {
+                    "@ActivityID": "{6a28a636-f230-4699-8fe0-c5d403893bd2}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "612",
+                    "@ThreadID": "1488"
+                },
+                "Channel": "System",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "Windows Modules Installer"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "stopped"
+                    }
+                ],
+                "Binary": "VAByAHUAcwB0AGUAZABJAG4AcwB0AGEAbABsAGUAcgAvADEAAAA="
+            }
+        }
+    }
+]

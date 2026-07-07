@@ -1,15 +1,25 @@
-title: LSASS Dump via comsvcs.dll MiniDump
-id: DET-002
-severity: CRITICAL
-
+title: LSASS Memory Dump via comsvcs.dll
+id: DET-0002
+status: stable
+description: Detects dumping of LSASS memory using comsvcs.dll MiniDump.
+author: Narean Prasath
+date: 2026-07-07
+logsource:
+  product: windows
+  category: process_creation
 detection:
-  event_id: "4688"
-  process_name: "rundll32.exe"
-
-  commandline_contains:
-    - "comsvcs.dll"
-    - "MiniDump"
-
+  selection:
+    command_line|regex: comsvcs\.dll.*MiniDump
+  condition: selection
+falsepositives:
+- Rare administrator troubleshooting
+level: critical
 mitre:
   tactic: Credential Access
-  technique: T1003.001
+  technique: OS Credential Dumping
+  attack_id: T1003.001
+references:
+- https://attack.mitre.org/techniques/T1003/001/
+tags:
+- credential-access
+- lsass

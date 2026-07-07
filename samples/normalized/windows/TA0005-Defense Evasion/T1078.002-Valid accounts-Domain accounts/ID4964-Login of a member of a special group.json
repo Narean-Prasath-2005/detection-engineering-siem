@@ -1,0 +1,682 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4964"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12548",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 06:01:42.241135+00:00"
+                },
+                "EventRecordID": "16088306",
+                "Correlation": {
+                    "@ActivityID": "{6d05f384-4f78-0000-aef3-056d784fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "2796"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-19"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "LOCAL SERVICE"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "NT AUTHORITY"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e5"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000080e3882"
+                    },
+                    {
+                        "@Name": "TargetLogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "SidList",
+                        "#text": "%{S-1-5-21-4230534742-2542757381-3142984815-1613}"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4964"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12548",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 06:01:57.704214+00:00"
+                },
+                "EventRecordID": "16089306",
+                "Correlation": {
+                    "@ActivityID": "{6d05f384-4f78-0000-aef3-056d784fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3836"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000080e977e"
+                    },
+                    {
+                        "@Name": "TargetLogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "SidList",
+                        "#text": "%{S-1-5-21-4230534742-2542757381-3142984815-1613}"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4964"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12548",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 06:01:57.709290+00:00"
+                },
+                "EventRecordID": "16089314",
+                "Correlation": {
+                    "@ActivityID": "{6d05f384-4f78-0000-aef3-056d784fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3836"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000080e9795"
+                    },
+                    {
+                        "@Name": "TargetLogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "SidList",
+                        "#text": "%{S-1-5-21-4230534742-2542757381-3142984815-1613}"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4964"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12548",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 06:01:57.710035+00:00"
+                },
+                "EventRecordID": "16089318",
+                "Correlation": {
+                    "@ActivityID": "{6d05f384-4f78-0000-aef3-056d784fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3836"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000080e97a8"
+                    },
+                    {
+                        "@Name": "TargetLogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "SidList",
+                        "#text": "%{S-1-5-21-4230534742-2542757381-3142984815-1613}"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4964"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12548",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 06:01:57.710623+00:00"
+                },
+                "EventRecordID": "16089322",
+                "Correlation": {
+                    "@ActivityID": "{6d05f384-4f78-0000-aef3-056d784fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3836"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "ROOTDC1$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000080e97ba"
+                    },
+                    {
+                        "@Name": "TargetLogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "SidList",
+                        "#text": "%{S-1-5-21-4230534742-2542757381-3142984815-1613}"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4964"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12548",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 06:02:23.166845+00:00"
+                },
+                "EventRecordID": "16089367",
+                "Correlation": {
+                    "@ActivityID": "{6d05f384-4f78-0000-aef3-056d784fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3468"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-19"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "LOCAL SERVICE"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "NT AUTHORITY"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e5"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000080e9fa1"
+                    },
+                    {
+                        "@Name": "TargetLogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "SidList",
+                        "#text": "%{S-1-5-21-4230534742-2542757381-3142984815-1613}"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4964"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12548",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 06:02:23.195251+00:00"
+                },
+                "EventRecordID": "16089380",
+                "Correlation": {
+                    "@ActivityID": "{6d05f384-4f78-0000-aef3-056d784fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3468"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-19"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "LOCAL SERVICE"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "NT AUTHORITY"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e5"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000080ea061"
+                    },
+                    {
+                        "@Name": "TargetLogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "SidList",
+                        "#text": "%{S-1-5-21-4230534742-2542757381-3142984815-1613}"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4964"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12548",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 06:03:28.590963+00:00"
+                },
+                "EventRecordID": "16089548",
+                "Correlation": {
+                    "@ActivityID": "{6d05f384-4f78-0000-aef3-056d784fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3468"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-19"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "LOCAL SERVICE"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "NT AUTHORITY"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e5"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000080eb079"
+                    },
+                    {
+                        "@Name": "TargetLogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "SidList",
+                        "#text": "%{S-1-5-21-4230534742-2542757381-3142984815-1613}"
+                    }
+                ]
+            }
+        }
+    }
+]

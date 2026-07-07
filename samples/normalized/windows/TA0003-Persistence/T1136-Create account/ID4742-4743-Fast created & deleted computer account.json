@@ -1,0 +1,389 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4742"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13825",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 19:36:41.882963+00:00"
+                },
+                "EventRecordID": "16334929",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ComputerAccountChange",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "HIDDEN-PC$"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1167"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-7"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "ANONYMOUS LOGON"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "NT AUTHORITY"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e6"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "7/12/2020 7:36:41 PM"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DnsHostName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ServicePrincipalNames",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4742"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13825",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 19:36:41.884401+00:00"
+                },
+                "EventRecordID": "16334931",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ComputerAccountChange",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "HIDDEN-PC$"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1167"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000087e454b"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "0x85"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "0x84"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "%%2048"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DnsHostName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ServicePrincipalNames",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4743"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13825",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 19:36:44.227879+00:00"
+                },
+                "EventRecordID": "16334944",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "HIDDEN-PC$"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1167"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000087e482b"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

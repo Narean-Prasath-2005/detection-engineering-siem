@@ -1,0 +1,143 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Wininit",
+                    "@Guid": "{206f6dea-d3c5-4d10-bc72-989f03c8b84b}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "14"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x4000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-09 11:39:23.354021+00:00"
+                },
+                "EventRecordID": "5375",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "568",
+                    "@ThreadID": "572"
+                },
+                "Channel": "System",
+                "Computer": "WIN10-client01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Config",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "IsTestConfig",
+                        "#text": "0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Wininit",
+                    "@Guid": "{206f6dea-d3c5-4d10-bc72-989f03c8b84b}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "14"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x4000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-09 11:59:37.888363+00:00"
+                },
+                "EventRecordID": "5455",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "560",
+                    "@ThreadID": "564"
+                },
+                "Channel": "System",
+                "Computer": "WIN10-client01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Config",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "IsTestConfig",
+                        "#text": "0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Wininit",
+                    "@Guid": "{206f6dea-d3c5-4d10-bc72-989f03c8b84b}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x4000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-09 11:59:37.890339+00:00"
+                },
+                "EventRecordID": "5456",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "560",
+                    "@ThreadID": "564"
+                },
+                "Channel": "System",
+                "Computer": "WIN10-client01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": {
+                    "@Name": "Level",
+                    "#text": "4"
+                }
+            }
+        }
+    }
+]

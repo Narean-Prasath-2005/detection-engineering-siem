@@ -1,0 +1,4188 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:04:30.334471+00:00"
+                },
+                "EventRecordID": "5073",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "System",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1102"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x4020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:09:51.875656+00:00"
+                },
+                "EventRecordID": "109054",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "Security",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserSid": "S-1-5-21-4230534742-2542757381-3142984815-1111",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "SubjectLogonId": "0x0000000000123550"
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.002008+00:00"
+                },
+                "EventRecordID": "5074",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Application",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.080130+00:00"
+                },
+                "EventRecordID": "5075",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "ForwardedEvents",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.095757+00:00"
+                },
+                "EventRecordID": "5076",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "HardwareEvents",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.127007+00:00"
+                },
+                "EventRecordID": "5077",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Internet Explorer",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.142632+00:00"
+                },
+                "EventRecordID": "5078",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Key Management Service",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.215017+00:00"
+                },
+                "EventRecordID": "5079",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Management-UI/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.293137+00:00"
+                },
+                "EventRecordID": "5080",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Rdms-UI/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.340019+00:00"
+                },
+                "EventRecordID": "5081",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Rdms-UI/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.355635+00:00"
+                },
+                "EventRecordID": "5082",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-WS-Licensing/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.418135+00:00"
+                },
+                "EventRecordID": "5083",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-ASN1/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.480633+00:00"
+                },
+                "EventRecordID": "5084",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-All-User-Install-Agent/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.527508+00:00"
+                },
+                "EventRecordID": "5085",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppHost/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.574381+00:00"
+                },
+                "EventRecordID": "5086",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppID/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.591167+00:00"
+                },
+                "EventRecordID": "5087",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppLocker/EXE and DLL",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.606802+00:00"
+                },
+                "EventRecordID": "5088",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppLocker/MSI and Script",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.638052+00:00"
+                },
+                "EventRecordID": "5089",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppLocker/Packaged app-Deployment",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.653687+00:00"
+                },
+                "EventRecordID": "5090",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppLocker/Packaged app-Execution",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.669300+00:00"
+                },
+                "EventRecordID": "5091",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppModel-Runtime/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.747431+00:00"
+                },
+                "EventRecordID": "5092",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppReadiness/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.778677+00:00"
+                },
+                "EventRecordID": "5093",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppReadiness/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.794306+00:00"
+                },
+                "EventRecordID": "5094",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppXDeployment/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.841187+00:00"
+                },
+                "EventRecordID": "5095",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppXDeploymentServer/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.856802+00:00"
+                },
+                "EventRecordID": "5096",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppXDeploymentServer/Restricted",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.888056+00:00"
+                },
+                "EventRecordID": "5097",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-ApplicabilityEngine/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.903683+00:00"
+                },
+                "EventRecordID": "5098",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Application Server-Applications/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.950554+00:00"
+                },
+                "EventRecordID": "5099",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Application Server-Applications/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:09.997429+00:00"
+                },
+                "EventRecordID": "5100",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.028679+00:00"
+                },
+                "EventRecordID": "5101",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Application-Experience/Program-Compatibility-Troubleshooter",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.044304+00:00"
+                },
+                "EventRecordID": "5102",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.059925+00:00"
+                },
+                "EventRecordID": "5103",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.075552+00:00"
+                },
+                "EventRecordID": "5104",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Application-Experience/Steps-Recorder",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.106800+00:00"
+                },
+                "EventRecordID": "5105",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-ApplicationResourceManagementSystem/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.138054+00:00"
+                },
+                "EventRecordID": "5106",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-AppxPackaging/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.184931+00:00"
+                },
+                "EventRecordID": "5107",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Audio/CaptureMonitor",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.200554+00:00"
+                },
+                "EventRecordID": "5108",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Audio/GlitchDetection",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.216183+00:00"
+                },
+                "EventRecordID": "5109",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Audio/Informational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.231800+00:00"
+                },
+                "EventRecordID": "5110",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Audio/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.263052+00:00"
+                },
+                "EventRecordID": "5111",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Audio/PlaybackManager",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.294306+00:00"
+                },
+                "EventRecordID": "5112",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Authentication User Interface/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.309927+00:00"
+                },
+                "EventRecordID": "5113",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Authentication/AuthenticationPolicyFailures-DomainController",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.325556+00:00"
+                },
+                "EventRecordID": "5114",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Authentication/ProtectedUser-Client",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.341183+00:00"
+                },
+                "EventRecordID": "5115",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Authentication/ProtectedUserFailures-DomainController",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.356806+00:00"
+                },
+                "EventRecordID": "5116",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Authentication/ProtectedUserSuccesses-DomainController",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.403677+00:00"
+                },
+                "EventRecordID": "5117",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-BackgroundTaskInfrastructure/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.419304+00:00"
+                },
+                "EventRecordID": "5118",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Backup",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.434935+00:00"
+                },
+                "EventRecordID": "5119",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Base-Filtering-Engine-Connections/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.450554+00:00"
+                },
+                "EventRecordID": "5120",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Base-Filtering-Engine-Resource-Flows/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.481800+00:00"
+                },
+                "EventRecordID": "5121",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-BestPractices/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.481800+00:00"
+                },
+                "EventRecordID": "5122",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Bits-Client/Analytic",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.497429+00:00"
+                },
+                "EventRecordID": "5123",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Bits-Client/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.528679+00:00"
+                },
+                "EventRecordID": "5124",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-CAPI2/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.747431+00:00"
+                },
+                "EventRecordID": "5125",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-CertPoleEng/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.763062+00:00"
+                },
+                "EventRecordID": "5126",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-CertificateServices-Deployment/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.778683+00:00"
+                },
+                "EventRecordID": "5127",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-CertificateServicesClient-CredentialRoaming/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.794304+00:00"
+                },
+                "EventRecordID": "5128",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-CertificateServicesClient-Lifecycle-System/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.809929+00:00"
+                },
+                "EventRecordID": "5129",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-CertificateServicesClient-Lifecycle-User/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.856806+00:00"
+                },
+                "EventRecordID": "5130",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-CodeIntegrity/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.934935+00:00"
+                },
+                "EventRecordID": "5131",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Compat-Appraiser/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:10.997429+00:00"
+                },
+                "EventRecordID": "5132",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Connected-Search/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.028683+00:00"
+                },
+                "EventRecordID": "5133",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-CoreApplication/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.091181+00:00"
+                },
+                "EventRecordID": "5134",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-CorruptedFileRecovery-Client/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.106810+00:00"
+                },
+                "EventRecordID": "5135",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-CorruptedFileRecovery-Server/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.184933+00:00"
+                },
+                "EventRecordID": "5136",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Crypto-DPAPI/BackUpKeySvc",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.200558+00:00"
+                },
+                "EventRecordID": "5137",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Crypto-DPAPI/Debug",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.216183+00:00"
+                },
+                "EventRecordID": "5138",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Crypto-DPAPI/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.247440+00:00"
+                },
+                "EventRecordID": "5139",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Crypto-NCrypt/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.341181+00:00"
+                },
+                "EventRecordID": "5140",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DAL-Provider/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.388065+00:00"
+                },
+                "EventRecordID": "5141",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DNS-Client/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.403681+00:00"
+                },
+                "EventRecordID": "5142",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DSC/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.450554+00:00"
+                },
+                "EventRecordID": "5143",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DSC/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.559931+00:00"
+                },
+                "EventRecordID": "5144",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DataIntegrityScan/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.575563+00:00"
+                },
+                "EventRecordID": "5145",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DataIntegrityScan/CrashRecovery",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.622433+00:00"
+                },
+                "EventRecordID": "5146",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DateTimeControlPanel/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.700558+00:00"
+                },
+                "EventRecordID": "5147",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DeviceSetupManager/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.747431+00:00"
+                },
+                "EventRecordID": "5148",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DeviceSetupManager/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.778681+00:00"
+                },
+                "EventRecordID": "5149",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DeviceSync/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.825556+00:00"
+                },
+                "EventRecordID": "5150",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Dhcp-Client/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.841181+00:00"
+                },
+                "EventRecordID": "5151",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Dhcp-Client/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.856808+00:00"
+                },
+                "EventRecordID": "5152",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "748"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DhcpNap/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.872429+00:00"
+                },
+                "EventRecordID": "5153",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-DhcpNap/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.888062+00:00"
+                },
+                "EventRecordID": "5154",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Dhcpv6-Client/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.903681+00:00"
+                },
+                "EventRecordID": "5155",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Dhcpv6-Client/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:11.997435+00:00"
+                },
+                "EventRecordID": "5156",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1204"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Diagnosis-DPS/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:12.059937+00:00"
+                },
+                "EventRecordID": "5157",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1204"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Diagnosis-PCW/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:12.075562+00:00"
+                },
+                "EventRecordID": "5158",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1204"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Diagnosis-PLA/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:12.106810+00:00"
+                },
+                "EventRecordID": "5159",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1204"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Diagnosis-Scripted/Admin",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:12.153683+00:00"
+                },
+                "EventRecordID": "5160",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1204"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Diagnosis-Scripted/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:12.184948+00:00"
+                },
+                "EventRecordID": "5161",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1912"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Eventlog",
+                    "@Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "104"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "104",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 18:11:12.247435+00:00"
+                },
+                "EventRecordID": "5162",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "712",
+                    "@ThreadID": "1692"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "UserData": {
+                "LogFileCleared": {
+                    "@xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog",
+                    "SubjectUserName": "admmig",
+                    "SubjectDomainName": "OFFSEC",
+                    "Channel": "Microsoft-Windows-Diagnostics-Networking/Operational",
+                    "BackupPath": null
+                }
+            }
+        }
+    }
+]

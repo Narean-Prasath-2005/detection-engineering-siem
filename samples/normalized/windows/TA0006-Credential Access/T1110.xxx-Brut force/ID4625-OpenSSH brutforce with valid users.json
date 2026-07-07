@@ -1,0 +1,1316 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-21 20:43:07.085039+00:00"
+                },
+                "EventRecordID": "1865211",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "3196"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FS01$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x00000000000010ec"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1936"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000011f0"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "\"C:\\Program Files\\OpenSSH-Win64\\sshd.exe\" -R"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-16384"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4648"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-21 20:43:07.153646+00:00"
+                },
+                "EventRecordID": "1865214",
+                "Correlation": {
+                    "@ActivityID": "{a67be420-4636-0001-36e4-7ba63646d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "628"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FS01$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "sshd_4332"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "VIRTUAL USERS"
+                    },
+                    {
+                        "@Name": "TargetLogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetServerName",
+                        "#text": "localhost"
+                    },
+                    {
+                        "@Name": "TargetInfo",
+                        "#text": "localhost"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000010ec"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-21 20:43:07.153746+00:00"
+                },
+                "EventRecordID": "1865215",
+                "Correlation": {
+                    "@ActivityID": "{a67be420-4636-0001-36e4-7ba63646d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "628"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FS01$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-111-3847866527-469524349-687026318-516638107-1125189541-4332"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "sshd_4332"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "VIRTUAL USERS"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000047a203c"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "5"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000010ec"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    },
+                    {
+                        "@Name": "RestrictedAdminMode",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "VirtualAccount",
+                        "#text": "%%1842"
+                    },
+                    {
+                        "@Name": "TargetLinkedLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ElevatedToken",
+                        "#text": "%%1842"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4688"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "13312",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-21 20:43:07.156040+00:00"
+                },
+                "EventRecordID": "1865219",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "5548"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FS01$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "NewProcessId",
+                        "#text": "0x0000000000000114"
+                    },
+                    {
+                        "@Name": "NewProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "TokenElevationType",
+                        "#text": "%%1936"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000010ec"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "\"C:\\Program Files\\OpenSSH-Win64\\sshd.exe\" -y"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "sshd_4332"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "VIRTUAL USERS"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000047a203c"
+                    },
+                    {
+                        "@Name": "ParentProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "MandatoryLabel",
+                        "#text": "S-1-16-12288"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4648"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-21 20:43:18.227131+00:00"
+                },
+                "EventRecordID": "1865223",
+                "Correlation": {
+                    "@ActivityID": "{a67be420-4636-0001-36e4-7ba63646d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "5956"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FS01$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonGuid",
+                        "#text": "{97ad5fcf-3ea2-fab2-2734-0d93ee711e8e}"
+                    },
+                    {
+                        "@Name": "TargetServerName",
+                        "#text": "localhost"
+                    },
+                    {
+                        "@Name": "TargetInfo",
+                        "#text": "localhost"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000010ec"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-21 20:43:18.227230+00:00"
+                },
+                "EventRecordID": "1865224",
+                "Correlation": {
+                    "@ActivityID": "{a67be420-4636-0001-36e4-7ba63646d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "5956"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FS01$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000047a2903"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "sshd"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Kerberos"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "FS01"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{97ad5fcf-3ea2-fab2-2734-0d93ee711e8e}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000010ec"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1832"
+                    },
+                    {
+                        "@Name": "RestrictedAdminMode",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "VirtualAccount",
+                        "#text": "%%1843"
+                    },
+                    {
+                        "@Name": "TargetLinkedLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ElevatedToken",
+                        "#text": "%%1842"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-21 20:43:22.562870+00:00"
+                },
+                "EventRecordID": "1865227",
+                "Correlation": {
+                    "@ActivityID": "{a67be420-4636-0001-36e4-7ba63646d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "628"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FS01$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig@offsec.lan"
+                    },
+                    {
+                        "@Name": "TargetDomainName"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "8"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "FS01"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000010ec"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-21 20:43:49.345730+00:00"
+                },
+                "EventRecordID": "1865228",
+                "Correlation": {
+                    "@ActivityID": "{a67be420-4636-0001-36e4-7ba63646d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "628"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FS01$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig@offsec.lan"
+                    },
+                    {
+                        "@Name": "TargetDomainName"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "8"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "FS01"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000010ec"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-21 20:43:50.131977+00:00"
+                },
+                "EventRecordID": "1865229",
+                "Correlation": {
+                    "@ActivityID": "{a67be420-4636-0001-36e4-7ba63646d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "628"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FS01$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig@offsec.lan"
+                    },
+                    {
+                        "@Name": "TargetDomainName"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "8"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "FS01"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000010ec"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-21 20:43:50.607016+00:00"
+                },
+                "EventRecordID": "1865230",
+                "Correlation": {
+                    "@ActivityID": "{a67be420-4636-0001-36e4-7ba63646d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "628"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FS01$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig@offsec.lan"
+                    },
+                    {
+                        "@Name": "TargetDomainName"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "8"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "FS01"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000010ec"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-21 20:43:50.866108+00:00"
+                },
+                "EventRecordID": "1865231",
+                "Correlation": {
+                    "@ActivityID": "{a67be420-4636-0001-36e4-7ba63646d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "628"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-18"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "FS01$"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig@offsec.lan"
+                    },
+                    {
+                        "@Name": "TargetDomainName"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "8"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "FS01"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x00000000000010ec"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Program Files\\OpenSSH-Win64\\sshd.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

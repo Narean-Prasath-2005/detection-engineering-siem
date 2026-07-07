@@ -1,0 +1,75 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNSServer",
+                    "@Guid": "{eb79061a-a566-4698-9119-3ed2807060e7}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "515"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "5",
+                "Opcode": "0",
+                "Keywords": "0x4000000000100000",
+                "TimeCreated": {
+                    "@SystemTime": "2025-01-08 22:36:57.003176+00:00"
+                },
+                "EventRecordID": "3227",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "6244",
+                    "@ThreadID": "1052"
+                },
+                "Channel": "Microsoft-Windows-DNSServer/Audit",
+                "Computer": "CDCWRDC01.rootblue.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-392370121-190461309-2151315433-1108"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Type",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "NAME",
+                        "#text": "*.hacker-zone"
+                    },
+                    {
+                        "@Name": "TTL",
+                        "#text": "3600"
+                    },
+                    {
+                        "@Name": "BufferSize",
+                        "#text": "4"
+                    },
+                    {
+                        "@Name": "RDATA",
+                        "#text": "wKgBsg=="
+                    },
+                    {
+                        "@Name": "Zone",
+                        "#text": "hacker-zone"
+                    },
+                    {
+                        "@Name": "ZoneScope",
+                        "#text": "Default"
+                    },
+                    {
+                        "@Name": "VirtualizationID",
+                        "#text": "."
+                    }
+                ]
+            }
+        }
+    }
+]

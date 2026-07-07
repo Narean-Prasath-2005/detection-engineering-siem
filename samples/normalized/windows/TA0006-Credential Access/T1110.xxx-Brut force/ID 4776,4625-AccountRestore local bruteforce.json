@@ -1,0 +1,2002 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.822395+00:00"
+                },
+                "EventRecordID": "11286",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "804"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.822643+00:00"
+                },
+                "EventRecordID": "11288",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "1732"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Administrator"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.822655+00:00"
+                },
+                "EventRecordID": "11289",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "8324"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Administrator"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.824356+00:00"
+                },
+                "EventRecordID": "11291",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "5036"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Administrator"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.824848+00:00"
+                },
+                "EventRecordID": "11293",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "1732"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Administrator"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.825027+00:00"
+                },
+                "EventRecordID": "11295",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "8324"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.825226+00:00"
+                },
+                "EventRecordID": "11297",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "5036"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Administrator"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.826342+00:00"
+                },
+                "EventRecordID": "11299",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "5036"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Administrator"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.827114+00:00"
+                },
+                "EventRecordID": "11301",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "5036"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Administrator"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.827824+00:00"
+                },
+                "EventRecordID": "11303",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "5036"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Administrator"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.828770+00:00"
+                },
+                "EventRecordID": "11305",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "5036"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.832136+00:00"
+                },
+                "EventRecordID": "11307",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "8324"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.833424+00:00"
+                },
+                "EventRecordID": "11310",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "8324"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.833906+00:00"
+                },
+                "EventRecordID": "11311",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "5036"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.835360+00:00"
+                },
+                "EventRecordID": "11313",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "5036"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4625"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-09-25 20:39:50.836430+00:00"
+                },
+                "EventRecordID": "11315",
+                "Correlation": {
+                    "@ActivityID": "{7a9ac068-ecd0-0001-9cc0-9a7ad0ecd901}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "760",
+                    "@ThreadID": "5036"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000393f6d"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0xc000006d"
+                    },
+                    {
+                        "@Name": "FailureReason",
+                        "#text": "%%2313"
+                    },
+                    {
+                        "@Name": "SubStatus",
+                        "#text": "0xc000006a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Advapi"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Negotiate"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000001b0c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Users\\Admin\\Desktop\\AccountRestore.bin\\AccountRestore.exe"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

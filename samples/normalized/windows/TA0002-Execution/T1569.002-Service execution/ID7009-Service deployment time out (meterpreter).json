@@ -1,0 +1,155 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "7009"
+                },
+                "Version": "0",
+                "Level": "2",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 12:08:13.536985+00:00"
+                },
+                "EventRecordID": "4935",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "484",
+                    "@ThreadID": "340"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "30000"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "gdKhvCScykzNFZKd"
+                    }
+                ],
+                "Binary": "QwBoAHoAZABYAHYAcwBOAAAA"
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "7009"
+                },
+                "Version": "0",
+                "Level": "2",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 12:13:45.028048+00:00"
+                },
+                "EventRecordID": "4945",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "484",
+                    "@ThreadID": "2908"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "30000"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "JyZPMMxJQxHFDMHV"
+                    }
+                ],
+                "Binary": "QgBPAGsARQBvAG0AdABWAAAA"
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Service Control Manager",
+                    "@Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                    "@EventSourceName": "Service Control Manager"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "7009"
+                },
+                "Version": "0",
+                "Level": "2",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 12:14:56.147827+00:00"
+                },
+                "EventRecordID": "4948",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "484",
+                    "@ThreadID": "1768"
+                },
+                "Channel": "System",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "30000"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "ItUrroruwhZwMrnl"
+                    }
+                ],
+                "Binary": "UgB0AEgAdABpAEIATwBEAAAA"
+            }
+        }
+    }
+]

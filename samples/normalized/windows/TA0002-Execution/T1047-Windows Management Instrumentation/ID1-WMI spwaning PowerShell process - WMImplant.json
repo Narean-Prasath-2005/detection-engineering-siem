@@ -1,0 +1,131 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1"
+                },
+                "Version": "5",
+                "Level": "4",
+                "Task": "1",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-11-08 15:01:27.604647+00:00"
+                },
+                "EventRecordID": "44867",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1068",
+                    "@ThreadID": "1628"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1086,technique_name=PowerShell"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-11-08 15:01:27.604"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{a57649d1-3bc7-6189-091b-5d0300000000}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1860"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                    },
+                    {
+                        "@Name": "FileVersion",
+                        "#text": "6.3.9600.17415 (winblue_r4.141028-1500)"
+                    },
+                    {
+                        "@Name": "Description",
+                        "#text": "Windows PowerShell"
+                    },
+                    {
+                        "@Name": "Product",
+                        "#text": "Microsoft\u00ae Windows\u00ae Operating System"
+                    },
+                    {
+                        "@Name": "Company",
+                        "#text": "Microsoft Corporation"
+                    },
+                    {
+                        "@Name": "OriginalFileName",
+                        "#text": "PowerShell.EXE"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "powershell $env:I4Pzl|.(Get-C`ommand ('{1}e{0}'-f'x','i'))"
+                    },
+                    {
+                        "@Name": "CurrentDirectory",
+                        "#text": "C:\\Windows\\system32\\"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "OFFSEC\\admmig"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{a57649d1-3bc7-6189-ad1a-5d0300000000}"
+                    },
+                    {
+                        "@Name": "LogonId",
+                        "#text": "0x00000000035d1aad"
+                    },
+                    {
+                        "@Name": "TerminalSessionId",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "IntegrityLevel",
+                        "#text": "High"
+                    },
+                    {
+                        "@Name": "Hashes",
+                        "#text": "SHA1=9F1E24917EF96BBB339F4E2A226ACAFD1009F47B,MD5=C031E215B8B08C752BF362F6D4C5D3AD,SHA256=840E1F9DC5A29BEBF01626822D7390251E9CF05BB3560BA7B68BDB8A41CF08E3,IMPHASH=099B747A4A31983374E54912D4BB7C44"
+                    },
+                    {
+                        "@Name": "ParentProcessGuid",
+                        "#text": "{a57649d1-1303-6179-d9c8-010000000000}"
+                    },
+                    {
+                        "@Name": "ParentProcessId",
+                        "#text": "1508"
+                    },
+                    {
+                        "@Name": "ParentImage",
+                        "#text": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe"
+                    },
+                    {
+                        "@Name": "ParentCommandLine",
+                        "#text": "C:\\Windows\\system32\\wbem\\wmiprvse.exe -secured -Embedding"
+                    }
+                ]
+            }
+        }
+    }
+]

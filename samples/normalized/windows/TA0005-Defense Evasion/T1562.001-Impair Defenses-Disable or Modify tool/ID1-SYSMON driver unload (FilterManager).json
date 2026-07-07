@@ -1,0 +1,67 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-FilterManager",
+                    "@Guid": "{f3c5e28e-63f6-49c7-a204-e48a1bc4b09d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-05-30 13:07:25.260750+00:00"
+                },
+                "EventRecordID": "2216",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "8952"
+                },
+                "Channel": "System",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "FinalStatus",
+                        "#text": "0x00000000"
+                    },
+                    {
+                        "@Name": "DeviceVersionMajor",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "DeviceVersionMinor",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "DeviceNameLength",
+                        "#text": "9"
+                    },
+                    {
+                        "@Name": "DeviceName",
+                        "#text": "SysmonDrv"
+                    },
+                    {
+                        "@Name": "DeviceTime",
+                        "#text": "2023-01-20 18:59:19+00:00"
+                    }
+                ]
+            }
+        }
+    }
+]

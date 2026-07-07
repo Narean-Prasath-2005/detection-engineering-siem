@@ -1,0 +1,122 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "ESENT"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "216"
+                },
+                "Level": "4",
+                "Task": "3",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-05 19:36:36.537144+00:00"
+                },
+                "EventRecordID": "442136",
+                "Channel": "Application",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>lsass</string>\n<string>548</string>\n<string></string>\n<string>C:\\Windows\\NTDS\\ntds.dit</string>\n<string>\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy5\\Windows\\NTDS\\ntds.dit</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "ESENT"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "325"
+                },
+                "Level": "4",
+                "Task": "1",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-05 19:36:55.706959+00:00"
+                },
+                "EventRecordID": "442150",
+                "Channel": "Application",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>NTDS</string>\n<string>7148</string>\n<string></string>\n<string>2</string>\n<string>c:\\hacker\\Active Directory\\ntds.dit</string>\n<string>0</string>\n<string>[1] 0.000, [2] 0.000, [3] 0.031, [4] 0.000, [5] 0.000, [6] 0.016, [7] 0.000, [8] 0.000, [9] 0.015, [10] 0.000, [11] 0.000.</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "ESENT"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "327"
+                },
+                "Level": "4",
+                "Task": "1",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-05 19:36:58.911037+00:00"
+                },
+                "EventRecordID": "442151",
+                "Channel": "Application",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>NTDS</string>\n<string>7148</string>\n<string></string>\n<string>2</string>\n<string>c:\\hacker\\Active Directory\\ntds.dit</string>\n<string>0</string>\n<string>[1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.000, [6] 0.078, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000, [11] 0.000, [12] 0.000.</string>\n<string>0 0</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "ESENT"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "327"
+                },
+                "Level": "4",
+                "Task": "1",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-05 19:36:58.926651+00:00"
+                },
+                "EventRecordID": "442152",
+                "Channel": "Application",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>NTDS</string>\n<string>7148</string>\n<string></string>\n<string>1</string>\n<string>C:\\$SNAP_202106051936_VOLUMEC$\\Windows\\NTDS\\ntds.dit</string>\n<string>0</string>\n<string>[1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.000, [6] 0.016, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000, [11] 0.000, [12] 0.000.</string>\n<string>0 0</string>",
+                "Binary": null
+            }
+        }
+    }
+]

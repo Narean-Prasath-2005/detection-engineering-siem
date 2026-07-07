@@ -1,0 +1,122 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSExchange CmdletLogs"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "6"
+                },
+                "Level": "2",
+                "Task": "1",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-04 08:41:47.982128+00:00"
+                },
+                "EventRecordID": "7184",
+                "Channel": "MSExchange Management",
+                "Computer": "exchange01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Install-TransportAgent</string>\n<string>-Name \"Evil\" -AssemblyPath \".\\NetshHelperBeacon.dll\" -TransportAgentFactory \"hack\"</string>\n<string>offsec.lan/OFFSEC-COMPANY/Administrators/admmig</string>\n<string>S-1-5-21-4230534742-2542757381-3142984815-1111</string>\n<string>S-1-5-21-4230534742-2542757381-3142984815-1111</string>\n<string>Remote-ManagementShell-Unknown</string>\n<string>8372 w3wp#MSExchangePowerShellAppPool</string>\n<string></string>\n<string>54</string>\n<string>00:00:00.0080007</string>\n<string>View Entire Forest: 'False', Default Scope: 'offsec.lan', Configuration Domain Controller: 'rootdc1.offsec.lan', Preferred Global Catalog: 'rootdc1.offsec.lan', Preferred Domain Controllers: '{ rootdc1.offsec.lan }'</string>\n<string>System.ArgumentException: The Transport Agent assembly file \".\\NetshHelperBeacon.dll\" doesn't exist.\nParameter name: AssemblyPath\n   at Microsoft.Exchange.Configuration.Tasks.Task.ThrowError(Exception exception, ErrorCategory errorCategory, Object target, String helpUrl)\n   at Microsoft.Exchange.Configuration.Tasks.Task.WriteError(Exception exception, ErrorCategory category, Object target)\n   at Microsoft.Exchange.Management.AgentTasks.InstallTransportAgent.InternalValidate()\n   at Microsoft.Exchange.Configuration.Tasks.Task.<ProcessRecord>b__91_1()\n   at Microsoft.Exchange.Configuration.Tasks.Task.InvokeRetryableFunc(String funcName, Action func, Boolean terminatePipelineIfFailed)</string>\n<string>5</string>\n<string></string>\n<string>NonLocalizedException</string>\n<string></string>\n<string></string>\n<string>False</string>\n<string></string>\n<string>0 objects execution has been proxied to remote server.</string>\n<string></string>\n<string></string>\n<string>0</string>\n<string>ActivityId: 82cc33be-98c2-4050-bd7f-53aaed825502</string>\n<string>ServicePlan:;IsAdmin:True;</string>\n<string></string>\n<string>en-US</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSExchange CmdletLogs"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "6"
+                },
+                "Level": "2",
+                "Task": "1",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-04 08:41:48.041136+00:00"
+                },
+                "EventRecordID": "7185",
+                "Channel": "MSExchange Management",
+                "Computer": "exchange01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Install-TransportAgent</string>\n<string>-Name \"Evil\" -AssemblyPath \".\\NetshHelperBeacon.dll\" -TransportAgentFactory \"hack\"</string>\n<string>offsec.lan/OFFSEC-COMPANY/Administrators/admmig</string>\n<string>S-1-5-21-4230534742-2542757381-3142984815-1111</string>\n<string>S-1-5-21-4230534742-2542757381-3142984815-1111</string>\n<string>Remote-ManagementShell-Unknown</string>\n<string>8372 w3wp#MSExchangePowerShellAppPool</string>\n<string></string>\n<string>54</string>\n<string>00:00:00.0590082</string>\n<string>View Entire Forest: 'False', Default Scope: 'offsec.lan', Configuration Domain Controller: 'rootdc1.offsec.lan', Preferred Global Catalog: 'rootdc1.offsec.lan', Preferred Domain Controllers: '{ rootdc1.offsec.lan }'</string>\n<string>System.ArgumentException: The Transport Agent assembly file \".\\NetshHelperBeacon.dll\" doesn't exist.\nParameter name: AssemblyPath\n   at Microsoft.Exchange.Configuration.Tasks.Task.ThrowError(Exception exception, ErrorCategory errorCategory, Object target, String helpUrl)\n   at Microsoft.Exchange.Configuration.Tasks.Task.WriteError(Exception exception, ErrorCategory category, Object target)\n   at Microsoft.Exchange.Management.AgentTasks.InstallTransportAgent.InternalValidate()\n   at Microsoft.Exchange.Configuration.Tasks.Task.<ProcessRecord>b__91_1()\n   at Microsoft.Exchange.Configuration.Tasks.Task.InvokeRetryableFunc(String funcName, Action func, Boolean terminatePipelineIfFailed)</string>\n<string>5</string>\n<string></string>\n<string>NonLocalizedException</string>\n<string></string>\n<string></string>\n<string>False</string>\n<string></string>\n<string>0 objects execution has been proxied to remote server.</string>\n<string></string>\n<string></string>\n<string>0</string>\n<string>ActivityId: 82cc33be-98c2-4050-bd7f-53aaed825502</string>\n<string>ServicePlan:;IsAdmin:True;</string>\n<string></string>\n<string>en-US</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSExchange CmdletLogs"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "6"
+                },
+                "Level": "2",
+                "Task": "1",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-04 08:43:08.476585+00:00"
+                },
+                "EventRecordID": "7186",
+                "Channel": "MSExchange Management",
+                "Computer": "exchange01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Enable-TransportAgent</string>\n<string>-Identity \"hack\"</string>\n<string>offsec.lan/OFFSEC-COMPANY/Administrators/admmig</string>\n<string>S-1-5-21-4230534742-2542757381-3142984815-1111</string>\n<string>S-1-5-21-4230534742-2542757381-3142984815-1111</string>\n<string>Remote-ManagementShell-Unknown</string>\n<string>8372 w3wp#MSExchangePowerShellAppPool</string>\n<string></string>\n<string>54</string>\n<string>00:00:00.1830123</string>\n<string>View Entire Forest: 'False', Default Scope: 'offsec.lan', Configuration Domain Controller: 'rootdc1.offsec.lan', Preferred Global Catalog: 'rootdc1.offsec.lan', Preferred Domain Controllers: '{ rootdc1.offsec.lan }'</string>\n<string>System.ArgumentException: Transport agent \"hack\" isn't found.\nParameter name: Identity\n   at Microsoft.Exchange.Configuration.Tasks.Task.ThrowError(Exception exception, ErrorCategory errorCategory, Object target, String helpUrl)\n   at Microsoft.Exchange.Management.AgentTasks.AgentBaseTask.SetAgentEnabled(String identity, Boolean enabled)\n   at Microsoft.Exchange.Management.AgentTasks.EnableTransportAgent.InternalProcessRecord()\n   at Microsoft.Exchange.Configuration.Tasks.Task.<ProcessRecord>b__91_1()\n   at Microsoft.Exchange.Configuration.Tasks.Task.InvokeRetryableFunc(String funcName, Action func, Boolean terminatePipelineIfFailed)</string>\n<string>5</string>\n<string></string>\n<string>NonLocalizedException</string>\n<string></string>\n<string></string>\n<string>False</string>\n<string></string>\n<string>0 objects execution has been proxied to remote server.</string>\n<string></string>\n<string></string>\n<string>0</string>\n<string>ActivityId: 51b67026-685e-41b9-ad71-bc1e46db849b</string>\n<string>ServicePlan:;IsAdmin:True;</string>\n<string></string>\n<string>en-US</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSExchange CmdletLogs"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "6"
+                },
+                "Level": "2",
+                "Task": "1",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-04 08:43:08.546589+00:00"
+                },
+                "EventRecordID": "7187",
+                "Channel": "MSExchange Management",
+                "Computer": "exchange01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>Enable-TransportAgent</string>\n<string>-Identity \"hack\"</string>\n<string>offsec.lan/OFFSEC-COMPANY/Administrators/admmig</string>\n<string>S-1-5-21-4230534742-2542757381-3142984815-1111</string>\n<string>S-1-5-21-4230534742-2542757381-3142984815-1111</string>\n<string>Remote-ManagementShell-Unknown</string>\n<string>8372 w3wp#MSExchangePowerShellAppPool</string>\n<string></string>\n<string>54</string>\n<string>00:00:00.0700039</string>\n<string>View Entire Forest: 'False', Default Scope: 'offsec.lan', Configuration Domain Controller: 'rootdc1.offsec.lan', Preferred Global Catalog: 'rootdc1.offsec.lan', Preferred Domain Controllers: '{ rootdc1.offsec.lan }'</string>\n<string>System.ArgumentException: Transport agent \"hack\" isn't found.\nParameter name: Identity\n   at Microsoft.Exchange.Configuration.Tasks.Task.ThrowError(Exception exception, ErrorCategory errorCategory, Object target, String helpUrl)\n   at Microsoft.Exchange.Management.AgentTasks.AgentBaseTask.SetAgentEnabled(String identity, Boolean enabled)\n   at Microsoft.Exchange.Management.AgentTasks.EnableTransportAgent.InternalProcessRecord()\n   at Microsoft.Exchange.Configuration.Tasks.Task.<ProcessRecord>b__91_1()\n   at Microsoft.Exchange.Configuration.Tasks.Task.InvokeRetryableFunc(String funcName, Action func, Boolean terminatePipelineIfFailed)</string>\n<string>5</string>\n<string></string>\n<string>NonLocalizedException</string>\n<string></string>\n<string></string>\n<string>False</string>\n<string></string>\n<string>0 objects execution has been proxied to remote server.</string>\n<string></string>\n<string></string>\n<string>0</string>\n<string>ActivityId: 51b67026-685e-41b9-ad71-bc1e46db849b</string>\n<string>ServicePlan:;IsAdmin:True;</string>\n<string></string>\n<string>en-US</string>",
+                "Binary": null
+            }
+        }
+    }
+]

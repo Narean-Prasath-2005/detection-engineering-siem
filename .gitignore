@@ -1,19 +1,42 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
 
 # Virtual environments
 venv/
+env/
+ENV/
 
-# Databases
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases (SQLite)
 *.db
+*.sqlite
+*.sqlite3
 
-# IDE
+# IDEs
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
-# OS files
+# OS
 .DS_Store
+Thumbs.db
 
-# Large generated files
-samples/normalized/
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak

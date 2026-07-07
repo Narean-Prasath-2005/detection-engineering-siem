@@ -1,0 +1,96 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4768"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-26 20:24:46.570112+00:00"
+                },
+                "EventRecordID": "151208121",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "548",
+                    "@ThreadID": "7064"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-test"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "offsec.lan"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1620"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt"
+                    },
+                    {
+                        "@Name": "ServiceSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-502"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x40800010"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000000"
+                    },
+                    {
+                        "@Name": "TicketEncryptionType",
+                        "#text": "0x00000017"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.23.9"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "51335"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    }
+]

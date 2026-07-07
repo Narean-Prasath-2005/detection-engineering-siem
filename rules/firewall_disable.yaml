@@ -1,12 +1,20 @@
-title: Firewall Disabled
-id: DET-005
-severity: HIGH
+title: Windows Firewall Disabled
+id: DET-0004
+status: stable
+description: Detects Windows Firewall being disabled.
+author: Narean Prasath
+date: 2026-07-07
+logsource:
+  product: windows
+  category: process_creation
 detection:
-  event_id: '4688'
-  process_name: netsh.exe
-  commandline_contains:
-  - firewall
-  - 'off'
+  selection:
+    command_line|contains: netsh advfirewall set allprofiles state off
+  condition: selection
+falsepositives:
+- Administrator configuration
+level: high
 mitre:
   tactic: Defense Evasion
-  technique: T1562.004
+  technique: Impair Defenses
+  attack_id: T1562.004

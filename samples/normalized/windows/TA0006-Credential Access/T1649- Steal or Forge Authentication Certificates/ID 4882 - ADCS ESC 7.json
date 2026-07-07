@@ -1,0 +1,63 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4882"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2026-01-11 20:49:14.383652+00:00"
+                },
+                "EventRecordID": "4378390",
+                "Correlation": {
+                    "@ActivityID": "{a6055703-7067-0000-7758-05a66770dc01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "636",
+                    "@ThreadID": "2612"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SecuritySettings",
+                        "#text": "Allow(0x00000303)\tEveryone\n\tCA Administrator\n\tCertificate Manager\n\tRead\n\tEnroll\nAllow(0x00000200)\tNT AUTHORITY\\Authenticated Users\n\tEnroll\nAllow(0x00000300)\tNT AUTHORITY\\Authenticated Users\n\tRead\n\tEnroll\nAllow(0x00000303)\tROOTBLUE\\cdc.esc7\n\tCA Administrator\n\tCertificate Manager\n\tRead\n\tEnroll\nAllow(0x00000003)\tROOTBLUE\\Domain Admins\n\tCA Administrator\n\tCertificate Manager\nAllow(0x00000003)\tROOTBLUE\\Enterprise Admins\n\tCA Administrator\n\tCertificate Manager\nAllow(0x00000003)\tBUILTIN\\Administrators\n\tCA Administrator\n\tCertificate Manager"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1239"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmiguel"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000003b16816f"
+                    }
+                ]
+            }
+        }
+    }
+]

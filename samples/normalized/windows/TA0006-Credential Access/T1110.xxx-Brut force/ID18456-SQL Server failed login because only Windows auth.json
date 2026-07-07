@@ -1,0 +1,182 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSSQL$RADAR"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "18456"
+                },
+                "Level": "0",
+                "Task": "4",
+                "Keywords": "0x0090000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-15 11:31:15.673796+00:00"
+                },
+                "EventRecordID": "58848",
+                "Channel": "Application",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>unexisting-user</string>\n<string> Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only.</string>\n<string> [CLIENT: 10.23.23.9]</string>",
+                "Binary": "GEgAAA4AAAAOAAAATQBTAFMAUQBMADAAMQBcAFIAQQBEAEEAUgAAAAcAAABtAGEAcwB0AGUAcgAAAA=="
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSSQL$RADAR"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "18456"
+                },
+                "Level": "0",
+                "Task": "4",
+                "Keywords": "0x0090000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-15 11:31:18.545071+00:00"
+                },
+                "EventRecordID": "58849",
+                "Channel": "Application",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>unexisting-user</string>\n<string> Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only.</string>\n<string> [CLIENT: 10.23.23.9]</string>",
+                "Binary": "GEgAAA4AAAAOAAAATQBTAFMAUQBMADAAMQBcAFIAQQBEAEEAUgAAAAcAAABtAGEAcwB0AGUAcgAAAA=="
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSSQL$RADAR"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "18456"
+                },
+                "Level": "0",
+                "Task": "4",
+                "Keywords": "0x0090000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-15 11:31:19.447638+00:00"
+                },
+                "EventRecordID": "58850",
+                "Channel": "Application",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>unexisting-user</string>\n<string> Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only.</string>\n<string> [CLIENT: 10.23.23.9]</string>",
+                "Binary": "GEgAAA4AAAAOAAAATQBTAFMAUQBMADAAMQBcAFIAQQBEAEEAUgAAAAcAAABtAGEAcwB0AGUAcgAAAA=="
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSSQL$RADAR"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "18456"
+                },
+                "Level": "0",
+                "Task": "4",
+                "Keywords": "0x0090000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-15 11:31:20.182016+00:00"
+                },
+                "EventRecordID": "58851",
+                "Channel": "Application",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>unexisting-user</string>\n<string> Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only.</string>\n<string> [CLIENT: 10.23.23.9]</string>",
+                "Binary": "GEgAAA4AAAAOAAAATQBTAFMAUQBMADAAMQBcAFIAQQBEAEEAUgAAAAcAAABtAGEAcwB0AGUAcgAAAA=="
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSSQL$RADAR"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "18456"
+                },
+                "Level": "0",
+                "Task": "4",
+                "Keywords": "0x0090000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-15 11:31:20.827728+00:00"
+                },
+                "EventRecordID": "58856",
+                "Channel": "Application",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>unexisting-user</string>\n<string> Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only.</string>\n<string> [CLIENT: 10.23.23.9]</string>",
+                "Binary": "GEgAAA4AAAAOAAAATQBTAFMAUQBMADAAMQBcAFIAQQBEAEEAUgAAAAcAAABtAGEAcwB0AGUAcgAAAA=="
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSSQL$RADAR"
+                },
+                "EventID": {
+                    "@Qualifiers": "49152",
+                    "#text": "18456"
+                },
+                "Level": "0",
+                "Task": "4",
+                "Keywords": "0x0090000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-15 11:31:21.474283+00:00"
+                },
+                "EventRecordID": "58857",
+                "Channel": "Application",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>unexisting-user</string>\n<string> Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only.</string>\n<string> [CLIENT: 10.23.23.9]</string>",
+                "Binary": "GEgAAA4AAAAOAAAATQBTAFMAUQBMADAAMQBcAFIAQQBEAEEAUgAAAAcAAABtAGEAcwB0AGUAcgAAAA=="
+            }
+        }
+    }
+]

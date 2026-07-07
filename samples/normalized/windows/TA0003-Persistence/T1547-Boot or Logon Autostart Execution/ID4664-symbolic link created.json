@@ -1,0 +1,71 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4664"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12800",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2023-03-03 14:35:35.247826+00:00"
+                },
+                "EventRecordID": "7600",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "5988"
+                },
+                "Channel": "Security",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-113448046-927799223-410490820-1001"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Admin"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "WIN"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000079b70"
+                    },
+                    {
+                        "@Name": "FileName",
+                        "#text": "C:\\Users\\Admin\\Downloads\\Sysmon\\sysmonconf.xml"
+                    },
+                    {
+                        "@Name": "LinkName",
+                        "#text": "C:\\Users\\Admin\\Downloads\\sysmonconf.xml"
+                    },
+                    {
+                        "@Name": "TransactionId",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    }
+                ]
+            }
+        }
+    }
+]

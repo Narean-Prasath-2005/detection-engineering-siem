@@ -1,0 +1,373 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5145"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12811",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-10 21:21:26.363377+00:00"
+                },
+                "EventRecordID": "2004847",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "2756"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000005a41984"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "File"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "56594"
+                    },
+                    {
+                        "@Name": "ShareName",
+                        "#text": "\\\\*\\IPC$"
+                    },
+                    {
+                        "@Name": "ShareLocalPath"
+                    },
+                    {
+                        "@Name": "RelativeTargetName",
+                        "#text": "atsvc"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00000003"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%4416\n\t\t\t\t%%4417"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5145"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12811",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-10 21:21:26.415348+00:00"
+                },
+                "EventRecordID": "2004857",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "2756"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000005a41984"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "File"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "56594"
+                    },
+                    {
+                        "@Name": "ShareName",
+                        "#text": "\\\\*\\ADMIN$"
+                    },
+                    {
+                        "@Name": "ShareLocalPath",
+                        "#text": "\\??\\C:\\Windows"
+                    },
+                    {
+                        "@Name": "RelativeTargetName",
+                        "#text": "Temp\\bouWFQYO.tmp"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00000001"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%4416"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5145"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12811",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-10 21:21:29.427052+00:00"
+                },
+                "EventRecordID": "2004860",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "5172"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000005a41984"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "File"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "56594"
+                    },
+                    {
+                        "@Name": "ShareName",
+                        "#text": "\\\\*\\ADMIN$"
+                    },
+                    {
+                        "@Name": "ShareLocalPath",
+                        "#text": "\\??\\C:\\Windows"
+                    },
+                    {
+                        "@Name": "RelativeTargetName",
+                        "#text": "Temp\\bouWFQYO.tmp"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00000001"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%4416"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5145"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12811",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-06-10 21:21:29.441568+00:00"
+                },
+                "EventRecordID": "2004862",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "5172"
+                },
+                "Channel": "Security",
+                "Computer": "fs01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000005a41984"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "File"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "56594"
+                    },
+                    {
+                        "@Name": "ShareName",
+                        "#text": "\\\\*\\ADMIN$"
+                    },
+                    {
+                        "@Name": "ShareLocalPath",
+                        "#text": "\\??\\C:\\Windows"
+                    },
+                    {
+                        "@Name": "RelativeTargetName",
+                        "#text": "Temp\\bouWFQYO.tmp"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00010080"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%1537\n\t\t\t\t%%4423"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Bits-Client",
+                    "@Guid": "{ef1cc15b-46c1-414e-bb95-e76b077bd51e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "3"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x4000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-22 23:07:21.043356+00:00"
+                },
+                "EventRecordID": "10260",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1104",
+                    "@ThreadID": "9132"
+                },
+                "Channel": "Microsoft-Windows-Bits-Client/Operational",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "jobTitle",
+                        "#text": "hackingarticles"
+                    },
+                    {
+                        "@Name": "jobId",
+                        "#text": "{5f2863d6-e0ab-4470-8530-8f129b46177a}"
+                    },
+                    {
+                        "@Name": "jobOwner",
+                        "#text": "OFFSEC\\admmig"
+                    },
+                    {
+                        "@Name": "processPath",
+                        "#text": "C:\\Windows\\System32\\bitsadmin.exe"
+                    },
+                    {
+                        "@Name": "processId",
+                        "#text": "7680"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Bits-Client",
+                    "@Guid": "{ef1cc15b-46c1-414e-bb95-e76b077bd51e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "310"
+                },
+                "Version": "0",
+                "Level": "3",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x4000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-22 23:07:21.218334+00:00"
+                },
+                "EventRecordID": "10261",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1104",
+                    "@ThreadID": "3788"
+                },
+                "Channel": "Microsoft-Windows-Bits-Client/Operational",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": {
+                    "@Name": "ErrorCode",
+                    "#text": "2147942450"
+                }
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Bits-Client",
+                    "@Guid": "{ef1cc15b-46c1-414e-bb95-e76b077bd51e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "59"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "1",
+                "Keywords": "0x4000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-22 23:07:21.231949+00:00"
+                },
+                "EventRecordID": "10262",
+                "Correlation": {
+                    "@ActivityID": "{746fd3d9-d296-42da-9f9c-b7ff6fa9151b}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1104",
+                    "@ThreadID": "3788"
+                },
+                "Channel": "Microsoft-Windows-Bits-Client/Operational",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "transferId",
+                        "#text": "{746fd3d9-d296-42da-9f9c-b7ff6fa9151b}"
+                    },
+                    {
+                        "@Name": "name",
+                        "#text": "hackingarticles"
+                    },
+                    {
+                        "@Name": "Id",
+                        "#text": "{5f2863d6-e0ab-4470-8530-8f129b46177a}"
+                    },
+                    {
+                        "@Name": "url",
+                        "#text": "https://www.ma-neobanque.com/wp-content/uploads/2020/11/carte-max-premium.jpg"
+                    },
+                    {
+                        "@Name": "peer"
+                    },
+                    {
+                        "@Name": "fileTime",
+                        "#text": "2020-11-16 17:00:19+00:00"
+                    },
+                    {
+                        "@Name": "fileLength",
+                        "#text": "50813"
+                    },
+                    {
+                        "@Name": "bytesTotal",
+                        "#text": "50813"
+                    },
+                    {
+                        "@Name": "bytesTransferred",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "bytesTransferredFromPeer",
+                        "#text": "0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Bits-Client",
+                    "@Guid": "{ef1cc15b-46c1-414e-bb95-e76b077bd51e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "60"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "2",
+                "Keywords": "0x4000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-22 23:07:47.830868+00:00"
+                },
+                "EventRecordID": "10263",
+                "Correlation": {
+                    "@ActivityID": "{746fd3d9-d296-42da-9f9c-b7ff6fa9151b}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1104",
+                    "@ThreadID": "9132"
+                },
+                "Channel": "Microsoft-Windows-Bits-Client/Operational",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "transferId",
+                        "#text": "{746fd3d9-d296-42da-9f9c-b7ff6fa9151b}"
+                    },
+                    {
+                        "@Name": "name",
+                        "#text": "hackingarticles"
+                    },
+                    {
+                        "@Name": "Id",
+                        "#text": "{5f2863d6-e0ab-4470-8530-8f129b46177a}"
+                    },
+                    {
+                        "@Name": "url",
+                        "#text": "https://www.ma-neobanque.com/wp-content/uploads/2020/11/carte-max-premium.jpg"
+                    },
+                    {
+                        "@Name": "peer"
+                    },
+                    {
+                        "@Name": "hr",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "fileTime",
+                        "#text": "2020-11-16 17:00:19+00:00"
+                    },
+                    {
+                        "@Name": "fileLength",
+                        "#text": "50813"
+                    },
+                    {
+                        "@Name": "bytesTotal",
+                        "#text": "50813"
+                    },
+                    {
+                        "@Name": "bytesTransferred",
+                        "#text": "50813"
+                    },
+                    {
+                        "@Name": "proxy"
+                    },
+                    {
+                        "@Name": "peerProtocolFlags",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "bytesTransferredFromPeer",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "AdditionalInfoHr",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "PeerContextInfo",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "bandwidthLimit",
+                        "#text": "18446744073709551615"
+                    },
+                    {
+                        "@Name": "ignoreBandwidthLimitsOnLan",
+                        "#text": "False"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Bits-Client",
+                    "@Guid": "{ef1cc15b-46c1-414e-bb95-e76b077bd51e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x4000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-22 23:07:47.839043+00:00"
+                },
+                "EventRecordID": "10264",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1104",
+                    "@ThreadID": "4880"
+                },
+                "Channel": "Microsoft-Windows-Bits-Client/Operational",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "User",
+                        "#text": "OFFSEC\\admmig"
+                    },
+                    {
+                        "@Name": "jobTitle",
+                        "#text": "hackingarticles"
+                    },
+                    {
+                        "@Name": "jobId",
+                        "#text": "{5f2863d6-e0ab-4470-8530-8f129b46177a}"
+                    },
+                    {
+                        "@Name": "jobOwner",
+                        "#text": "OFFSEC\\admmig"
+                    },
+                    {
+                        "@Name": "fileCount",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "bytesTransferred",
+                        "#text": "50813"
+                    },
+                    {
+                        "@Name": "bytesTransferredFromPeer",
+                        "#text": "0"
+                    }
+                ]
+            }
+        }
+    }
+]

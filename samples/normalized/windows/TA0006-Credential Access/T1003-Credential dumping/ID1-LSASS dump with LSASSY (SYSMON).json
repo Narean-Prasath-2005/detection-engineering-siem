@@ -1,0 +1,1136 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "18"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "18",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:18:43.326380+00:00"
+                },
+                "EventRecordID": "71666",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1049,technique_name=System Network Connections Discovery"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "ConnectPipe"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:18:43.326"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-665f-6165-2000-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1640"
+                    },
+                    {
+                        "@Name": "PipeName",
+                        "#text": "\\srvsvc"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\wbem\\wmiprvse.exe"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "18"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "18",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:18:43.326380+00:00"
+                },
+                "EventRecordID": "71667",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1049,technique_name=System Network Connections Discovery"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "ConnectPipe"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:18:43.326"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-665f-6165-2000-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1640"
+                    },
+                    {
+                        "@Name": "PipeName",
+                        "#text": "\\srvsvc"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\wbem\\wmiprvse.exe"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1"
+                },
+                "Version": "5",
+                "Level": "4",
+                "Task": "1",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:18:55.808586+00:00"
+                },
+                "EventRecordID": "71668",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1086,technique_name=PowerShell"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:18:55.808"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-254f-6170-9402-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2508"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                    },
+                    {
+                        "@Name": "FileVersion",
+                        "#text": "6.3.9600.17415 (winblue_r4.141028-1500)"
+                    },
+                    {
+                        "@Name": "Description",
+                        "#text": "Windows PowerShell"
+                    },
+                    {
+                        "@Name": "Product",
+                        "#text": "Microsoft\u00ae Windows\u00ae Operating System"
+                    },
+                    {
+                        "@Name": "Company",
+                        "#text": "Microsoft Corporation"
+                    },
+                    {
+                        "@Name": "OriginalFileName",
+                        "#text": "PowerShell.EXE"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "powershell.exe -NoP -C \"C:\\Windows\\System32\\rundll32.exe C:\\Windows\\System32\\comsvcs.dll, MiniDump (Get-Process lsass).Id \\Windows\\Temp\\76nivOxA.dmp full;Wait-Process -Id (Get-Process rundll32).id\""
+                    },
+                    {
+                        "@Name": "CurrentDirectory",
+                        "#text": "C:\\"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "OFFSEC\\admmig"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{7cf65fc7-254f-6170-c8ee-690200000000}"
+                    },
+                    {
+                        "@Name": "LogonId",
+                        "#text": "0x000000000269eec8"
+                    },
+                    {
+                        "@Name": "TerminalSessionId",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "IntegrityLevel",
+                        "#text": "High"
+                    },
+                    {
+                        "@Name": "Hashes",
+                        "#text": "SHA1=9F1E24917EF96BBB339F4E2A226ACAFD1009F47B,MD5=C031E215B8B08C752BF362F6D4C5D3AD,SHA256=840E1F9DC5A29BEBF01626822D7390251E9CF05BB3560BA7B68BDB8A41CF08E3,IMPHASH=099B747A4A31983374E54912D4BB7C44"
+                    },
+                    {
+                        "@Name": "ParentProcessGuid",
+                        "#text": "{7cf65fc7-665f-6165-2000-000000001200}"
+                    },
+                    {
+                        "@Name": "ParentProcessId",
+                        "#text": "1640"
+                    },
+                    {
+                        "@Name": "ParentImage",
+                        "#text": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe"
+                    },
+                    {
+                        "@Name": "ParentCommandLine",
+                        "#text": "C:\\Windows\\system32\\wbem\\wmiprvse.exe -secured -Embedding"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "18"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "18",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:18:55.855457+00:00"
+                },
+                "EventRecordID": "71669",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1049,technique_name=System Network Connections Discovery"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "ConnectPipe"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:18:55.855"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-254f-6170-9402-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2508"
+                    },
+                    {
+                        "@Name": "PipeName",
+                        "#text": "\\srvsvc"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "7"
+                },
+                "Version": "3",
+                "Level": "4",
+                "Task": "7",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:18:55.871078+00:00"
+                },
+                "EventRecordID": "71670",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1086,technique_name=PowerShell"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:18:55.871"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-254f-6170-9402-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2508"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                    },
+                    {
+                        "@Name": "ImageLoaded",
+                        "#text": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Manaa57fc8cc#\\3e50931f5376ebab490b124f3f46dd45\\System.Management.Automation.ni.dll"
+                    },
+                    {
+                        "@Name": "FileVersion",
+                        "#text": "6.3.9600.19170"
+                    },
+                    {
+                        "@Name": "Description",
+                        "#text": "System.Management.Automation"
+                    },
+                    {
+                        "@Name": "Product",
+                        "#text": "Microsoft (R) Windows (R) Operating System"
+                    },
+                    {
+                        "@Name": "Company",
+                        "#text": "Microsoft Corporation"
+                    },
+                    {
+                        "@Name": "OriginalFileName",
+                        "#text": "System.Management.Automation.dll"
+                    },
+                    {
+                        "@Name": "Hashes",
+                        "#text": "SHA1=BFDFC46117000B652897F1DE8084FBB9EAA66384,MD5=6EF679145F15A8E54FBF9B23A25A6F21,SHA256=240674945FF5175A14E5DF6DEB2AECD04231911DE9103CA34F6D327C4FF86732,IMPHASH=00000000000000000000000000000000"
+                    },
+                    {
+                        "@Name": "Signed",
+                        "#text": "false"
+                    },
+                    {
+                        "@Name": "Signature",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SignatureStatus",
+                        "#text": "Unavailable"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1"
+                },
+                "Version": "5",
+                "Level": "4",
+                "Task": "1",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:18:56.089838+00:00"
+                },
+                "EventRecordID": "71671",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1086,technique_name=PowerShell"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:18:56.089"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-2550-6170-9602-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2860"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\rundll32.exe"
+                    },
+                    {
+                        "@Name": "FileVersion",
+                        "#text": "6.3.9600.17415 (winblue_r4.141028-1500)"
+                    },
+                    {
+                        "@Name": "Description",
+                        "#text": "Windows host process (Rundll32)"
+                    },
+                    {
+                        "@Name": "Product",
+                        "#text": "Microsoft\u00ae Windows\u00ae Operating System"
+                    },
+                    {
+                        "@Name": "Company",
+                        "#text": "Microsoft Corporation"
+                    },
+                    {
+                        "@Name": "OriginalFileName",
+                        "#text": "RUNDLL32.EXE"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "\"C:\\Windows\\System32\\rundll32.exe\"  C:\\Windows\\System32\\comsvcs.dll MiniDump 512 \\Windows\\Temp\\76nivOxA.dmp full"
+                    },
+                    {
+                        "@Name": "CurrentDirectory",
+                        "#text": "C:\\"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "OFFSEC\\admmig"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{7cf65fc7-254f-6170-c8ee-690200000000}"
+                    },
+                    {
+                        "@Name": "LogonId",
+                        "#text": "0x000000000269eec8"
+                    },
+                    {
+                        "@Name": "TerminalSessionId",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "IntegrityLevel",
+                        "#text": "High"
+                    },
+                    {
+                        "@Name": "Hashes",
+                        "#text": "SHA1=D4AC232D507769FFD004439C15302916A40D9831,MD5=6C308D32AFA41D26CE2A0EA8F7B79565,SHA256=5CC2C563D89257964C4B446F54AFE1E57BBEE49315A9FC001FF5A6BCB6650393,IMPHASH=156B2AC675B1B9202AF35C643105610C"
+                    },
+                    {
+                        "@Name": "ParentProcessGuid",
+                        "#text": "{7cf65fc7-254f-6170-9402-000000001200}"
+                    },
+                    {
+                        "@Name": "ParentProcessId",
+                        "#text": "2508"
+                    },
+                    {
+                        "@Name": "ParentImage",
+                        "#text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                    },
+                    {
+                        "@Name": "ParentCommandLine",
+                        "#text": "powershell.exe -NoP -C \"C:\\Windows\\System32\\rundll32.exe C:\\Windows\\System32\\comsvcs.dll, MiniDump (Get-Process lsass).Id \\Windows\\Temp\\76nivOxA.dmp full;Wait-Process -Id (Get-Process rundll32).id\""
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "11"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "11",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:18:56.105457+00:00"
+                },
+                "EventRecordID": "71672",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:18:56.105"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-2550-6170-9602-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2860"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\rundll32.exe"
+                    },
+                    {
+                        "@Name": "TargetFilename",
+                        "#text": "C:\\Windows\\Temp\\76nivOxA.dmp"
+                    },
+                    {
+                        "@Name": "CreationUtcTime",
+                        "#text": "2021-10-20 14:18:56.105"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "10"
+                },
+                "Version": "3",
+                "Level": "4",
+                "Task": "10",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:18:56.105457+00:00"
+                },
+                "EventRecordID": "71673",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:18:56.105"
+                    },
+                    {
+                        "@Name": "SourceProcessGUID",
+                        "#text": "{7cf65fc7-2550-6170-9602-000000001200}"
+                    },
+                    {
+                        "@Name": "SourceProcessId",
+                        "#text": "2860"
+                    },
+                    {
+                        "@Name": "SourceThreadId",
+                        "#text": "544"
+                    },
+                    {
+                        "@Name": "SourceImage",
+                        "#text": "C:\\Windows\\System32\\rundll32.exe"
+                    },
+                    {
+                        "@Name": "TargetProcessGUID",
+                        "#text": "{7cf65fc7-6649-6165-0b00-000000001200}"
+                    },
+                    {
+                        "@Name": "TargetProcessId",
+                        "#text": "512"
+                    },
+                    {
+                        "@Name": "TargetImage",
+                        "#text": "C:\\Windows\\system32\\lsass.exe"
+                    },
+                    {
+                        "@Name": "GrantedAccess",
+                        "#text": "0x001fffff"
+                    },
+                    {
+                        "@Name": "CallTrace",
+                        "#text": "C:\\Windows\\SYSTEM32\\ntdll.dll+909ba|C:\\Windows\\SYSTEM32\\ntdll.dll+80498|C:\\Windows\\system32\\KERNEL32.DLL+1c804|C:\\Windows\\system32\\KERNEL32.DLL+1c247|C:\\Windows\\SYSTEM32\\dbghelp.dll+1244d8|C:\\Windows\\SYSTEM32\\dbghelp.dll+11ebd5|C:\\Windows\\SYSTEM32\\dbghelp.dll+118402|C:\\Windows\\SYSTEM32\\dbghelp.dll+1137e2|C:\\Windows\\SYSTEM32\\dbghelp.dll+113c84|C:\\Windows\\System32\\comsvcs.dll+3363a|C:\\Windows\\System32\\rundll32.exe+2709|C:\\Windows\\System32\\rundll32.exe+44c4|C:\\Windows\\system32\\KERNEL32.DLL+13d2|C:\\Windows\\SYSTEM32\\ntdll.dll+154f4"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "18"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "18",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:19:03.334238+00:00"
+                },
+                "EventRecordID": "71674",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1049,technique_name=System Network Connections Discovery"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "ConnectPipe"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:19:03.334"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-665f-6165-2000-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1640"
+                    },
+                    {
+                        "@Name": "PipeName",
+                        "#text": "\\srvsvc"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\wbem\\wmiprvse.exe"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "18"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "18",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:19:03.334238+00:00"
+                },
+                "EventRecordID": "71675",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1049,technique_name=System Network Connections Discovery"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "ConnectPipe"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:19:03.334"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-665f-6165-2000-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1640"
+                    },
+                    {
+                        "@Name": "PipeName",
+                        "#text": "\\srvsvc"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\wbem\\wmiprvse.exe"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "18"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "18",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:19:23.345560+00:00"
+                },
+                "EventRecordID": "71676",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1049,technique_name=System Network Connections Discovery"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "ConnectPipe"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:19:23.345"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-665f-6165-2000-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1640"
+                    },
+                    {
+                        "@Name": "PipeName",
+                        "#text": "\\srvsvc"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\wbem\\wmiprvse.exe"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "18"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "18",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:19:23.345560+00:00"
+                },
+                "EventRecordID": "71677",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1049,technique_name=System Network Connections Discovery"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "ConnectPipe"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:19:23.345"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-665f-6165-2000-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1640"
+                    },
+                    {
+                        "@Name": "PipeName",
+                        "#text": "\\srvsvc"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\wbem\\wmiprvse.exe"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "18"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "18",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:19:43.347546+00:00"
+                },
+                "EventRecordID": "71678",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1049,technique_name=System Network Connections Discovery"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "ConnectPipe"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:19:43.347"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-665f-6165-2000-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1640"
+                    },
+                    {
+                        "@Name": "PipeName",
+                        "#text": "\\srvsvc"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\wbem\\wmiprvse.exe"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "18"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "18",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-20 14:19:43.347546+00:00"
+                },
+                "EventRecordID": "71679",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "1764"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1049,technique_name=System Network Connections Discovery"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "ConnectPipe"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-10-20 14:19:43.347"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-665f-6165-2000-000000001200}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1640"
+                    },
+                    {
+                        "@Name": "PipeName",
+                        "#text": "\\srvsvc"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\wbem\\wmiprvse.exe"
+                    }
+                ]
+            }
+        }
+    }
+]

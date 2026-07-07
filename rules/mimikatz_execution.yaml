@@ -1,0 +1,33 @@
+title: Mimikatz Execution
+id: DET-0013
+status: stable
+description: Detects execution of Mimikatz by identifying common executable names,
+  command-line arguments, or modules associated with credential dumping.
+author: Narean Prasath
+date: 2026-07-07
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+    process_name|contains: mimikatz
+    command_line|regex: (sekurlsa::|lsadump::|privilege::debug|token::elevate|kerberos::|crypto::)
+  condition: selection
+falsepositives:
+- Authorized penetration testing
+- Red Team exercises
+- Malware analysis in isolated lab environments
+level: critical
+mitre:
+  tactic: Credential Access
+  technique: OS Credential Dumping
+  attack_id: T1003
+references:
+- https://attack.mitre.org/techniques/T1003/
+- https://github.com/gentilkiwi/mimikatz
+tags:
+- windows
+- mimikatz
+- credential-access
+- credential-dumping
+- attack.t1003

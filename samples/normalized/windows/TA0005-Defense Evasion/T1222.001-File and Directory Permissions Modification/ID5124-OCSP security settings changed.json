@@ -1,0 +1,399 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5121"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-11 09:20:43.401377+00:00"
+                },
+                "EventRecordID": "1207901",
+                "Correlation": {
+                    "@ActivityID": "{2fee2c3a-4f79-0001-502c-ee2f794fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "3212"
+                },
+                "Channel": "Security",
+                "Computer": "pki01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": null
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5120"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-11 09:20:46.158375+00:00"
+                },
+                "EventRecordID": "1207920",
+                "Correlation": {
+                    "@ActivityID": "{2fee2c3a-4f79-0001-502c-ee2f794fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "3212"
+                },
+                "Channel": "Security",
+                "Computer": "pki01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": null
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5123"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-11 09:21:24.702957+00:00"
+                },
+                "EventRecordID": "1207931",
+                "Correlation": {
+                    "@ActivityID": "{2fee2c3a-4f79-0001-502c-ee2f794fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "3544"
+                },
+                "Channel": "Security",
+                "Computer": "pki01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "PropertyName",
+                        "#text": "MaxNumOfCacheEntries"
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "5000"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000477ac56"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5123"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-11 09:21:24.703074+00:00"
+                },
+                "EventRecordID": "1207932",
+                "Correlation": {
+                    "@ActivityID": "{2fee2c3a-4f79-0001-502c-ee2f794fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "3544"
+                },
+                "Channel": "Security",
+                "Computer": "pki01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "PropertyName",
+                        "#text": "NumOfThreads"
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "60"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000477ac56"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5123"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-11 09:21:24.707949+00:00"
+                },
+                "EventRecordID": "1207933",
+                "Correlation": {
+                    "@ActivityID": "{2fee2c3a-4f79-0001-502c-ee2f794fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "3544"
+                },
+                "Channel": "Security",
+                "Computer": "pki01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "PropertyName",
+                        "#text": "AuditFilter"
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "11"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000477ac56"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5123"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-11 09:21:50.087866+00:00"
+                },
+                "EventRecordID": "1207946",
+                "Correlation": {
+                    "@ActivityID": "{2fee2c3a-4f79-0001-502c-ee2f794fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "3544"
+                },
+                "Channel": "Security",
+                "Computer": "pki01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "PropertyName",
+                        "#text": "AuditFilter"
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "15"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000477ac56"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5124"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-11 09:21:50.109680+00:00"
+                },
+                "EventRecordID": "1207947",
+                "Correlation": {
+                    "@ActivityID": "{2fee2c3a-4f79-0001-502c-ee2f794fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "576",
+                    "@ThreadID": "3544"
+                },
+                "Channel": "Security",
+                "Computer": "pki01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "NewSecuritySettings",
+                        "#text": "Allow(0x00000101)\tBUILTIN\\Administrators\n\tOCSP Administrator\n\tRead\nAllow(0x00000300)\tIIS APPPOOL\\OCSPISAPIAppPool\n\tRead\n\tOCSP Requestor"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000477ac56"
+                    }
+                ]
+            }
+        }
+    }
+]

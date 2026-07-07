@@ -1,12 +1,21 @@
-title: Certutil Download Activity
-id: DET-006
-severity: MEDIUM
+title: File Download using Certutil
+id: DET-0005
+status: stable
+description: Detects abuse of certutil.exe to download remote payloads.
+author: Narean Prasath
+date: 2026-07-07
+logsource:
+  product: windows
+  category: process_creation
 detection:
-  event_id: '4688'
-  process_name: certutil.exe
-  commandline_contains:
-  - -urlcache
-  - -f
+  selection:
+    process_name|contains: certutil
+    command_line|contains: -urlcache
+  condition: selection
+falsepositives:
+- Certificate administration
+level: high
 mitre:
   tactic: Command and Control
-  technique: T1105
+  technique: Ingress Tool Transfer
+  attack_id: T1105

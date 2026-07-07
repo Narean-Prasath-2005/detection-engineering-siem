@@ -1,0 +1,90 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNS-Server-Service",
+                    "@Guid": "{71a551f5-c893-4849-886b-b5ec8502641e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "771"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000008000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-18 21:33:49.548061+00:00"
+                },
+                "EventRecordID": "11683",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "180",
+                    "@ThreadID": "4116"
+                },
+                "Channel": "DNS Server",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": null
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNS-Server-Service",
+                    "@Guid": "{71a551f5-c893-4849-886b-b5ec8502641e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "770"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000008000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-18 21:33:49.548065+00:00"
+                },
+                "EventRecordID": "11684",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "180",
+                    "@ThreadID": "4116"
+                },
+                "Channel": "DNS Server",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "@Name": "DNS_EVENT_PLUGIN_DLL_LOAD_OK",
+                "Data": [
+                    {
+                        "@Name": "param1",
+                        "#text": "C:\\TOOLS\\Mimikatz-fev-2020\\mimilib.dll"
+                    },
+                    {
+                        "@Name": "param2",
+                        "#text": "rootdc1.offsec.lan"
+                    }
+                ]
+            }
+        }
+    }
+]

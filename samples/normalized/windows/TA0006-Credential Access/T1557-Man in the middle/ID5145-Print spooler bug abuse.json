@@ -1,0 +1,1172 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-26 13:02:27.149649+00:00"
+                },
+                "EventRecordID": "1804662",
+                "Correlation": {
+                    "@ActivityID": "{15e1ce3c-fa3e-0001-52ce-e1153efad601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "584",
+                    "@ThreadID": "3372"
+                },
+                "Channel": "Security",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x00000000312517c1"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47156"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    },
+                    {
+                        "@Name": "RestrictedAdminMode",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "VirtualAccount",
+                        "#text": "%%1843"
+                    },
+                    {
+                        "@Name": "TargetLinkedLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ElevatedToken",
+                        "#text": "%%1842"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5145"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12811",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-26 13:02:27.155752+00:00"
+                },
+                "EventRecordID": "1804665",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "4288"
+                },
+                "Channel": "Security",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000312517c1"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "File"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47156"
+                    },
+                    {
+                        "@Name": "ShareName",
+                        "#text": "\\\\*\\IPC$"
+                    },
+                    {
+                        "@Name": "ShareLocalPath"
+                    },
+                    {
+                        "@Name": "RelativeTargetName",
+                        "#text": "spoolss"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00000003"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%4416\n\t\t\t\t%%4417"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-26 13:02:29.726246+00:00"
+                },
+                "EventRecordID": "1804668",
+                "Correlation": {
+                    "@ActivityID": "{15e1ce3c-fa3e-0001-52ce-e1153efad601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "584",
+                    "@ThreadID": "3372"
+                },
+                "Channel": "Security",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000031251a6a"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "NtLmSsp"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "NTLM"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{00000000-0000-0000-0000-000000000000}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "NTLM V2"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47160"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    },
+                    {
+                        "@Name": "RestrictedAdminMode",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "VirtualAccount",
+                        "#text": "%%1843"
+                    },
+                    {
+                        "@Name": "TargetLinkedLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ElevatedToken",
+                        "#text": "%%1842"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5145"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12811",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-26 13:02:29.734365+00:00"
+                },
+                "EventRecordID": "1804671",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "3176"
+                },
+                "Channel": "Security",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000031251a6a"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "File"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47160"
+                    },
+                    {
+                        "@Name": "ShareName",
+                        "#text": "\\\\*\\IPC$"
+                    },
+                    {
+                        "@Name": "ShareLocalPath"
+                    },
+                    {
+                        "@Name": "RelativeTargetName",
+                        "#text": "spoolss"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00000003"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%4416\n\t\t\t\t%%4417"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-26 13:02:34.373539+00:00"
+                },
+                "EventRecordID": "1804674",
+                "Correlation": {
+                    "@ActivityID": "{15e1ce3c-fa3e-0001-52ce-e1153efad601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "584",
+                    "@ThreadID": "3372"
+                },
+                "Channel": "Security",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000031251ce4"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Kerberos"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Kerberos"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{1fa2573d-cbb9-8a1f-3a2b-fd67e6ed215b}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.23.9"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "65333"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    },
+                    {
+                        "@Name": "RestrictedAdminMode",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "VirtualAccount",
+                        "#text": "%%1843"
+                    },
+                    {
+                        "@Name": "TargetLinkedLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ElevatedToken",
+                        "#text": "%%1842"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5145"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12811",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-26 13:02:34.375021+00:00"
+                },
+                "EventRecordID": "1804677",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "3176"
+                },
+                "Channel": "Security",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000031251ce4"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "File"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.23.9"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "65333"
+                    },
+                    {
+                        "@Name": "ShareName",
+                        "#text": "\\\\*\\IPC$"
+                    },
+                    {
+                        "@Name": "ShareLocalPath"
+                    },
+                    {
+                        "@Name": "RelativeTargetName",
+                        "#text": "spoolss"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x0012019f"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%1538\n\t\t\t\t%%1541\n\t\t\t\t%%4416\n\t\t\t\t%%4417\n\t\t\t\t%%4418\n\t\t\t\t%%4419\n\t\t\t\t%%4420\n\t\t\t\t%%4423\n\t\t\t\t%%4424"
+                    },
+                    {
+                        "@Name": "AccessReason",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-26 13:02:34.379549+00:00"
+                },
+                "EventRecordID": "1804680",
+                "Correlation": {
+                    "@ActivityID": "{15e1ce3c-fa3e-0001-52ce-e1153efad601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "584",
+                    "@ThreadID": "3372"
+                },
+                "Channel": "Security",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000031251d11"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Kerberos"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Kerberos"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{1fa2573d-cbb9-8a1f-3a2b-fd67e6ed215b}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.23.9"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "65335"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    },
+                    {
+                        "@Name": "RestrictedAdminMode",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "VirtualAccount",
+                        "#text": "%%1843"
+                    },
+                    {
+                        "@Name": "TargetLinkedLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ElevatedToken",
+                        "#text": "%%1842"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-26 13:02:34.379847+00:00"
+                },
+                "EventRecordID": "1804684",
+                "Correlation": {
+                    "@ActivityID": "{15e1ce3c-fa3e-0001-52ce-e1153efad601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "584",
+                    "@ThreadID": "624"
+                },
+                "Channel": "Security",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000031251d23"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Kerberos"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Kerberos"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{1fa2573d-cbb9-8a1f-3a2b-fd67e6ed215b}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.23.9"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "65336"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    },
+                    {
+                        "@Name": "RestrictedAdminMode",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "VirtualAccount",
+                        "#text": "%%1843"
+                    },
+                    {
+                        "@Name": "TargetLinkedLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ElevatedToken",
+                        "#text": "%%1842"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4624"
+                },
+                "Version": "2",
+                "Level": "0",
+                "Task": "12544",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-26 13:02:34.380886+00:00"
+                },
+                "EventRecordID": "1804688",
+                "Correlation": {
+                    "@ActivityID": "{15e1ce3c-fa3e-0001-52ce-e1153efad601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "584",
+                    "@ThreadID": "624"
+                },
+                "Channel": "Security",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-0-0"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "TargetUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TargetLogonId",
+                        "#text": "0x0000000031251d36"
+                    },
+                    {
+                        "@Name": "LogonType",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "LogonProcessName",
+                        "#text": "Kerberos"
+                    },
+                    {
+                        "@Name": "AuthenticationPackageName",
+                        "#text": "Kerberos"
+                    },
+                    {
+                        "@Name": "WorkstationName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{1fa2573d-cbb9-8a1f-3a2b-fd67e6ed215b}"
+                    },
+                    {
+                        "@Name": "TransmittedServices",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LmPackageName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "KeyLength",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "10.23.23.9"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "65337"
+                    },
+                    {
+                        "@Name": "ImpersonationLevel",
+                        "#text": "%%1833"
+                    },
+                    {
+                        "@Name": "RestrictedAdminMode",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundUserName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetOutboundDomainName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "VirtualAccount",
+                        "#text": "%%1843"
+                    },
+                    {
+                        "@Name": "TargetLinkedLogonId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "ElevatedToken",
+                        "#text": "%%1842"
+                    }
+                ]
+            }
+        }
+    }
+]

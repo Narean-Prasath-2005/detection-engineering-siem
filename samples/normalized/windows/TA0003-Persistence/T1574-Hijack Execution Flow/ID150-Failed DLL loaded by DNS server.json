@@ -1,0 +1,92 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNS-Server-Service",
+                    "@Guid": "{71a551f5-c893-4849-886b-b5ec8502641e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "150"
+                },
+                "Version": "0",
+                "Level": "2",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000008000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-18 21:18:40.607019+00:00"
+                },
+                "EventRecordID": "11645",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "2320",
+                    "@ThreadID": "3384"
+                },
+                "Channel": "DNS Server",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "@Name": "DNS_EVENT_PLUGIN_INIT_FAILED",
+                "Data": {
+                    "@Name": "param1",
+                    "#text": ".\\mimilib.dll"
+                },
+                "Binary": "fgAAAA=="
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-DNS-Server-Service",
+                    "@Guid": "{71a551f5-c893-4849-886b-b5ec8502641e}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "150"
+                },
+                "Version": "0",
+                "Level": "2",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000008000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-05-18 21:23:27.038305+00:00"
+                },
+                "EventRecordID": "11659",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "3880",
+                    "@ThreadID": "444"
+                },
+                "Channel": "DNS Server",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "@Name": "DNS_EVENT_PLUGIN_INIT_FAILED",
+                "Data": {
+                    "@Name": "param1",
+                    "#text": ".\\mimilib.dll"
+                },
+                "Binary": "fgAAAA=="
+            }
+        }
+    }
+]

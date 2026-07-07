@@ -1,0 +1,87 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5137"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14081",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-26 20:41:48.246490+00:00"
+                },
+                "EventRecordID": "125592824",
+                "Correlation": {
+                    "@ActivityID": "{be6feeb9-2260-0000-cbee-6fbe6022d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "560",
+                    "@ThreadID": "608"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "OpCorrelationID",
+                        "#text": "{4dea43cc-2e4b-41d8-842e-b4052ed0839e}"
+                    },
+                    {
+                        "@Name": "AppCorrelationID",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000000882d87"
+                    },
+                    {
+                        "@Name": "DSName",
+                        "#text": "offsec.lan"
+                    },
+                    {
+                        "@Name": "DSType",
+                        "#text": "%%14676"
+                    },
+                    {
+                        "@Name": "ObjectDN",
+                        "#text": "CN=JUMP01,CN=Servers,CN=OFFSEC-PREMISE,CN=Sites,CN=Configuration,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "ObjectGUID",
+                        "#text": "{2cb2fa54-a21a-4e2f-b7af-a82a56d9d690}"
+                    },
+                    {
+                        "@Name": "ObjectClass",
+                        "#text": "server"
+                    }
+                ]
+            }
+        }
+    }
+]

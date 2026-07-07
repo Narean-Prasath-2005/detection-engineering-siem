@@ -1,0 +1,131 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1"
+                },
+                "Version": "5",
+                "Level": "4",
+                "Task": "1",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-04-26 15:03:05.992229+00:00"
+                },
+                "EventRecordID": "191969",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1404",
+                    "@ThreadID": "1996"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "fs02.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1015,technique_name=Accessibility Features"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-04-26 15:03:05.976"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{7cf65fc7-d629-6086-b80a-000000002000}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "3068"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "FileVersion",
+                        "#text": "6.3.9600.17415 (winblue_r4.141028-1500)"
+                    },
+                    {
+                        "@Name": "Description",
+                        "#text": "Windows Command Processor"
+                    },
+                    {
+                        "@Name": "Product",
+                        "#text": "Microsoft\u00ae Windows\u00ae Operating System"
+                    },
+                    {
+                        "@Name": "Company",
+                        "#text": "Microsoft Corporation"
+                    },
+                    {
+                        "@Name": "OriginalFileName",
+                        "#text": "Cmd.Exe"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "C:\\Windows\\system32\\cmd.exe  /Q /c C:\\Windows\\TEMP\\execute.bat"
+                    },
+                    {
+                        "@Name": "CurrentDirectory",
+                        "#text": "C:\\Windows\\system32\\"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "NT AUTHORITY\\SYSTEM"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{7cf65fc7-2e59-6080-e703-000000000000}"
+                    },
+                    {
+                        "@Name": "LogonId",
+                        "#text": "0x00000000000003e7"
+                    },
+                    {
+                        "@Name": "TerminalSessionId",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "IntegrityLevel",
+                        "#text": "System"
+                    },
+                    {
+                        "@Name": "Hashes",
+                        "#text": "SHA1=7C3D7281E1151FE4127923F4B4C3CD36438E1A12,MD5=F5AE03DE0AD60F5B17B82F2CD68402FE,SHA256=6F88FB88FFB0F1D5465C2826E5B4F523598B1B8378377C8378FFEBC171BAD18B,IMPHASH=77AED1ADAF24B344F08C8AD1432908C3"
+                    },
+                    {
+                        "@Name": "ParentProcessGuid",
+                        "#text": "{7cf65fc7-d629-6086-b70a-000000002000}"
+                    },
+                    {
+                        "@Name": "ParentProcessId",
+                        "#text": "3492"
+                    },
+                    {
+                        "@Name": "ParentImage",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "ParentCommandLine",
+                        "#text": "C:\\Windows\\system32\\cmd.exe /Q /c echo cd  ^> \\\\127.0.0.1\\C$\\__output 2^>^&1 > C:\\Windows\\TEMP\\execute.bat & C:\\Windows\\system32\\cmd.exe /Q /c C:\\Windows\\TEMP\\execute.bat & del C:\\Windows\\TEMP\\execute.bat"
+                    }
+                ]
+            }
+        }
+    }
+]

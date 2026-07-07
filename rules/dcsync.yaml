@@ -1,10 +1,34 @@
-title: DCSync Activity
-id: DET-008
-severity: CRITICAL
+title: Active Directory DCSync Attack
+
+id: DET-0007
+
+status: stable
+
+description: Detects replication requests associated with DCSync attacks.
+
+author: Narean Prasath
+
+date: 2026-07-07
+
+logsource:
+  product: windows
+  service: security
+
 detection:
-  event_id: '4662'
-  process_name: ''
-  commandline_contains: []
+  selection:
+    event_id:
+      - 4662
+    access_mask:
+      - "DS-Replication-Get-Changes"
+      - "DS-Replication-Get-Changes-All"
+  condition: selection
+
+falsepositives:
+  - Legitimate domain controller replication
+
+level: critical
+
 mitre:
   tactic: Credential Access
-  technique: T1003.006
+  technique: DCSync
+  attack_id: T1003.006

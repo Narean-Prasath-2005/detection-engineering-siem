@@ -1,0 +1,226 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Windows Defender",
+                    "@Guid": "{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5007"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-12-16 08:44:06.473848+00:00"
+                },
+                "EventRecordID": "454",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "2988",
+                    "@ThreadID": "3524"
+                },
+                "Channel": "Microsoft-Windows-Windows Defender/Operational",
+                "Computer": "WIN10-client01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Product Name",
+                        "#text": "Microsoft Defender Antivirus"
+                    },
+                    {
+                        "@Name": "Product Version",
+                        "#text": "4.18.2011.6"
+                    },
+                    {
+                        "@Name": "Old Value",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Windows Defender\\Exclusions\\Paths\\C:\\TOOLS\\mimikatz.exe = 0x0"
+                    },
+                    {
+                        "@Name": "New Value"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Windows Defender",
+                    "@Guid": "{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5007"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-12-16 08:44:27.222824+00:00"
+                },
+                "EventRecordID": "455",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "2988",
+                    "@ThreadID": "4724"
+                },
+                "Channel": "Microsoft-Windows-Windows Defender/Operational",
+                "Computer": "WIN10-client01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Product Name",
+                        "#text": "Microsoft Defender Antivirus"
+                    },
+                    {
+                        "@Name": "Product Version",
+                        "#text": "4.18.2011.6"
+                    },
+                    {
+                        "@Name": "Old Value"
+                    },
+                    {
+                        "@Name": "New Value",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Windows Defender\\Exclusions\\Paths\\C:\\TOOLS\\mimikatz = 0x0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Windows Defender",
+                    "@Guid": "{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5007"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-12-16 08:44:51.331997+00:00"
+                },
+                "EventRecordID": "456",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "2988",
+                    "@ThreadID": "10652"
+                },
+                "Channel": "Microsoft-Windows-Windows Defender/Operational",
+                "Computer": "WIN10-client01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Product Name",
+                        "#text": "Microsoft Defender Antivirus"
+                    },
+                    {
+                        "@Name": "Product Version",
+                        "#text": "4.18.2011.6"
+                    },
+                    {
+                        "@Name": "Old Value"
+                    },
+                    {
+                        "@Name": "New Value",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Windows Defender\\Exclusions\\Processes\\virus.exe = 0x0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Windows Defender",
+                    "@Guid": "{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5007"
+                },
+                "Version": "0",
+                "Level": "4",
+                "Task": "0",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-12-16 08:45:04.144627+00:00"
+                },
+                "EventRecordID": "457",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "2988",
+                    "@ThreadID": "3524"
+                },
+                "Channel": "Microsoft-Windows-Windows Defender/Operational",
+                "Computer": "WIN10-client01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Product Name",
+                        "#text": "Microsoft Defender Antivirus"
+                    },
+                    {
+                        "@Name": "Product Version",
+                        "#text": "4.18.2011.6"
+                    },
+                    {
+                        "@Name": "Old Value"
+                    },
+                    {
+                        "@Name": "New Value",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Windows Defender\\Exclusions\\Extensions\\.mimi = 0x0"
+                    }
+                ]
+            }
+        }
+    }
+]

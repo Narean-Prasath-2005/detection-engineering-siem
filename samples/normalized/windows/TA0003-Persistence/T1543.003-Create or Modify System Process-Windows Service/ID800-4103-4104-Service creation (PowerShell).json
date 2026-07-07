@@ -1,0 +1,394 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 20:23:34+00:00"
+                },
+                "EventRecordID": "1842",
+                "Channel": "Windows PowerShell",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>New-Service -Name \"hackervirus\" -BinaryPathName '\"virus.exe\"'</string>\n<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=21\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=142ac82c-eadc-4ef9-a9ac-23e2418326e5\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=6c250588-892f-401f-9602-9c8438a75453\n\tPipelineId=6\n\tScriptName=\n\tCommandLine=New-Service -Name \"hackervirus\" -BinaryPathName '\"virus.exe\"'</string>\n<string>CommandInvocation(New-Service): \"New-Service\"\nParameterBinding(New-Service): name=\"Name\"; value=\"hackervirus\"\nParameterBinding(New-Service): name=\"BinaryPathName\"; value=\"\"virus.exe\"\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "PowerShell"
+                },
+                "EventID": {
+                    "@Qualifiers": "0",
+                    "#text": "800"
+                },
+                "Level": "4",
+                "Task": "8",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 20:23:34+00:00"
+                },
+                "EventRecordID": "1843",
+                "Channel": "Windows PowerShell",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>\tDetailSequence=1\n\tDetailTotal=1\n\n\tSequenceNumber=23\n\n\tUserId=OFFSEC\\admmig\n\tHostName=ConsoleHost\n\tHostVersion=4.0\n\tHostId=142ac82c-eadc-4ef9-a9ac-23e2418326e5\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\tEngineVersion=4.0\n\tRunspaceId=6c250588-892f-401f-9602-9c8438a75453\n\tPipelineId=6\n\tScriptName=\n\tCommandLine=</string>\n<string></string>\n<string>CommandInvocation(Out-Default): \"Out-Default\"\nParameterBinding(Out-Default): name=\"InputObject\"; value=\"hackervirus\"\n</string>",
+                "Binary": null
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4104"
+                },
+                "Version": "1",
+                "Level": "5",
+                "Task": "102",
+                "Opcode": "15",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 20:23:34.575096+00:00"
+                },
+                "EventRecordID": "4742",
+                "Correlation": {
+                    "@ActivityID": "{8523902b-c984-0003-4369-248584c9d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "3420"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MessageNumber",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "MessageTotal",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "ScriptBlockText",
+                        "#text": "New-Service -Name \"hackervirus\" -BinaryPathName '\"virus.exe\"'"
+                    },
+                    {
+                        "@Name": "ScriptBlockId",
+                        "#text": "c59c1c10-335f-4439-9f03-25b9b68946b5"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4103"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "106",
+                "Opcode": "20",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 20:23:34.715698+00:00"
+                },
+                "EventRecordID": "4743",
+                "Correlation": {
+                    "@ActivityID": "{8523902b-c984-0003-d169-248584c9d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "3420"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ContextInfo",
+                        "#text": "Severity = Informational\n        Host Name = ConsoleHost\n        Host Version = 4.0\n        Host ID = 142ac82c-eadc-4ef9-a9ac-23e2418326e5\n        Host Application = C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n        Engine Version = 4.0\n        Runspace ID = 6c250588-892f-401f-9602-9c8438a75453\n        Pipeline ID = 6\n        Command Name = New-Service\n        Command Type = Cmdlet\n        Script Name = \n        Command Path = \n        Sequence Number = 22\n        User = OFFSEC\\admmig\n        Shell ID = Microsoft.PowerShell"
+                    },
+                    {
+                        "@Name": "UserData"
+                    },
+                    {
+                        "@Name": "Payload",
+                        "#text": "CommandInvocation(New-Service): \"New-Service\"\nParameterBinding(New-Service): name=\"Name\"; value=\"hackervirus\"\nParameterBinding(New-Service): name=\"BinaryPathName\"; value=\"\"virus.exe\"\""
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4103"
+                },
+                "Version": "1",
+                "Level": "4",
+                "Task": "106",
+                "Opcode": "20",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 20:23:34.715698+00:00"
+                },
+                "EventRecordID": "4744",
+                "Correlation": {
+                    "@ActivityID": "{8523902b-c984-0003-d069-248584c9d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "3420"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "ContextInfo",
+                        "#text": "Severity = Informational\n        Host Name = ConsoleHost\n        Host Version = 4.0\n        Host ID = 142ac82c-eadc-4ef9-a9ac-23e2418326e5\n        Host Application = C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n        Engine Version = 4.0\n        Runspace ID = 6c250588-892f-401f-9602-9c8438a75453\n        Pipeline ID = 6\n        Command Name = \n        Command Type = Script\n        Script Name = \n        Command Path = \n        Sequence Number = 24\n        User = OFFSEC\\admmig\n        Shell ID = Microsoft.PowerShell"
+                    },
+                    {
+                        "@Name": "UserData"
+                    },
+                    {
+                        "@Name": "Payload",
+                        "#text": "CommandInvocation(Out-Default): \"Out-Default\"\nParameterBinding(Out-Default): name=\"InputObject\"; value=\"hackervirus\""
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4104"
+                },
+                "Version": "1",
+                "Level": "5",
+                "Task": "102",
+                "Opcode": "15",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 20:23:34.715698+00:00"
+                },
+                "EventRecordID": "4745",
+                "Correlation": {
+                    "@ActivityID": "{8523902b-c984-0002-21b4-248584c9d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "2112"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MessageNumber",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "MessageTotal",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "ScriptBlockText",
+                        "#text": "[System.Diagnostics.DebuggerHidden()]\n        param()\n\n        $foundSuggestion = $false\n        \n        if($lastError -and\n            ($lastError.Exception -is \"System.Management.Automation.CommandNotFoundException\"))\n        {\n            $escapedCommand = [System.Management.Automation.WildcardPattern]::Escape($lastError.TargetObject)\n            $foundSuggestion = @(Get-Command ($ExecutionContext.SessionState.Path.Combine(\".\", $escapedCommand)) -ErrorAction Ignore).Count -gt 0\n        }\n\n        $foundSuggestion"
+                    },
+                    {
+                        "@Name": "ScriptBlockId",
+                        "#text": "b9b7957f-d4a3-4868-bbb3-17d6d7874b0d"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4104"
+                },
+                "Version": "1",
+                "Level": "5",
+                "Task": "102",
+                "Opcode": "15",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 20:23:34.715698+00:00"
+                },
+                "EventRecordID": "4746",
+                "Correlation": {
+                    "@ActivityID": "{8523902b-c984-0002-21b4-248584c9d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "2112"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MessageNumber",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "MessageTotal",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "ScriptBlockText",
+                        "#text": "\"The command $($lastError.TargetObject) was not found, but does exist in the current location. Windows PowerShell does not load commands from the current location by default. If you trust this command, instead type `\".\\$($lastError.TargetObject)`\". See `\"get-help about_Command_Precedence`\" for more details.\""
+                    },
+                    {
+                        "@Name": "ScriptBlockId",
+                        "#text": "766f9f39-cfb0-4646-a9af-809aee7dbfb5"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-PowerShell",
+                    "@Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4104"
+                },
+                "Version": "1",
+                "Level": "5",
+                "Task": "102",
+                "Opcode": "15",
+                "Keywords": "0x0000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-10-25 20:23:34.736511+00:00"
+                },
+                "EventRecordID": "4747",
+                "Correlation": {
+                    "@ActivityID": "{8523902b-c984-0003-d069-248584c9d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1152",
+                    "@ThreadID": "3420"
+                },
+                "Channel": "Microsoft-Windows-PowerShell/Operational",
+                "Computer": "FS03.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MessageNumber",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "MessageTotal",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "ScriptBlockText",
+                        "#text": "prompt"
+                    },
+                    {
+                        "@Name": "ScriptBlockId",
+                        "#text": "78f0c8a9-9bff-4f0c-a929-9158cb2a32f4"
+                    }
+                ]
+            }
+        }
+    }
+]

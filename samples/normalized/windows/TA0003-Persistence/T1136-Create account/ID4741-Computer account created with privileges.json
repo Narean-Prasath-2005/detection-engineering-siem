@@ -1,0 +1,155 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4741"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13825",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-14 14:42:48.817932+00:00"
+                },
+                "EventRecordID": "237294524",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "4588"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "compnay-88$"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1296"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1234"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "hack1"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000308fb82ad"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "SeMachineAccountPrivilege"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "compnay-88$"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "%%1794"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "%%1794"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "515"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "0x0"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "0x84"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "%%2082\n\t\t%%2087"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "%%1792"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "%%1793"
+                    },
+                    {
+                        "@Name": "DnsHostName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ServicePrincipalNames",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

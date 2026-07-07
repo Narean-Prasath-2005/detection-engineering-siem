@@ -1,0 +1,188 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4663"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12802",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-11-04 10:47:07.359928+00:00"
+                },
+                "EventRecordID": "38745",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "248"
+                },
+                "Channel": "Security",
+                "Computer": "AD01.kdmo.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-1089590679-3038349081-645448463-500"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Administrator"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "KDMO"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000006007a"
+                    },
+                    {
+                        "@Name": "ObjectServer",
+                        "#text": "Security"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "Process"
+                    },
+                    {
+                        "@Name": "ObjectName",
+                        "#text": "\\Device\\HarddiskVolume4\\Windows\\System32\\lsass.exe"
+                    },
+                    {
+                        "@Name": "HandleId",
+                        "#text": "0x00000000000009ec"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%4484"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00000010"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x000000000000110c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Windows\\System32\\Taskmgr.exe"
+                    },
+                    {
+                        "@Name": "ResourceAttributes",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4663"
+                },
+                "Version": "1",
+                "Level": "0",
+                "Task": "12802",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-11-04 10:47:07.360662+00:00"
+                },
+                "EventRecordID": "38746",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "4",
+                    "@ThreadID": "248"
+                },
+                "Channel": "Security",
+                "Computer": "AD01.kdmo.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-1089590679-3038349081-645448463-500"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "Administrator"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "KDMO"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000006007a"
+                    },
+                    {
+                        "@Name": "ObjectServer",
+                        "#text": "Security"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "Process"
+                    },
+                    {
+                        "@Name": "ObjectName",
+                        "#text": "\\Device\\HarddiskVolume4\\Windows\\System32\\lsass.exe"
+                    },
+                    {
+                        "@Name": "HandleId",
+                        "#text": "0x000000000000089c"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%4484"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00000010"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "0x000000000000110c"
+                    },
+                    {
+                        "@Name": "ProcessName",
+                        "#text": "C:\\Windows\\System32\\Taskmgr.exe"
+                    },
+                    {
+                        "@Name": "ResourceAttributes",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

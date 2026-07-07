@@ -1,0 +1,807 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5124"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 07:46:42.820009+00:00"
+                },
+                "EventRecordID": "375285",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "1192"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "NewSecuritySettings",
+                        "#text": "Allow(0x00000101)\tBUILTIN\\Administrators\n\tOCSP Administrator\n\tRead\nAllow(0x00000101)\tROOTBLUE\\Cloneable Domain Controllers\n\tOCSP Administrator\n\tRead\nAllow(0x00000300)\tIIS APPPOOL\\OCSPISAPIAppPool\n\tRead\n\tOCSP Requestor"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5124"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 07:47:40.132498+00:00"
+                },
+                "EventRecordID": "375291",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "5752"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "NewSecuritySettings",
+                        "#text": "Allow(0x00000101)\tBUILTIN\\Administrators\n\tOCSP Administrator\n\tRead\nAllow(0x00000300)\tIIS APPPOOL\\OCSPISAPIAppPool\n\tRead\n\tOCSP Requestor"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5123"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 07:48:18.628244+00:00"
+                },
+                "EventRecordID": "375292",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "5752"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "PropertyName",
+                        "#text": "MaxNumOfCacheEntries"
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "5002"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5123"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 07:48:18.628439+00:00"
+                },
+                "EventRecordID": "375293",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "5752"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "PropertyName",
+                        "#text": "NumOfThreads"
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "512"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5123"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 07:48:54.443554+00:00"
+                },
+                "EventRecordID": "375299",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "5752"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "PropertyName",
+                        "#text": "AuditFilter"
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "7"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5123"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 07:49:06.989305+00:00"
+                },
+                "EventRecordID": "375300",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "5752"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "PropertyName",
+                        "#text": "AuditFilter"
+                    },
+                    {
+                        "@Name": "NewValue",
+                        "#text": "0"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5124"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 07:51:23.516306+00:00"
+                },
+                "EventRecordID": "375313",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "6232"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "NewSecuritySettings",
+                        "#text": "Allow(0x00000101)\tBUILTIN\\Administrators\n\tOCSP Administrator\n\tRead\nAllow(0x00000101)\tROOTBLUE\\Hacker_Group\n\tOCSP Administrator\n\tRead\nAllow(0x00000300)\tIIS APPPOOL\\OCSPISAPIAppPool\n\tRead\n\tOCSP Requestor"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5124"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 08:01:32.952971+00:00"
+                },
+                "EventRecordID": "375387",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "7036"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "NewSecuritySettings",
+                        "#text": "Allow(0x00000101)\tBUILTIN\\Administrators\n\tOCSP Administrator\n\tRead\nAllow(0x00000300)\tIIS APPPOOL\\OCSPISAPIAppPool\n\tRead\n\tOCSP Requestor"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5124"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 08:02:28.996500+00:00"
+                },
+                "EventRecordID": "375393",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "7036"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "NewSecuritySettings",
+                        "#text": "Allow(0x00000101)\tBUILTIN\\Administrators\n\tOCSP Administrator\n\tRead\nAllow(0x00000101)\tROOTBLUE\\Hacker_Group\n\tOCSP Administrator\n\tRead\nAllow(0x00000300)\tIIS APPPOOL\\OCSPISAPIAppPool\n\tRead\n\tOCSP Requestor"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5124"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 08:04:23.188938+00:00"
+                },
+                "EventRecordID": "375405",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "5752"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "NewSecuritySettings",
+                        "#text": "Allow(0x00000301)\tROOTBLUE\\Hacker_Group\n\tOCSP Administrator\n\tRead\n\tOCSP Requestor\nAllow(0x00000101)\tBUILTIN\\Administrators\n\tOCSP Administrator\n\tRead\nAllow(0x00000300)\tIIS APPPOOL\\OCSPISAPIAppPool\n\tRead\n\tOCSP Requestor"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4876"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 10:41:30.959534+00:00"
+                },
+                "EventRecordID": "376329",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "4156"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "BackupType",
+                        "#text": "1"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4877"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 10:41:31.145540+00:00"
+                },
+                "EventRecordID": "376330",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "4156"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4885"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "12805",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2024-09-03 10:42:09.373562+00:00"
+                },
+                "EventRecordID": "376331",
+                "Correlation": {
+                    "@ActivityID": "{d702b00c-fb0e-0000-8cb1-02d70efbda01}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "640",
+                    "@ThreadID": "4156"
+                },
+                "Channel": "Security",
+                "Computer": "CDCWPKI01.rootblue.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "AuditFilter",
+                        "#text": "111"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-392370121-190461309-2151315433-1108"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "domadm"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "ROOTBLUE"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000091861a6"
+                    }
+                ]
+            }
+        }
+    }
+]

@@ -1,10 +1,20 @@
-title: Shadow File Access
-id: DET-001
-severity: HIGH
-
+title: Linux Shadow File Access
+id: DET-0008
+status: stable
+description: Detects access to /etc/shadow.
+author: Narean Prasath
+date: 2026-07-07
+logsource:
+  product: linux
+  service: auditd
 detection:
-  target: "/etc/shadow"
-
+  selection:
+    target: /etc/shadow
+  condition: selection
+falsepositives:
+- Password administration
+level: high
 mitre:
   tactic: Credential Access
-  technique: T1003.008
+  technique: Unsecured Credentials
+  attack_id: T1003

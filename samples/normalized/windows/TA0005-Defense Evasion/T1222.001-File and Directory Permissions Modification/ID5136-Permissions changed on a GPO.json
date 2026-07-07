@@ -1,0 +1,300 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4662"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14080",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-22 22:42:37.560551+00:00"
+                },
+                "EventRecordID": "111658668",
+                "Correlation": {
+                    "@ActivityID": "{d4e86ee2-efda-0001-fc6e-e8d4daefd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "556",
+                    "@ThreadID": "4060"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000024e19311"
+                    },
+                    {
+                        "@Name": "ObjectServer",
+                        "#text": "DS"
+                    },
+                    {
+                        "@Name": "ObjectType",
+                        "#text": "%{f30e3bc2-9ff0-11d1-b603-0000f80367c1}"
+                    },
+                    {
+                        "@Name": "ObjectName",
+                        "#text": "%{244db979-f8ae-4695-9e37-2104a17a967f}"
+                    },
+                    {
+                        "@Name": "OperationType",
+                        "#text": "Object Access"
+                    },
+                    {
+                        "@Name": "HandleId",
+                        "#text": "0x0000000000000000"
+                    },
+                    {
+                        "@Name": "AccessList",
+                        "#text": "%%1539"
+                    },
+                    {
+                        "@Name": "AccessMask",
+                        "#text": "0x00040000"
+                    },
+                    {
+                        "@Name": "Properties",
+                        "#text": "%%1539\n\t{f30e3bc2-9ff0-11d1-b603-0000f80367c1}"
+                    },
+                    {
+                        "@Name": "AdditionalInfo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AdditionalInfo2"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5136"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14081",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-22 22:42:42.737267+00:00"
+                },
+                "EventRecordID": "111658703",
+                "Correlation": {
+                    "@ActivityID": "{d4e86ee2-efda-0001-fc6e-e8d4daefd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "556",
+                    "@ThreadID": "15032"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "OpCorrelationID",
+                        "#text": "{e5e8450f-ce4f-4320-98b9-b02e993fab20}"
+                    },
+                    {
+                        "@Name": "AppCorrelationID",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000024e19311"
+                    },
+                    {
+                        "@Name": "DSName",
+                        "#text": "offsec.lan"
+                    },
+                    {
+                        "@Name": "DSType",
+                        "#text": "%%14676"
+                    },
+                    {
+                        "@Name": "ObjectDN",
+                        "#text": "cn={127328D6-A8A8-49E3-BA71-410C945F42CE},cn=policies,cn=system,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "ObjectGUID",
+                        "#text": "{244db979-f8ae-4695-9e37-2104a17a967f}"
+                    },
+                    {
+                        "@Name": "ObjectClass",
+                        "#text": "groupPolicyContainer"
+                    },
+                    {
+                        "@Name": "AttributeLDAPDisplayName",
+                        "#text": "nTSecurityDescriptor"
+                    },
+                    {
+                        "@Name": "AttributeSyntaxOID",
+                        "#text": "2.5.5.15"
+                    },
+                    {
+                        "@Name": "AttributeValue",
+                        "#text": "O:DAG:DAD:PAI(OA;CI;CR;edacfd8f-ffb3-11d1-b41d-00a0c968f939;;AU)(A;;CCDCLCSWRPWPDTLOSDRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOSDRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOSDRCWDWO;;;S-1-5-21-4230534742-2542757381-3142984815-519)(A;CI;LCRPLORC;;;ED)(A;CI;LCRPLORC;;;AU)(A;CI;CCDCLCSWRPWPDTLOSDRCWDWO;;;SY)(A;CIIO;CCDCLCSWRPWPDTLOSDRCWDWO;;;CO)S:AI(OU;CIIDSA;WPWD;;f30e3bc2-9ff0-11d1-b603-0000f80367c1;WD)(AU;CIIDSA;CRWD;;;WD)"
+                    },
+                    {
+                        "@Name": "OperationType",
+                        "#text": "%%14675"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5136"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14081",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-22 22:42:42.737514+00:00"
+                },
+                "EventRecordID": "111658704",
+                "Correlation": {
+                    "@ActivityID": "{d4e86ee2-efda-0001-fc6e-e8d4daefd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "556",
+                    "@ThreadID": "4060"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "OpCorrelationID",
+                        "#text": "{e5e8450f-ce4f-4320-98b9-b02e993fab20}"
+                    },
+                    {
+                        "@Name": "AppCorrelationID",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000024e19311"
+                    },
+                    {
+                        "@Name": "DSName",
+                        "#text": "offsec.lan"
+                    },
+                    {
+                        "@Name": "DSType",
+                        "#text": "%%14676"
+                    },
+                    {
+                        "@Name": "ObjectDN",
+                        "#text": "cn={127328D6-A8A8-49E3-BA71-410C945F42CE},cn=policies,cn=system,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "ObjectGUID",
+                        "#text": "{244db979-f8ae-4695-9e37-2104a17a967f}"
+                    },
+                    {
+                        "@Name": "ObjectClass",
+                        "#text": "groupPolicyContainer"
+                    },
+                    {
+                        "@Name": "AttributeLDAPDisplayName",
+                        "#text": "nTSecurityDescriptor"
+                    },
+                    {
+                        "@Name": "AttributeSyntaxOID",
+                        "#text": "2.5.5.15"
+                    },
+                    {
+                        "@Name": "AttributeValue",
+                        "#text": "O:DAG:DAD:PAI(OA;CI;CR;edacfd8f-ffb3-11d1-b41d-00a0c968f939;;AU)(A;;CCDCLCSWRPWPDTLOSDRCWDWO;;;DA)(A;CI;CCDCLCRPWPSDRCWDWO;;;S-1-5-21-4230534742-2542757381-3142984815-1234)(A;CI;CCDCLCSWRPWPDTLOSDRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOSDRCWDWO;;;S-1-5-21-4230534742-2542757381-3142984815-519)(A;CI;LCRPLORC;;;ED)(A;CI;LCRPLORC;;;AU)(A;CI;CCDCLCSWRPWPDTLOSDRCWDWO;;;SY)(A;CIIO;CCDCLCSWRPWPDTLOSDRCWDWO;;;CO)S:AI(OU;CIIDSA;WPWD;;f30e3bc2-9ff0-11d1-b603-0000f80367c1;WD)(AU;CIIDSA;CRWD;;;WD)"
+                    },
+                    {
+                        "@Name": "OperationType",
+                        "#text": "%%14674"
+                    }
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,893 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:19:54.561817+00:00"
+                },
+                "EventRecordID": "16078256",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1150"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Group01"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1134"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000008084443"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:19:54.564047+00:00"
+                },
+                "EventRecordID": "16078259",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1150"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Group02"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1135"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000008084443"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:19:54.566002+00:00"
+                },
+                "EventRecordID": "16078262",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1150"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Group03"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1136"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000008084443"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:19:54.568096+00:00"
+                },
+                "EventRecordID": "16078265",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1150"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Group04"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1137"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000008084443"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:19:54.570055+00:00"
+                },
+                "EventRecordID": "16078268",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1150"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Group05"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1138"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000008084443"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:19:54.572023+00:00"
+                },
+                "EventRecordID": "16078271",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1150"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Group06"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1139"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000008084443"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:19:54.574251+00:00"
+                },
+                "EventRecordID": "16078274",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1150"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Group07"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1140"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000008084443"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:19:54.576239+00:00"
+                },
+                "EventRecordID": "16078277",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1150"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Group08"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1141"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000008084443"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:19:54.578259+00:00"
+                },
+                "EventRecordID": "16078280",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1150"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Group09"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1142"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000008084443"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:19:54.580231+00:00"
+                },
+                "EventRecordID": "16078283",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1150"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Group10"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1143"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000008084443"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4728"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:19:54.582190+00:00"
+                },
+                "EventRecordID": "16078286",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3156"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1150"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Group11"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1144"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000008084443"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

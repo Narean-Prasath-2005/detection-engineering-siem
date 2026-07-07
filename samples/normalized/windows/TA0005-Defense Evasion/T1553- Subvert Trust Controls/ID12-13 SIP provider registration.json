@@ -1,0 +1,2029 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.407539+00:00"
+                },
+                "EventRecordID": "133",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1543,technique_name=Service Creation"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.406"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a6d3-626b-4601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "4720"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\System\\CurrentControlSet\\Services\\bam\\UserSettings\\S-1-5-21-113448046-927799223-410490820-1001\\\\Device\\HarddiskVolume4\\Windows\\System32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "Binary Data"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.432755+00:00"
+                },
+                "EventRecordID": "135",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllPutSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.432877+00:00"
+                },
+                "EventRecordID": "136",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllPutSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\Dll"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "C:\\Users\\Admin\\source\\repos\\PoCSubjectInterfacePackage\\x64\\Debug\\MySIP.dll"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.432987+00:00"
+                },
+                "EventRecordID": "137",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllPutSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.433090+00:00"
+                },
+                "EventRecordID": "138",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllPutSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\FuncName"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "MyPutSignature"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.433195+00:00"
+                },
+                "EventRecordID": "139",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllGetSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.433302+00:00"
+                },
+                "EventRecordID": "140",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllGetSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\Dll"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "C:\\Users\\Admin\\source\\repos\\PoCSubjectInterfacePackage\\x64\\Debug\\MySIP.dll"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.433392+00:00"
+                },
+                "EventRecordID": "141",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllGetSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.433491+00:00"
+                },
+                "EventRecordID": "142",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllGetSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\FuncName"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "GetLegitMSSignature"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.433578+00:00"
+                },
+                "EventRecordID": "143",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllRemoveSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.433678+00:00"
+                },
+                "EventRecordID": "144",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllRemoveSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\Dll"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "C:\\Users\\Admin\\source\\repos\\PoCSubjectInterfacePackage\\x64\\Debug\\MySIP.dll"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.433765+00:00"
+                },
+                "EventRecordID": "145",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllRemoveSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.433861+00:00"
+                },
+                "EventRecordID": "146",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllRemoveSignedDataMsg\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\FuncName"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "MyDelSignature"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.433952+00:00"
+                },
+                "EventRecordID": "147",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllCreateIndirectData\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.434040+00:00"
+                },
+                "EventRecordID": "148",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllCreateIndirectData\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\Dll"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "C:\\Users\\Admin\\source\\repos\\PoCSubjectInterfacePackage\\x64\\Debug\\MySIP.dll"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.434130+00:00"
+                },
+                "EventRecordID": "149",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllCreateIndirectData\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.434233+00:00"
+                },
+                "EventRecordID": "150",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllCreateIndirectData\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\FuncName"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "MyCreateHash"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.434320+00:00"
+                },
+                "EventRecordID": "151",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllVerifyIndirectData\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.434410+00:00"
+                },
+                "EventRecordID": "152",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllVerifyIndirectData\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\Dll"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "C:\\Users\\Admin\\source\\repos\\PoCSubjectInterfacePackage\\x64\\Debug\\MySIP.dll"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.434498+00:00"
+                },
+                "EventRecordID": "153",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllVerifyIndirectData\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.434597+00:00"
+                },
+                "EventRecordID": "154",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllVerifyIndirectData\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\FuncName"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "AutoApproveHash"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.434692+00:00"
+                },
+                "EventRecordID": "155",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllIsMyFileType2\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.434782+00:00"
+                },
+                "EventRecordID": "156",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllIsMyFileType2\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\Dll"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "C:\\Users\\Admin\\source\\repos\\PoCSubjectInterfacePackage\\x64\\Debug\\MySIP.dll"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.434868+00:00"
+                },
+                "EventRecordID": "157",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllIsMyFileType2\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:21.434958+00:00"
+                },
+                "EventRecordID": "158",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:21.422"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\SOFTWARE\\Microsoft\\Cryptography\\OID\\EncodingType 0\\CryptSIPDllIsMyFileType2\\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\\FuncName"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "IsMyFileExtension"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:58:30.558615+00:00"
+                },
+                "EventRecordID": "159",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1543,technique_name=Service Creation"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:58:30.550"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a8ad-626b-9601-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2760"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\System\\CurrentControlSet\\Services\\bam\\UserSettings\\S-1-5-21-113448046-927799223-410490820-1001\\\\Device\\HarddiskVolume4\\Windows\\System32\\regsvr32.exe"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "Binary Data"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-04-29 08:59:01.063887+00:00"
+                },
+                "EventRecordID": "162",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "8940",
+                    "@ThreadID": "7716"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "WIN",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1546.001,technique_name=Change Default File Association"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-04-29 08:59:01.059"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{668ea4ef-a43a-626b-3c00-000000001400}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "3572"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\Explorer.EXE"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKU\\S-1-5-21-113448046-927799223-410490820-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FileExts\\.evtx"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "WIN\\Admin"
+                    }
+                ]
+            }
+        }
+    }
+]

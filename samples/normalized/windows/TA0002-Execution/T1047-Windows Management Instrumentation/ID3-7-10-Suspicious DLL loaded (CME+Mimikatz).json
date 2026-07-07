@@ -1,0 +1,515 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "7"
+                },
+                "Version": "3",
+                "Level": "4",
+                "Task": "7",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-11-30 22:05:47.229944+00:00"
+                },
+                "EventRecordID": "48099",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1048",
+                    "@ThreadID": "1684"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1086,technique_name=PowerShell"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-11-30 22:05:47.229"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{a57649d1-a03b-61a6-2f23-8d0000000000}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2668"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                    },
+                    {
+                        "@Name": "ImageLoaded",
+                        "#text": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Manaa57fc8cc#\\287ded39f444f2847a5175b4bf51f9c9\\System.Management.Automation.ni.dll"
+                    },
+                    {
+                        "@Name": "FileVersion",
+                        "#text": "6.3.9600.17400"
+                    },
+                    {
+                        "@Name": "Description",
+                        "#text": "System.Management.Automation"
+                    },
+                    {
+                        "@Name": "Product",
+                        "#text": "Microsoft (R) Windows (R) Operating System"
+                    },
+                    {
+                        "@Name": "Company",
+                        "#text": "Microsoft Corporation"
+                    },
+                    {
+                        "@Name": "OriginalFileName",
+                        "#text": "System.Management.Automation.dll"
+                    },
+                    {
+                        "@Name": "Hashes",
+                        "#text": "SHA1=4F4193BFF5970968B6EEAD58EB83F9415F32A5C1,MD5=9139657B434F2FA8023775958164DB0C,SHA256=EE9CD13CC38A285D48B00E21CBB11F9CA8C8F435ADF6ADF5281C371DD0A406AA,IMPHASH=00000000000000000000000000000000"
+                    },
+                    {
+                        "@Name": "Signed",
+                        "#text": "false"
+                    },
+                    {
+                        "@Name": "Signature",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SignatureStatus",
+                        "#text": "Unavailable"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "7"
+                },
+                "Version": "3",
+                "Level": "4",
+                "Task": "7",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-11-30 22:05:50.065567+00:00"
+                },
+                "EventRecordID": "48103",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1048",
+                    "@ThreadID": "1688"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1047,technique_name=Windows Management Instrumentation"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-11-30 22:05:50.049"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{a57649d1-a03b-61a6-2f23-8d0000000000}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2668"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                    },
+                    {
+                        "@Name": "ImageLoaded",
+                        "#text": "C:\\Windows\\System32\\wbem\\wmiutils.dll"
+                    },
+                    {
+                        "@Name": "FileVersion",
+                        "#text": "6.3.9600.17415 (winblue_r4.141028-1500)"
+                    },
+                    {
+                        "@Name": "Description",
+                        "#text": "WMI"
+                    },
+                    {
+                        "@Name": "Product",
+                        "#text": "Microsoft\u00ae Windows\u00ae Operating System"
+                    },
+                    {
+                        "@Name": "Company",
+                        "#text": "Microsoft Corporation"
+                    },
+                    {
+                        "@Name": "OriginalFileName",
+                        "#text": "wmiutils.dll"
+                    },
+                    {
+                        "@Name": "Hashes",
+                        "#text": "SHA1=1663A59FF35A01F612C878AB83F2AD242BB46FB6,MD5=FC2036AB90490D8FDFB3B3F3B90AF56F,SHA256=E293B79E4C06E8DEFD95F3CB9B70BA1CC50E83C37930DA802B50066AC6DF0509,IMPHASH=77B4BD4D7F94DBB1235EEE9E8C0737DC"
+                    },
+                    {
+                        "@Name": "Signed",
+                        "#text": "true"
+                    },
+                    {
+                        "@Name": "Signature",
+                        "#text": "Microsoft Windows"
+                    },
+                    {
+                        "@Name": "SignatureStatus",
+                        "#text": "Valid"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "3"
+                },
+                "Version": "5",
+                "Level": "4",
+                "Task": "3",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-11-30 22:05:50.864922+00:00"
+                },
+                "EventRecordID": "48104",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1048",
+                    "@ThreadID": "1680"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1086,technique_name=PowerShell"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-11-30 22:05:44.846"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{a57649d1-a03b-61a6-2f23-8d0000000000}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2668"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "OFFSEC\\admmig"
+                    },
+                    {
+                        "@Name": "Protocol",
+                        "#text": "tcp"
+                    },
+                    {
+                        "@Name": "Initiated",
+                        "#text": "True"
+                    },
+                    {
+                        "@Name": "SourceIsIpv6",
+                        "#text": "False"
+                    },
+                    {
+                        "@Name": "SourceIp",
+                        "#text": "10.23.42.38"
+                    },
+                    {
+                        "@Name": "SourceHostname",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SourcePort",
+                        "#text": "62095"
+                    },
+                    {
+                        "@Name": "SourcePortName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DestinationIsIpv6",
+                        "#text": "False"
+                    },
+                    {
+                        "@Name": "DestinationIp",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "DestinationHostname",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DestinationPort",
+                        "#text": "443"
+                    },
+                    {
+                        "@Name": "DestinationPortName",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "10"
+                },
+                "Version": "3",
+                "Level": "4",
+                "Task": "10",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-11-30 22:05:59.943117+00:00"
+                },
+                "EventRecordID": "48105",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1048",
+                    "@ThreadID": "1684"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-11-30 22:05:59.927"
+                    },
+                    {
+                        "@Name": "SourceProcessGUID",
+                        "#text": "{a57649d1-a03b-61a6-2f23-8d0000000000}"
+                    },
+                    {
+                        "@Name": "SourceProcessId",
+                        "#text": "2668"
+                    },
+                    {
+                        "@Name": "SourceThreadId",
+                        "#text": "2736"
+                    },
+                    {
+                        "@Name": "SourceImage",
+                        "#text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                    },
+                    {
+                        "@Name": "TargetProcessGUID",
+                        "#text": "{a57649d1-92d8-61a4-7191-000000000000}"
+                    },
+                    {
+                        "@Name": "TargetProcessId",
+                        "#text": "480"
+                    },
+                    {
+                        "@Name": "TargetImage",
+                        "#text": "C:\\Windows\\system32\\lsass.exe"
+                    },
+                    {
+                        "@Name": "GrantedAccess",
+                        "#text": "0x0000143a"
+                    },
+                    {
+                        "@Name": "CallTrace",
+                        "#text": "C:\\Windows\\SYSTEM32\\ntdll.dll+90eaa|C:\\Windows\\system32\\KERNELBASE.dll+2e5e|UNKNOWN(000000CDD65B2A68)"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "3"
+                },
+                "Version": "5",
+                "Level": "4",
+                "Task": "3",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-11-30 22:06:02.033363+00:00"
+                },
+                "EventRecordID": "48106",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1048",
+                    "@ThreadID": "1680"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1086,technique_name=PowerShell"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2021-11-30 22:05:56.784"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{a57649d1-a03b-61a6-2f23-8d0000000000}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "2668"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "OFFSEC\\admmig"
+                    },
+                    {
+                        "@Name": "Protocol",
+                        "#text": "tcp"
+                    },
+                    {
+                        "@Name": "Initiated",
+                        "#text": "True"
+                    },
+                    {
+                        "@Name": "SourceIsIpv6",
+                        "#text": "False"
+                    },
+                    {
+                        "@Name": "SourceIp",
+                        "#text": "10.23.42.38"
+                    },
+                    {
+                        "@Name": "SourceHostname",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SourcePort",
+                        "#text": "62096"
+                    },
+                    {
+                        "@Name": "SourcePortName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DestinationIsIpv6",
+                        "#text": "False"
+                    },
+                    {
+                        "@Name": "DestinationIp",
+                        "#text": "10.23.123.11"
+                    },
+                    {
+                        "@Name": "DestinationHostname",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DestinationPort",
+                        "#text": "443"
+                    },
+                    {
+                        "@Name": "DestinationPortName",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

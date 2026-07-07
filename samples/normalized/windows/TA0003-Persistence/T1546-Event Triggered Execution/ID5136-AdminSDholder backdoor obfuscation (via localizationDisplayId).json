@@ -1,0 +1,406 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5136"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14081",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-27 14:20:03.032799+00:00"
+                },
+                "EventRecordID": "125918254",
+                "Correlation": {
+                    "@ActivityID": "{be6feeb9-2260-0000-cbee-6fbe6022d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "560",
+                    "@ThreadID": "2248"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "OpCorrelationID",
+                        "#text": "{c37c1925-c30d-47a0-8f8f-f7d569c924a2}"
+                    },
+                    {
+                        "@Name": "AppCorrelationID",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000001b790f9"
+                    },
+                    {
+                        "@Name": "DSName",
+                        "#text": "offsec.lan"
+                    },
+                    {
+                        "@Name": "DSType",
+                        "#text": "%%14676"
+                    },
+                    {
+                        "@Name": "ObjectDN",
+                        "#text": "CN=User-Force-Change-Password,CN=Extended-Rights,CN=Configuration,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "ObjectGUID",
+                        "#text": "{16bfbcba-6758-4cde-bdeb-8e3f661e271e}"
+                    },
+                    {
+                        "@Name": "ObjectClass",
+                        "#text": "controlAccessRight"
+                    },
+                    {
+                        "@Name": "AttributeLDAPDisplayName",
+                        "#text": "localizationDisplayId"
+                    },
+                    {
+                        "@Name": "AttributeSyntaxOID",
+                        "#text": "2.5.5.9"
+                    },
+                    {
+                        "@Name": "AttributeValue",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "OperationType",
+                        "#text": "%%14675"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5136"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14081",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-27 14:20:03.033127+00:00"
+                },
+                "EventRecordID": "125918255",
+                "Correlation": {
+                    "@ActivityID": "{be6feeb9-2260-0000-cbee-6fbe6022d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "560",
+                    "@ThreadID": "3104"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "OpCorrelationID",
+                        "#text": "{c37c1925-c30d-47a0-8f8f-f7d569c924a2}"
+                    },
+                    {
+                        "@Name": "AppCorrelationID",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000001b790f9"
+                    },
+                    {
+                        "@Name": "DSName",
+                        "#text": "offsec.lan"
+                    },
+                    {
+                        "@Name": "DSType",
+                        "#text": "%%14676"
+                    },
+                    {
+                        "@Name": "ObjectDN",
+                        "#text": "CN=User-Force-Change-Password,CN=Extended-Rights,CN=Configuration,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "ObjectGUID",
+                        "#text": "{16bfbcba-6758-4cde-bdeb-8e3f661e271e}"
+                    },
+                    {
+                        "@Name": "ObjectClass",
+                        "#text": "controlAccessRight"
+                    },
+                    {
+                        "@Name": "AttributeLDAPDisplayName",
+                        "#text": "localizationDisplayId"
+                    },
+                    {
+                        "@Name": "AttributeSyntaxOID",
+                        "#text": "2.5.5.9"
+                    },
+                    {
+                        "@Name": "AttributeValue",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "OperationType",
+                        "#text": "%%14674"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5136"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14081",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-27 14:28:44.379976+00:00"
+                },
+                "EventRecordID": "125921360",
+                "Correlation": {
+                    "@ActivityID": "{be6feeb9-2260-0000-cbee-6fbe6022d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "560",
+                    "@ThreadID": "2480"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "OpCorrelationID",
+                        "#text": "{faeca81d-02c2-4669-b2fc-80bec0c7e977}"
+                    },
+                    {
+                        "@Name": "AppCorrelationID",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000001b790f9"
+                    },
+                    {
+                        "@Name": "DSName",
+                        "#text": "offsec.lan"
+                    },
+                    {
+                        "@Name": "DSType",
+                        "#text": "%%14676"
+                    },
+                    {
+                        "@Name": "ObjectDN",
+                        "#text": "CN=User-Force-Change-Password,CN=Extended-Rights,CN=Configuration,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "ObjectGUID",
+                        "#text": "{16bfbcba-6758-4cde-bdeb-8e3f661e271e}"
+                    },
+                    {
+                        "@Name": "ObjectClass",
+                        "#text": "controlAccessRight"
+                    },
+                    {
+                        "@Name": "AttributeLDAPDisplayName",
+                        "#text": "localizationDisplayId"
+                    },
+                    {
+                        "@Name": "AttributeSyntaxOID",
+                        "#text": "2.5.5.9"
+                    },
+                    {
+                        "@Name": "AttributeValue",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "OperationType",
+                        "#text": "%%14675"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5136"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14081",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-03-27 14:28:44.380238+00:00"
+                },
+                "EventRecordID": "125921361",
+                "Correlation": {
+                    "@ActivityID": "{be6feeb9-2260-0000-cbee-6fbe6022d701}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "560",
+                    "@ThreadID": "5888"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "OpCorrelationID",
+                        "#text": "{faeca81d-02c2-4669-b2fc-80bec0c7e977}"
+                    },
+                    {
+                        "@Name": "AppCorrelationID",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000001b790f9"
+                    },
+                    {
+                        "@Name": "DSName",
+                        "#text": "offsec.lan"
+                    },
+                    {
+                        "@Name": "DSType",
+                        "#text": "%%14676"
+                    },
+                    {
+                        "@Name": "ObjectDN",
+                        "#text": "CN=User-Force-Change-Password,CN=Extended-Rights,CN=Configuration,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "ObjectGUID",
+                        "#text": "{16bfbcba-6758-4cde-bdeb-8e3f661e271e}"
+                    },
+                    {
+                        "@Name": "ObjectClass",
+                        "#text": "controlAccessRight"
+                    },
+                    {
+                        "@Name": "AttributeLDAPDisplayName",
+                        "#text": "localizationDisplayId"
+                    },
+                    {
+                        "@Name": "AttributeSyntaxOID",
+                        "#text": "2.5.5.9"
+                    },
+                    {
+                        "@Name": "AttributeValue",
+                        "#text": "3"
+                    },
+                    {
+                        "@Name": "OperationType",
+                        "#text": "%%14674"
+                    }
+                ]
+            }
+        }
+    }
+]

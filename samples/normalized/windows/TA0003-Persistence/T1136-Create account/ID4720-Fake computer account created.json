@@ -1,0 +1,147 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4720"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 19:45:00.670311+00:00"
+                },
+                "EventRecordID": "16336962",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "2376"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "FAKE-COMPUTER$"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1168"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000880cbad"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "FAKE-COMPUTER$"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "FAKE-COMPUTER"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "FAKE-COMPUTER$@offsec.lan"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "%%1794"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "%%1794"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "513"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "0x0"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "0x15"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "%%2080\n\t\t%%2082\n\t\t%%2084"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "%%1793"
+                    }
+                ]
+            }
+        }
+    }
+]

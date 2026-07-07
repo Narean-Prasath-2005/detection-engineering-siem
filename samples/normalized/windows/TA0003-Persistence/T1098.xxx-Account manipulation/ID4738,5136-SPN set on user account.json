@@ -1,0 +1,502 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4738"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-09 21:22:22.853836+00:00"
+                },
+                "EventRecordID": "15779580",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "860"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Dummy",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "honey-pot1"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1159"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000006529663"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5136"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14081",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-09 21:22:31.163061+00:00"
+                },
+                "EventRecordID": "15779594",
+                "Correlation": {
+                    "@ActivityID": "{6d05f384-4f78-0000-aef3-056d784fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "992"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "OpCorrelationID",
+                        "#text": "{52bfbf59-4cf4-4d5e-98d1-09d1ebe12fde}"
+                    },
+                    {
+                        "@Name": "AppCorrelationID",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000006529663"
+                    },
+                    {
+                        "@Name": "DSName",
+                        "#text": "offsec.lan"
+                    },
+                    {
+                        "@Name": "DSType",
+                        "#text": "%%14676"
+                    },
+                    {
+                        "@Name": "ObjectDN",
+                        "#text": "CN=honey-pot1,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "ObjectGUID",
+                        "#text": "{259162f1-58e4-4ee9-9b9c-2baf2a03d376}"
+                    },
+                    {
+                        "@Name": "ObjectClass",
+                        "#text": "user"
+                    },
+                    {
+                        "@Name": "AttributeLDAPDisplayName",
+                        "#text": "servicePrincipalName"
+                    },
+                    {
+                        "@Name": "AttributeSyntaxOID",
+                        "#text": "2.5.5.12"
+                    },
+                    {
+                        "@Name": "AttributeValue",
+                        "#text": "HTTP/HACK-ME-PC.offsec.lan"
+                    },
+                    {
+                        "@Name": "OperationType",
+                        "#text": "%%14674"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4738"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-09 21:25:39.266596+00:00"
+                },
+                "EventRecordID": "15779969",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "3836"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Dummy",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "honey-pot1"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1159"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000006531f37"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "5136"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14081",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-09 21:25:41.773922+00:00"
+                },
+                "EventRecordID": "15779983",
+                "Correlation": {
+                    "@ActivityID": "{6d05f384-4f78-0000-aef3-056d784fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "528",
+                    "@ThreadID": "860"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "OpCorrelationID",
+                        "#text": "{23e10b6b-4bc4-4cd5-bd5f-9b9ba2ef95a3}"
+                    },
+                    {
+                        "@Name": "AppCorrelationID",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1158"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "lambda-user"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x0000000006531f37"
+                    },
+                    {
+                        "@Name": "DSName",
+                        "#text": "offsec.lan"
+                    },
+                    {
+                        "@Name": "DSType",
+                        "#text": "%%14676"
+                    },
+                    {
+                        "@Name": "ObjectDN",
+                        "#text": "CN=honey-pot1,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+                    },
+                    {
+                        "@Name": "ObjectGUID",
+                        "#text": "{259162f1-58e4-4ee9-9b9c-2baf2a03d376}"
+                    },
+                    {
+                        "@Name": "ObjectClass",
+                        "#text": "user"
+                    },
+                    {
+                        "@Name": "AttributeLDAPDisplayName",
+                        "#text": "servicePrincipalName"
+                    },
+                    {
+                        "@Name": "AttributeSyntaxOID",
+                        "#text": "2.5.5.12"
+                    },
+                    {
+                        "@Name": "AttributeValue",
+                        "#text": "MSSQLSvc/HACK-ME-PC.offsec.lan"
+                    },
+                    {
+                        "@Name": "OperationType",
+                        "#text": "%%14674"
+                    }
+                ]
+            }
+        }
+    }
+]

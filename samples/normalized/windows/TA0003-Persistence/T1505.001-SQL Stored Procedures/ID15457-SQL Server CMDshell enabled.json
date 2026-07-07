@@ -1,0 +1,62 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSSQL$RADAR"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "15457"
+                },
+                "Level": "4",
+                "Task": "2",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-01 21:32:10.598291+00:00"
+                },
+                "EventRecordID": "70665",
+                "Channel": "Application",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                }
+            },
+            "EventData": {
+                "Data": "<string>xp_cmdshell</string>\n<string>0</string>\n<string>1</string>",
+                "Binary": "YTwAAAoAAAAOAAAATQBTAFMAUQBMADAAMQBcAFIAQQBEAEEAUgAAAAcAAABtAGEAcwB0AGUAcgAAAA=="
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSSQL$RADAR"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "33205"
+                },
+                "Level": "0",
+                "Task": "5",
+                "Keywords": "0x00a0000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-08-01 21:32:13.358334+00:00"
+                },
+                "EventRecordID": "70666",
+                "Channel": "Application",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>audit_schema_version:1\nevent_time:2020-08-01 21:32:10.5982911\nsequence_number:1\naction_id:ALST\nsucceeded:true\nis_column_permission:false\nsession_id:53\nserver_principal_id:2\ndatabase_principal_id:1\ntarget_server_principal_id:0\ntarget_database_principal_id:0\nobject_id:0\nuser_defined_event_id:0\nclass_type:SR\npermission_bitmask:00000000000000000000000000000000\nsequence_group_id:4548F08D-251A-4B24-9387-3E40B78F2491\nsession_server_principal_name:OFFSEC\\admmig\nserver_principal_name:OFFSEC\\admmig\nserver_principal_sid:01050000000000051500000056d628fc05668f976f2456bb57040000\ndatabase_principal_name:dbo\ntarget_server_principal_name:\ntarget_server_principal_sid:\ntarget_database_principal_name:\nserver_instance_name:MSSQL01\\RADAR\ndatabase_name:master\nschema_name:\nobject_name:\nstatement:RECONFIGURE;\nadditional_information:\nuser_defined_information:\n</string>",
+                "Binary": null
+            }
+        }
+    }
+]

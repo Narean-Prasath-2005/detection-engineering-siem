@@ -1,0 +1,20 @@
+title: Linux Local User Creation
+id: DET-0012
+status: stable
+description: Detects creation of a new local user account.
+author: Narean Prasath
+date: 2026-07-07
+logsource:
+  product: linux
+  service: auditd
+detection:
+  selection:
+    process_name|regex: (useradd|adduser)
+  condition: selection
+falsepositives:
+- Administrator provisioning
+level: medium
+mitre:
+  tactic: Persistence
+  technique: Create Account
+  attack_id: T1136.001

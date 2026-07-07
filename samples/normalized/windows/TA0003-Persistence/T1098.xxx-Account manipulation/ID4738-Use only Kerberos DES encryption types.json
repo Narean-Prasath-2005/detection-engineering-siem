@@ -1,0 +1,300 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4738"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-08 12:06:15.608624+00:00"
+                },
+                "EventRecordID": "105297489",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "556",
+                    "@ThreadID": "2768"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Dummy",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "hack1"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1234"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000123be598"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "0x210"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "0x8210"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "%%2095"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4738"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13824",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-08 12:06:19.152725+00:00"
+                },
+                "EventRecordID": "105297500",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "556",
+                    "@ThreadID": "972"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "Dummy",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "hack1"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1234"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x00000000123be598"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SamAccountName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "DisplayName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserPrincipalName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomeDirectory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "HomePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ScriptPath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "ProfilePath",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "UserWorkstations",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PasswordLastSet",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AccountExpires",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "PrimaryGroupId",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "AllowedToDelegateTo",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "OldUacValue",
+                        "#text": "0x8210"
+                    },
+                    {
+                        "@Name": "NewUacValue",
+                        "#text": "0x210"
+                    },
+                    {
+                        "@Name": "UserAccountControl",
+                        "#text": "%%2063"
+                    },
+                    {
+                        "@Name": "UserParameters",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "SidHistory",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "LogonHours",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

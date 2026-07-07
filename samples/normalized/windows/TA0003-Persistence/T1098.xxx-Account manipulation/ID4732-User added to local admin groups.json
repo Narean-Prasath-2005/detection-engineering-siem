@@ -1,0 +1,245 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4732"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:12:58.312279+00:00"
+                },
+                "EventRecordID": "2775256",
+                "Correlation": {
+                    "@ActivityID": "{e4d8d5c1-4f7e-0006-c2d5-d8e47e4fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "708",
+                    "@ThreadID": "8464"
+                },
+                "Channel": "Security",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-1470532092-3758209836-3742276719-1001"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Users"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "Builtin"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-32-545"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000058d874"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4732"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:14:30.976612+00:00"
+                },
+                "EventRecordID": "2775952",
+                "Correlation": {
+                    "@ActivityID": "{e4d8d5c1-4f7e-0006-c2d5-d8e47e4fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "708",
+                    "@ThreadID": "748"
+                },
+                "Channel": "Security",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-1470532092-3758209836-3742276719-1001"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Administrators"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "Builtin"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-32-544"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000058d874"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4732"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "13826",
+                "Opcode": "0",
+                "Keywords": "0x8020000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2020-07-12 05:14:44.125343+00:00"
+                },
+                "EventRecordID": "2775954",
+                "Correlation": {
+                    "@ActivityID": "{e4d8d5c1-4f7e-0006-c2d5-d8e47e4fd601}",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "708",
+                    "@ThreadID": "5992"
+                },
+                "Channel": "Security",
+                "Computer": "jump01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "MemberName",
+                        "#text": "-"
+                    },
+                    {
+                        "@Name": "MemberSid",
+                        "#text": "S-1-5-21-1470532092-3758209836-3742276719-1001"
+                    },
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "Backup Operators"
+                    },
+                    {
+                        "@Name": "TargetDomainName",
+                        "#text": "Builtin"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-32-551"
+                    },
+                    {
+                        "@Name": "SubjectUserSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1111"
+                    },
+                    {
+                        "@Name": "SubjectUserName",
+                        "#text": "admmig"
+                    },
+                    {
+                        "@Name": "SubjectDomainName",
+                        "#text": "OFFSEC"
+                    },
+                    {
+                        "@Name": "SubjectLogonId",
+                        "#text": "0x000000000058d874"
+                    },
+                    {
+                        "@Name": "PrivilegeList",
+                        "#text": "-"
+                    }
+                ]
+            }
+        }
+    }
+]

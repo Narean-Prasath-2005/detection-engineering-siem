@@ -1,0 +1,4430 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:21.232643+00:00"
+                },
+                "EventRecordID": "232256504",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47506"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:21.545139+00:00"
+                },
+                "EventRecordID": "232256505",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2768"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47510"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:21.925615+00:00"
+                },
+                "EventRecordID": "232256506",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2768"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47514"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:22.263197+00:00"
+                },
+                "EventRecordID": "232256507",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47518"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:22.576178+00:00"
+                },
+                "EventRecordID": "232256508",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47522"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:22.888287+00:00"
+                },
+                "EventRecordID": "232256511",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47526"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:23.197733+00:00"
+                },
+                "EventRecordID": "232256512",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47530"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:23.505165+00:00"
+                },
+                "EventRecordID": "232256513",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47534"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:23.817112+00:00"
+                },
+                "EventRecordID": "232256514",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47538"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:24.128815+00:00"
+                },
+                "EventRecordID": "232256515",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47542"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:24.439217+00:00"
+                },
+                "EventRecordID": "232256516",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47546"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:24.758444+00:00"
+                },
+                "EventRecordID": "232256517",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47550"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:25.073137+00:00"
+                },
+                "EventRecordID": "232256520",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47554"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:25.380896+00:00"
+                },
+                "EventRecordID": "232256521",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47558"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:25.690277+00:00"
+                },
+                "EventRecordID": "232256522",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47562"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:26.004631+00:00"
+                },
+                "EventRecordID": "232256523",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47566"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:26.316198+00:00"
+                },
+                "EventRecordID": "232256524",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47570"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:26.629398+00:00"
+                },
+                "EventRecordID": "232256525",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47574"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:26.947243+00:00"
+                },
+                "EventRecordID": "232256528",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47578"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:27.259642+00:00"
+                },
+                "EventRecordID": "232256529",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47582"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:27.575811+00:00"
+                },
+                "EventRecordID": "232256533",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47586"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:27.889517+00:00"
+                },
+                "EventRecordID": "232256534",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47590"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:28.206068+00:00"
+                },
+                "EventRecordID": "232256535",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47594"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:28.523306+00:00"
+                },
+                "EventRecordID": "232256536",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47598"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:28.834911+00:00"
+                },
+                "EventRecordID": "232256539",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47602"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:29.150835+00:00"
+                },
+                "EventRecordID": "232256540",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47606"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:29.469635+00:00"
+                },
+                "EventRecordID": "232256541",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47610"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:29.782869+00:00"
+                },
+                "EventRecordID": "232256542",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47614"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:30.099455+00:00"
+                },
+                "EventRecordID": "232256543",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47618"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:30.415354+00:00"
+                },
+                "EventRecordID": "232256544",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47622"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:30.728582+00:00"
+                },
+                "EventRecordID": "232256545",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47626"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:31.045361+00:00"
+                },
+                "EventRecordID": "232256548",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47630"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:31.360960+00:00"
+                },
+                "EventRecordID": "232256549",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47634"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:31.675905+00:00"
+                },
+                "EventRecordID": "232256550",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47638"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:31.991552+00:00"
+                },
+                "EventRecordID": "232256551",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47642"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:32.306778+00:00"
+                },
+                "EventRecordID": "232256552",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47646"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:32.628473+00:00"
+                },
+                "EventRecordID": "232256553",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47650"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:32.949383+00:00"
+                },
+                "EventRecordID": "232256556",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47654"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:33.261950+00:00"
+                },
+                "EventRecordID": "232256557",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47658"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:33.580124+00:00"
+                },
+                "EventRecordID": "232256558",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47662"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:33.894659+00:00"
+                },
+                "EventRecordID": "232256559",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47666"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:34.218407+00:00"
+                },
+                "EventRecordID": "232256560",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47670"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:34.532183+00:00"
+                },
+                "EventRecordID": "232256561",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47674"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:34.842915+00:00"
+                },
+                "EventRecordID": "232256564",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47678"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:35.154640+00:00"
+                },
+                "EventRecordID": "232256565",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47682"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:35.467741+00:00"
+                },
+                "EventRecordID": "232256566",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47686"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:35.772661+00:00"
+                },
+                "EventRecordID": "232256567",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47690"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:36.082018+00:00"
+                },
+                "EventRecordID": "232256568",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47694"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:36.401176+00:00"
+                },
+                "EventRecordID": "232256569",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47698"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:36.723484+00:00"
+                },
+                "EventRecordID": "232256570",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47702"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:37.030338+00:00"
+                },
+                "EventRecordID": "232256573",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47706"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:37.340414+00:00"
+                },
+                "EventRecordID": "232256574",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47710"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:37.652246+00:00"
+                },
+                "EventRecordID": "232256575",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2472"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47714"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Security-Auditing",
+                    "@Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "4771"
+                },
+                "Version": "0",
+                "Level": "0",
+                "Task": "14339",
+                "Opcode": "0",
+                "Keywords": "0x8010000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-12-02 14:54:37.969114+00:00"
+                },
+                "EventRecordID": "232256576",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "596",
+                    "@ThreadID": "2784"
+                },
+                "Channel": "Security",
+                "Computer": "rootdc1.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "TargetUserName",
+                        "#text": "admin-hacker"
+                    },
+                    {
+                        "@Name": "TargetSid",
+                        "#text": "S-1-5-21-4230534742-2542757381-3142984815-1147"
+                    },
+                    {
+                        "@Name": "ServiceName",
+                        "#text": "krbtgt/OFFSEC.LAN"
+                    },
+                    {
+                        "@Name": "TicketOptions",
+                        "#text": "0x50800000"
+                    },
+                    {
+                        "@Name": "Status",
+                        "#text": "0x00000018"
+                    },
+                    {
+                        "@Name": "PreAuthType",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IpAddress",
+                        "#text": "::ffff:10.23.123.11"
+                    },
+                    {
+                        "@Name": "IpPort",
+                        "#text": "47718"
+                    },
+                    {
+                        "@Name": "CertIssuerName"
+                    },
+                    {
+                        "@Name": "CertSerialNumber"
+                    },
+                    {
+                        "@Name": "CertThumbprint"
+                    }
+                ]
+            }
+        }
+    }
+]

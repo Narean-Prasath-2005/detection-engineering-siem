@@ -1,0 +1,32 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "MSSQL$RADAR"
+                },
+                "EventID": {
+                    "@Qualifiers": "16384",
+                    "#text": "17115"
+                },
+                "Level": "4",
+                "Task": "2",
+                "Keywords": "0x0080000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2021-02-03 15:18:22.260286+00:00"
+                },
+                "EventRecordID": "125735",
+                "Channel": "Application",
+                "Computer": "mssql01.offsec.lan",
+                "Security": {
+                    "@UserID": ""
+                }
+            },
+            "EventData": {
+                "Data": "<string>\n\t -s \"RADAR\"\n\t -m</string>",
+                "Binary": "20IAAAoAAAAOAAAATQBTAFMAUQBMADAAMQBcAFIAQQBEAEEAUgAAAAAAAAA="
+            }
+        }
+    }
+]

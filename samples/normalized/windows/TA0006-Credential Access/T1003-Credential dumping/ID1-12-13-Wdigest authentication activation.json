@@ -1,0 +1,273 @@
+[
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "1"
+                },
+                "Version": "5",
+                "Level": "4",
+                "Task": "1",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-26 09:20:49.101082+00:00"
+                },
+                "EventRecordID": "57278",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1048",
+                    "@ThreadID": "1684"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1112,technique_name=Modify Registry"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-01-26 09:20:49.101"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{a57649d1-1271-61f1-315a-8e1500000000}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1524"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\System32\\reg.exe"
+                    },
+                    {
+                        "@Name": "FileVersion",
+                        "#text": "6.3.9600.17415 (winblue_r4.141028-1500)"
+                    },
+                    {
+                        "@Name": "Description",
+                        "#text": "Registry Console Tool"
+                    },
+                    {
+                        "@Name": "Product",
+                        "#text": "Microsoft\u00ae Windows\u00ae Operating System"
+                    },
+                    {
+                        "@Name": "Company",
+                        "#text": "Microsoft Corporation"
+                    },
+                    {
+                        "@Name": "OriginalFileName",
+                        "#text": "reg.exe"
+                    },
+                    {
+                        "@Name": "CommandLine",
+                        "#text": "reg  add HKLM\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\WDigest /v UseLogonCredential /t REG_DWORD /d 1"
+                    },
+                    {
+                        "@Name": "CurrentDirectory",
+                        "#text": "C:\\Windows\\system32\\"
+                    },
+                    {
+                        "@Name": "User",
+                        "#text": "OFFSEC\\admmig"
+                    },
+                    {
+                        "@Name": "LogonGuid",
+                        "#text": "{a57649d1-1238-61f1-b2d8-861500000000}"
+                    },
+                    {
+                        "@Name": "LogonId",
+                        "#text": "0x000000001586d8b2"
+                    },
+                    {
+                        "@Name": "TerminalSessionId",
+                        "#text": "2"
+                    },
+                    {
+                        "@Name": "IntegrityLevel",
+                        "#text": "High"
+                    },
+                    {
+                        "@Name": "Hashes",
+                        "#text": "SHA1=0873F40DE395DE017495ED5C7E693AFB55E9F867,MD5=A3F446F1E2B8C6ECE56F608FB32B8DC6,SHA256=849F54DC526EA18D59ABAF4904CB11BC15B982D2952B971F2E1B6FBF8C974B39,IMPHASH=A069A88BBB8016324D7EC0A0EEC459EB"
+                    },
+                    {
+                        "@Name": "ParentProcessGuid",
+                        "#text": "{a57649d1-124e-61f1-503d-8e1500000000}"
+                    },
+                    {
+                        "@Name": "ParentProcessId",
+                        "#text": "4924"
+                    },
+                    {
+                        "@Name": "ParentImage",
+                        "#text": "C:\\Windows\\System32\\cmd.exe"
+                    },
+                    {
+                        "@Name": "ParentCommandLine",
+                        "#text": "\"C:\\Windows\\system32\\cmd.exe\""
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "12"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "12",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-26 09:20:49.101082+00:00"
+                },
+                "EventRecordID": "57279",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1048",
+                    "@ThreadID": "1684"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1003,technique_name=Credential Dumping"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "CreateKey"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-01-26 09:20:49.101"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{a57649d1-1271-61f1-315a-8e1500000000}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1524"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\reg.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\System\\CurrentControlSet\\Control\\SecurityProviders\\WDigest"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Event": {
+            "@xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+            "System": {
+                "Provider": {
+                    "@Name": "Microsoft-Windows-Sysmon",
+                    "@Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+                },
+                "EventID": {
+                    "@Qualifiers": "",
+                    "#text": "13"
+                },
+                "Version": "2",
+                "Level": "4",
+                "Task": "13",
+                "Opcode": "0",
+                "Keywords": "0x8000000000000000",
+                "TimeCreated": {
+                    "@SystemTime": "2022-01-26 09:20:52.811384+00:00"
+                },
+                "EventRecordID": "57280",
+                "Correlation": {
+                    "@ActivityID": "",
+                    "@RelatedActivityID": ""
+                },
+                "Execution": {
+                    "@ProcessID": "1048",
+                    "@ThreadID": "1684"
+                },
+                "Channel": "Microsoft-Windows-Sysmon/Operational",
+                "Computer": "fs03vuln.offsec.lan",
+                "Security": {
+                    "@UserID": "S-1-5-18"
+                }
+            },
+            "EventData": {
+                "Data": [
+                    {
+                        "@Name": "RuleName",
+                        "#text": "technique_id=T1003,technique_name=Credential Dumping"
+                    },
+                    {
+                        "@Name": "EventType",
+                        "#text": "SetValue"
+                    },
+                    {
+                        "@Name": "UtcTime",
+                        "#text": "2022-01-26 09:20:52.811"
+                    },
+                    {
+                        "@Name": "ProcessGuid",
+                        "#text": "{a57649d1-1271-61f1-315a-8e1500000000}"
+                    },
+                    {
+                        "@Name": "ProcessId",
+                        "#text": "1524"
+                    },
+                    {
+                        "@Name": "Image",
+                        "#text": "C:\\Windows\\system32\\reg.exe"
+                    },
+                    {
+                        "@Name": "TargetObject",
+                        "#text": "HKLM\\System\\CurrentControlSet\\Control\\SecurityProviders\\WDigest\\UseLogonCredential"
+                    },
+                    {
+                        "@Name": "Details",
+                        "#text": "DWORD (0x00000001)"
+                    }
+                ]
+            }
+        }
+    }
+]
